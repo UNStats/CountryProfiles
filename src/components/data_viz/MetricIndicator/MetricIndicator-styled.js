@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import { CalciteP } from 'calcite-react/Elements';
 
@@ -6,7 +6,7 @@ const StyledMetricContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 0 0 150px;
+  flex: 0 0 200px;
   background: ${props => props.color};
   color: #fff;
 `;
@@ -16,15 +16,24 @@ const StyledMetricContent = styled.div`
 `;
 
 const StyledMetricValue = styled.div`
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 300;
 `;
 
 const StyledMetricUnit = styled.div`
   padding: 0 0.25rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 300;
   opacity: 0.5;
+
+  ${props =>
+    props.unitLength > 10 &&
+    css`
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.2rem;
+      flex: 0;
+    `};
 `;
 
 const StyledMetricSeries = styled.div`

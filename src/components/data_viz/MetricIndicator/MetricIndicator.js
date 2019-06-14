@@ -19,7 +19,9 @@ const MetricIndicator = ({ series, goalInfo }) => {
       <StyledMetricContent>
         <StyledMetricContainer color={goalInfo.colorInfo.hex}>
           <StyledMetricValue>{series.data_numeric_part[0]}</StyledMetricValue>
-          <StyledMetricUnit>{series.fact_units[0]}</StyledMetricUnit>
+          <StyledMetricUnit unitLength={series.fact_units[0].length}>
+            {series.fact_units[0]}
+          </StyledMetricUnit>
         </StyledMetricContainer>
         <StyledMetricDescription>
           <StyledDescriptionText

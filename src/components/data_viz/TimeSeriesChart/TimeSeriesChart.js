@@ -21,8 +21,19 @@ import 'react-vis/dist/style.css';
 
 class TimeSeriesChart extends Component {
   state = {
-    crossHairValue: null
+    crossHairValue: null,
+    sortedData: null,
+    dataIsUniform: false
   };
+
+  componentDidMount() {
+    const { sortedData, dataIsUniform } = this.getData(this.props.series);
+
+    this.setState({
+      sortedData,
+      dataIsUniform
+    });
+  }
 
   sortByDate = (a, b) => {
     if (a.x < b.x) {
@@ -37,16 +48,43 @@ class TimeSeriesChart extends Component {
 
   getData = series => {
     const { data_years, data_numeric_part, data_values } = series;
+    const dataUniqueValues = {};
 
     const joinData = data_years.map((year, index) => {
+      dataUniqueValues[data_numeric_part[index].toString()] = true;
+
       return {
         x: new Date(`1/1/${year}`),
         y: data_numeric_part[index],
         t: data_values[index]
       };
     });
+    const sortedData = joinData.sort(this.sortByDate);
 
-    return joinData.sort(this.sortByDate);
+    const dataIsUniform = Object.keys(dataUniqueValues).length === 1;
+
+    console.log(dataUniqueValues);
+
+    return { sortedData, dataIsUniform };
+  };
+
+  getYDomain = (dataIsUniform, sortedData) => {
+    // All data values are the same
+    if (dataIsUniform) {
+      const dataValue = sortedData[0].y;
+
+      // The data value is between 0 and 100
+      if (dataValue >= 0 && dataValue <= 100) {
+        // Cap axis at 100 if the upper range is above 100
+        return [dataValue * 0.5, dataValue * 1.5 > 100 ? 100 : dataValue * 1.5];
+      }
+
+      // Add lower and upper range to the data value so it shows up in the middle
+      return [dataValue * 0.5, dataValue * 1.5];
+    }
+
+    // Otherwise let the chart do its thing
+    return null;
   };
 
   getTimeSeriesChart = ({ series, goalInfo }) => {
@@ -56,13 +94,17 @@ class TimeSeriesChart extends Component {
           <XYPlot
             animation={{ duration: 5000 }}
             xType="time"
+            yDomain={this.getYDomain(
+              this.state.dataIsUniform,
+              this.state.sortedData
+            )}
             width={width}
             height={200}
             yPadding={20}
             onMouseLeave={() => this._onNearestX(null)}
           >
             <LineMarkSeries
-              data={this.getData(series)}
+              data={this.state.sortedData}
               curve={'curveMonotoneX'}
               color={goalInfo.colorInfo.hex}
               markStyle={{ fill: 'white', strokeWidth: 2 }}

@@ -6,7 +6,7 @@ const StyledBoolContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 0 0 150px;
+  flex: 0 0 200px;
   background: ${props => props.color};
   color: #fff;
 `;

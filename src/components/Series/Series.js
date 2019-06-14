@@ -24,7 +24,7 @@ const Series = ({ series, goalInfo }) => {
   };
 
   return (
-    <StyledSeriesContainer noPadding white>
+    <StyledSeriesContainer noBorder noPadding white>
       {getContent()}
     </StyledSeriesContainer>
   );

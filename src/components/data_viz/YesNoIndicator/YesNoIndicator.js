@@ -18,10 +18,10 @@ import XIcon from 'calcite-ui-icons-react/XIcon';
 const YesNoIndicator = ({ series, goalInfo }) => {
   const getBoolIcon = () => {
     if (series.fact_values[0] === '1') {
-      return <CheckIcon size={80} />;
+      return <CheckIcon size={120} />;
     }
 
-    return <XIcon size={80} />;
+    return <XIcon size={120} />;
   };
 
   return (

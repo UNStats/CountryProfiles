@@ -11,7 +11,7 @@ import {
 
 const GoalHeader = ({ goal, goalInfo }) => {
   return (
-    <StyledGoalHeader noPadding white>
+    <StyledGoalHeader noBorder noPadding white>
       <StyledIconContainer>
         <img
           src={`https://s3.amazonaws.com/un-country-profiles-2019/SDG_ICONS_2019/E_SDG+goals_icons-individual-rgb-${

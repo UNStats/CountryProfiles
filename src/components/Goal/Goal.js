@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { StyledGoal } from './Goal-styled';
+import { StyledGoal, StyledIndicatorContainer } from './Goal-styled';
 
 import GoalHeader from '../GoalHeader';
 import Series from '../Series';
@@ -44,7 +44,7 @@ const Goal = ({ goal, goalInfo }) => {
   return (
     <StyledGoal>
       {getGoalHeader()}
-      {getFacts()}
+      <StyledIndicatorContainer>{getFacts()}</StyledIndicatorContainer>
     </StyledGoal>
   );
 };

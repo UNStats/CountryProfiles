@@ -7,6 +7,7 @@ const StyledGoalHeader = styled(Panel)`
   display: flex;
   width: 100%;
   box-sizing: border-box;
+  border-bottom: 1px solid ${props => props.theme.palette.lightestGray};
 `;
 
 const StyledIconContainer = styled.div`

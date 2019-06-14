@@ -19,12 +19,12 @@ const StyledNavLink = styled.a`
   display: inline-flex;
   margin-bottom: 7px;
   text-decoration: none;
-  color: ${props => props.theme.palette.darkGray};
+  color: ${props => props.theme.palette.darkerGray};
   line-height: 1.25;
   transition: color 125ms linear;
 
   &:hover {
-    color: ${props => props.theme.palette.offBlack};
+    color: ${props => props.theme.palette.black};
   }
 
   .active &,
