@@ -6,7 +6,7 @@ import { StyledGoal, StyledIndicatorContainer } from './Goal-styled';
 import GoalHeader from '../GoalHeader';
 import Series from '../Series';
 
-const Goal = ({ goal, goalInfo }) => {
+const Goal = ({ goal, goalInfo, countryCode }) => {
   const getGoalHeader = () => {
     const params = new URLSearchParams(window.location.search);
     const hideGoalHeader = params.get('hideGoalHeader');
@@ -31,6 +31,7 @@ const Goal = ({ goal, goalInfo }) => {
                 key={series.seriesCode}
                 series={series}
                 goalInfo={goalInfo}
+                countryCode={countryCode}
               />
             );
           }

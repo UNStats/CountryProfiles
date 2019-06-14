@@ -62,7 +62,11 @@ class AppContainer extends Component {
 
         return (
           <StyledSection key={goal.goalCode} id={`goal-${goal.goalCode}`}>
-            <Goal goal={goal} goalInfo={goalInfo} />
+            <Goal
+              goal={goal}
+              goalInfo={goalInfo}
+              countryCode={this.props.countryJson.country_code}
+            />
           </StyledSection>
         );
       });

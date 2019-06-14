@@ -35,6 +35,19 @@ class TimeSeriesChart extends Component {
     });
   }
 
+  componentDidUpdate(prevProps, prevState) {
+    if (prevProps.countryCode === this.props.countryCode) {
+      return;
+    }
+
+    const { sortedData, dataIsUniform } = this.getData(this.props.series);
+
+    this.setState({
+      sortedData,
+      dataIsUniform
+    });
+  }
+
   sortByDate = (a, b) => {
     if (a.x < b.x) {
       return -1;
@@ -62,8 +75,6 @@ class TimeSeriesChart extends Component {
     const sortedData = joinData.sort(this.sortByDate);
 
     const dataIsUniform = Object.keys(dataUniqueValues).length === 1;
-
-    console.log(dataUniqueValues);
 
     return { sortedData, dataIsUniform };
   };
