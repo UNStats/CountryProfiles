@@ -14,11 +14,16 @@ import {
 import SeriesLinks from '../../SeriesLinks';
 
 const MetricIndicator = ({ series, goalInfo }) => {
+  const getMetricValue = () => {
+    // Trim value to 2 decimals and trim trailing zeros
+    return parseFloat(Number(series.fact_values[0]).toFixed(2));
+  };
+
   return (
     <StyledMetricSeries>
       <StyledMetricContent>
         <StyledMetricContainer color={goalInfo.colorInfo.hex}>
-          <StyledMetricValue>{series.data_numeric_part[0]}</StyledMetricValue>
+          <StyledMetricValue>{getMetricValue()}</StyledMetricValue>
           <StyledMetricUnit unitLength={series.fact_units[0].length}>
             {series.fact_units[0]}
           </StyledMetricUnit>
