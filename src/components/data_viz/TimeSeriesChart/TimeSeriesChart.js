@@ -98,6 +98,10 @@ class TimeSeriesChart extends Component {
     return null;
   };
 
+  getXTickTotal = sortedData => {
+    return sortedData.length;
+  };
+
   getTimeSeriesChart = ({ series, goalInfo }) => {
     return (
       <AutoSizer>
@@ -121,7 +125,7 @@ class TimeSeriesChart extends Component {
               markStyle={{ fill: 'white', strokeWidth: 2 }}
               onNearestX={datapoint => this._onNearestX(datapoint)}
             />
-            <XAxis />
+            <XAxis tickTotal={this.getXTickTotal(this.state.sortedData)} />
             <YAxis />
             {this.state.crossHairValue ? (
               <Crosshair values={[this.state.crossHairValue]}>
