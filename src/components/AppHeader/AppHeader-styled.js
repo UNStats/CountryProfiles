@@ -1,8 +1,11 @@
 import styled from 'styled-components';
-import { unitCalc } from 'calcite-react/utils/helpers';
 
-export const StyledAppHeader = styled.div`
-  box-sizing: border-box;
-  padding: ${props => unitCalc(props.theme.baseline, 2, '/')};
+const SpacerDiv = styled.div`
   display: flex;
+
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
 `;
+
+export { SpacerDiv };

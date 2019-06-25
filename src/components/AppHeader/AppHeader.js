@@ -1,6 +1,8 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 
+import { SpacerDiv } from './AppHeader-styled';
+
 import TopNav, {
   TopNavBrand,
   TopNavTitle,
@@ -15,18 +17,20 @@ import UnSdgLogo from '../../assets/UN_SDG_Logo.svg';
 const AppHeader = ({ showCountrySelector }) => {
   return (
     <TopNav>
-      <TopNavBrand href="#" src={UnSdgLogo} />
-      <TopNavTitle href="#">UN Country Profile</TopNavTitle>
-      <TopNavList />
-      <TopNavActionsList>
-        <Button
-          icon={<SearchIcon size={16} />}
-          iconPosition="before"
-          onClick={showCountrySelector}
-        >
-          Select a Country
-        </Button>
-      </TopNavActionsList>
+      <SpacerDiv>
+        <TopNavBrand href="#" src={UnSdgLogo} />
+        <TopNavTitle href="#">UN Country Profile</TopNavTitle>
+        <TopNavList />
+        <TopNavActionsList>
+          <Button
+            icon={<SearchIcon size={16} />}
+            iconPosition="before"
+            onClick={showCountrySelector}
+          >
+            Select a Country
+          </Button>
+        </TopNavActionsList>
+      </SpacerDiv>
     </TopNav>
   );
 };

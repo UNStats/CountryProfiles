@@ -21,7 +21,7 @@ const StyledImageCard = styled.div`
 `;
 
 const StyledDetailsCard = styled.div`
-  padding: 2rem 4rem;
+  padding: ${props => props.theme.baseline};
   flex: 1 0 auto;
 `;
 
@@ -38,6 +38,13 @@ const StyledMetricValue = styled.span`
   margin-left: 0.5rem;
 `;
 
+const SpacerDiv = styled.div`
+  display: flex;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+`;
+
 export {
   StyledCountryHeader,
   StyledImageCard,
@@ -45,5 +52,6 @@ export {
   StyledCountryTitle,
   StyledMetricsContainer,
   StyledMetric,
-  StyledMetricValue
+  StyledMetricValue,
+  SpacerDiv
 };
