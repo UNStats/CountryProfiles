@@ -1,25 +1,33 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import { StyledGoal, StyledIndicatorContainer } from './Goal-styled';
 
 import GoalHeader from '../GoalHeader';
 import Series from '../Series';
+import EmbedHelper from '../EmbedHelper';
+import Button from 'calcite-react/Button/Button';
 
-const Goal = ({ goal, goalInfo, countryCode }) => {
-  const getGoalHeader = () => {
+class Goal extends Component {
+  state = {
+    showEmbedHelper: false
+  };
+
+  getGoalHeader = () => {
     const params = new URLSearchParams(window.location.search);
     const hideGoalHeader = params.get('hideGoalHeader');
 
     if (!hideGoalHeader) {
-      return <GoalHeader goal={goal} goalInfo={goalInfo} />;
+      return (
+        <GoalHeader goal={this.props.goal} goalInfo={this.props.goalInfo} />
+      );
     }
 
     return null;
   };
 
-  const getFacts = () => {
-    return goal.targets.map(target => {
+  getFacts = () => {
+    return this.props.goal.targets.map(target => {
       return target.indicators.map(indicator => {
         return indicator.facts.map(series => {
           const params = new URLSearchParams(window.location.search);
@@ -30,8 +38,8 @@ const Goal = ({ goal, goalInfo, countryCode }) => {
               <Series
                 key={series.seriesCode}
                 series={series}
-                goalInfo={goalInfo}
-                countryCode={countryCode}
+                goalInfo={this.props.goalInfo}
+                countryCode={this.props.countryCode}
               />
             );
           }
@@ -42,13 +50,38 @@ const Goal = ({ goal, goalInfo, countryCode }) => {
     });
   };
 
-  return (
-    <StyledGoal>
-      {getGoalHeader()}
-      <StyledIndicatorContainer>{getFacts()}</StyledIndicatorContainer>
-    </StyledGoal>
-  );
-};
+  getEmbedHelper = () => {
+    if (this.state.showEmbedHelper) {
+      return (
+        <EmbedHelper
+          goal={this.props.goal}
+          goalInfo={this.props.goalInfo}
+          countryCode={this.props.countryCode}
+          onClose={this.hideEmbedHelper}
+        />
+      );
+    }
+  };
+
+  showEmbedHelper = () => {
+    this.setState({ showEmbedHelper: true });
+  };
+
+  hideEmbedHelper = () => {
+    this.setState({ showEmbedHelper: false });
+  };
+
+  render() {
+    return (
+      <StyledGoal>
+        {this.getGoalHeader()}
+        <Button onClick={this.showEmbedHelper}>Embed</Button>
+        <StyledIndicatorContainer>{this.getFacts()}</StyledIndicatorContainer>
+        {this.getEmbedHelper()}
+      </StyledGoal>
+    );
+  }
+}
 
 Goal.propTypes = {
   goal: PropTypes.object.isRequired
