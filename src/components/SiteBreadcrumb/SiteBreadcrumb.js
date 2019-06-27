@@ -13,7 +13,10 @@ const SiteBreadcrumb = () => {
     <StyledBreadcrumbsWrapper>
       <StyledBreadcrumbs dividerCharacter="»">
         <Crumb href="http://www.un.org/">United Nations</Crumb>
-        <Crumb href="#">SDG</Crumb>
+        <Crumb href="https://www.un.org/development/desa">
+          Department of Economic and Social Affairs
+        </Crumb>
+        <Crumb href="https://unstats.un.org/home/">Statistics Division</Crumb>
         <Crumb href="#">Country Profiles</Crumb>
       </StyledBreadcrumbs>
     </StyledBreadcrumbsWrapper>
