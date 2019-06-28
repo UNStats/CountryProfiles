@@ -24,6 +24,10 @@ const Series = ({ series, goalInfo, countryCode }) => {
 
       case 'boolean':
         return <YesNoIndicator series={series} goalInfo={goalInfo} />;
+
+      case 'threshold':
+        return 'The threshold series type is still under development.';
+
       default:
         break;
     }

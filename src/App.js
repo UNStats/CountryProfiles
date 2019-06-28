@@ -37,11 +37,7 @@ class App extends Component {
       country => country.ISO3.toLowerCase() === countryCode.toLowerCase()
     );
 
-    import(
-      `./json/countryProfiles/country profile ${parseInt(countryInfo.M49)} ${
-        countryInfo.Name
-      }.json`
-    )
+    import(`./json/countryProfiles/country_profile${countryInfo.M49}.json`)
       .then(({ default: countryJson }) => {
         this.setState({ countryJson, isFetchingProfile: false });
       })
