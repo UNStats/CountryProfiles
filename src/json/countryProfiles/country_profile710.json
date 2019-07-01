@@ -79,119 +79,8 @@
                                     "seriesTitle": "Employed population below international poverty line (percent)",
                                     "hub": "e8e11539dd9a4293b502b076d041133d",
                                     "slice_dimensions": {
-                                        "ageCode": "Y_GE15",
-                                        "sexCode": "_T"
-                                    },
-                                    "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2015</span>, <span class='fact-value'>6.1</span> <span class='fact-unit'>% </span> of the country's workers and their families were living on less than 1.90 US dollars per person per day",
-                                    "fact_values": [
-                                        "6.1"
-                                    ],
-                                    "fact_units": [
-                                        "% "
-                                    ],
-                                    "fact_years": [
-                                        "2015"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2005,
-                                        2009,
-                                        2010,
-                                        2015
-                                    ],
-                                    "data_values": [
-                                        "16.2",
-                                        "11.6",
-                                        "4.4",
-                                        "6.2",
-                                        "6.1"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        16.2,
-                                        11.6,
-                                        4.4,
-                                        6.2,
-                                        6.1
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "1.1.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SI_POV_DAY1",
-                                    "seriesTitle": "Population below international poverty line (percent)",
-                                    "hub": "42a999ea5a564f1c91b9c45cbe00cce2",
-                                    "slice_dimensions": {},
-                                    "text_type": "1",
-                                    "fact_text": "The proportion of the population living below the extreme poverty line declined from <span class='fact-value'>29.3</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>1993</span> to <span class='fact-value'>18.9%</span> in <span class='fact-year'>2014</span>.",
-                                    "fact_values": [
-                                        "29.3",
-                                        "18.9"
-                                    ],
-                                    "fact_units": [
-                                        "%",
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "1993",
-                                        "2014"
-                                    ],
-                                    "data_years": [
-                                        1993,
-                                        1996,
-                                        2000,
-                                        2005,
-                                        2008,
-                                        2010,
-                                        2014
-                                    ],
-                                    "data_values": [
-                                        "29.3",
-                                        "33.8",
-                                        "32.6",
-                                        "25",
-                                        "16.9",
-                                        "16.5",
-                                        "18.9"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        29.3,
-                                        33.8,
-                                        32.6,
-                                        25,
-                                        16.9,
-                                        16.5,
-                                        18.9
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                },
-                                {
-                                    "seriesCode": "SI_POV_EMP1",
-                                    "seriesTitle": "Employed population below international poverty line (percent)",
-                                    "hub": "e8e11539dd9a4293b502b076d041133d",
-                                    "slice_dimensions": {
-                                        "ageCode": "Y_GE15",
-                                        "sexCode": "_T"
+                                        "sexCode": "_T",
+                                        "ageCode": "Y_GE15"
                                     },
                                     "text_type": "2",
                                     "fact_text": "In <span class='fact-year'>2015</span>, <span class='fact-value'>6.1</span> <span class='fact-unit'>% </span> of the country's workers and their families were living on less than 1.90 US dollars per person per day",
@@ -298,41 +187,6 @@
                 {
                     "targetCode": "1.5",
                     "indicators": [
-                        {
-                            "indicatorCode": "1.5.3",
-                            "facts": [
-                                {
-                                    "seriesCode": "SG_DSR_LEGREG",
-                                    "seriesTitle": "Existence of legislative and/or regulatory provisions for managing disaster risk",
-                                    "hub": "616ca7c722324aafb62e05f0da3f7bc8",
-                                    "slice_dimensions": {},
-                                    "text_type": "12",
-                                    "fact_text": "As of <span class='fact-year'> 2015</span>, South Africa has developed national and local disaster reduction strategies.",
-                                    "fact_values": [
-                                        "1"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2015"
-                                    ],
-                                    "data_years": [
-                                        2015
-                                    ],
-                                    "data_values": [
-                                        "1"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        1
-                                    ],
-                                    "preferred_visualization": "boolean"
-                                }
-                            ]
-                        },
                         {
                             "indicatorCode": "1.5.3",
                             "facts": [
@@ -476,211 +330,12 @@
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        },
-                        {
-                            "indicatorCode": "2.1.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SN_ITK_DEFC",
-                                    "seriesTitle": "Prevalence of undernourishment (percent)",
-                                    "hub": "5bbccf64330e4a76bdf2a9b69230694d",
-                                    "slice_dimensions": {},
-                                    "text_type": "7",
-                                    "fact_text": "The proportion of the population suffering from hunger was <span class='fact-value'> 6.1</span> <span class='fact-unit'>%</span>  in <span class='fact-year'> 2016</span> .",
-                                    "fact_values": [
-                                        "6.1"
-                                    ],
-                                    "fact_units": [
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2016"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016
-                                    ],
-                                    "data_values": [
-                                        "5",
-                                        "4.7",
-                                        "4.6",
-                                        "4.4",
-                                        "4.3",
-                                        "4.4",
-                                        "4.5",
-                                        "4.6",
-                                        "4.6",
-                                        "4.5",
-                                        "4.4",
-                                        "4.4",
-                                        "4.5",
-                                        "4.8",
-                                        "5.3",
-                                        "5.8",
-                                        "6.1"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        5,
-                                        4.7,
-                                        4.6,
-                                        4.4,
-                                        4.3,
-                                        4.4,
-                                        4.5,
-                                        4.6,
-                                        4.6,
-                                        4.5,
-                                        4.4,
-                                        4.4,
-                                        4.5,
-                                        4.8,
-                                        5.3,
-                                        5.8,
-                                        6.1
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
                         }
                     ]
                 },
                 {
                     "targetCode": "2.2",
                     "indicators": [
-                        {
-                            "indicatorCode": "2.2.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SH_STA_STUNT",
-                                    "seriesTitle": "Proportion of children under 5 years of age who are moderately or severely stunted (percent)",
-                                    "hub": "1dc7f1ce62854e87989a19b7e798ba96",
-                                    "slice_dimensions": {
-                                        "ageCode": "Y0T4",
-                                        "boundsCode": "_T"
-                                    },
-                                    "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2016</span>, <span class='fact-value'>27.4</span> <span class='fact-unit'>% </span> of children under 5 years of age had stunted growth",
-                                    "fact_values": [
-                                        "27.4"
-                                    ],
-                                    "fact_units": [
-                                        "% "
-                                    ],
-                                    "fact_years": [
-                                        "2016"
-                                    ],
-                                    "data_years": [
-                                        2004,
-                                        2008,
-                                        2012,
-                                        2016
-                                    ],
-                                    "data_values": [
-                                        "32.8",
-                                        "24.9",
-                                        "27.2",
-                                        "27.4"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        32.8,
-                                        24.9,
-                                        27.2,
-                                        27.4
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "2.2.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SH_STA_STUNT",
-                                    "seriesTitle": "Proportion of children under 5 years of age who are moderately or severely stunted (percent)",
-                                    "hub": "1dc7f1ce62854e87989a19b7e798ba96",
-                                    "slice_dimensions": {
-                                        "ageCode": "Y0T4",
-                                        "boundsCode": "_T"
-                                    },
-                                    "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2016</span>, <span class='fact-value'>27.4</span> <span class='fact-unit'>% </span> of children under 5 years of age had stunted growth",
-                                    "fact_values": [
-                                        "27.4"
-                                    ],
-                                    "fact_units": [
-                                        "% "
-                                    ],
-                                    "fact_years": [
-                                        "2016"
-                                    ],
-                                    "data_years": [
-                                        2004,
-                                        2008,
-                                        2012,
-                                        2016
-                                    ],
-                                    "data_values": [
-                                        "32.8",
-                                        "24.9",
-                                        "27.2",
-                                        "27.4"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        32.8,
-                                        24.9,
-                                        27.2,
-                                        27.4
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
-                        },
                         {
                             "indicatorCode": "2.2.2",
                             "facts": [
@@ -733,7 +388,12 @@
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "targetCode": "2.2",
+                    "indicators": [
                         {
                             "indicatorCode": "2.2.2",
                             "facts": [
@@ -950,226 +610,8 @@
                                     "seriesTitle": "Under-five mortality rate",
                                     "hub": "941d6bfede104ca8a122877b2e128f09",
                                     "slice_dimensions": {
-                                        "ageCode": "Y0T4",
-                                        "sexCode": "_T"
-                                    },
-                                    "text_type": "1",
-                                    "fact_text": "The mortality rate of children under 5 years of age fell from <span class='fact-value'>78.4</span>  <span class='fact-unit'> per 1,000 live births</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>37.1 per 1,000 live births</span> in <span class='fact-year'>2017</span>.",
-                                    "fact_values": [
-                                        "78.4",
-                                        "37.1"
-                                    ],
-                                    "fact_units": [
-                                        " per 1,000 live births",
-                                        " per 1,000 live births"
-                                    ],
-                                    "fact_years": [
-                                        "2000",
-                                        "2017"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017
-                                    ],
-                                    "data_values": [
-                                        "78.4",
-                                        "80.9",
-                                        "83",
-                                        "84.3",
-                                        "84.6",
-                                        "84",
-                                        "81.5",
-                                        "75.4",
-                                        "69.6",
-                                        "62.3",
-                                        "59.3",
-                                        "51.2",
-                                        "47.1",
-                                        "43.6",
-                                        "41.3",
-                                        "40.3",
-                                        "38.5",
-                                        "37.1"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        78.4,
-                                        80.9,
-                                        83,
-                                        84.3,
-                                        84.6,
-                                        84,
-                                        81.5,
-                                        75.4,
-                                        69.6,
-                                        62.3,
-                                        59.3,
-                                        51.2,
-                                        47.1,
-                                        43.6,
-                                        41.3,
-                                        40.3,
-                                        38.5,
-                                        37.1
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "3.2.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SH_DYN_MORT",
-                                    "seriesTitle": "Under-five mortality rate",
-                                    "hub": "941d6bfede104ca8a122877b2e128f09",
-                                    "slice_dimensions": {
-                                        "ageCode": "Y0T4",
-                                        "sexCode": "_T"
-                                    },
-                                    "text_type": "1",
-                                    "fact_text": "The mortality rate of children under 5 years of age fell from <span class='fact-value'>78.4</span>  <span class='fact-unit'> per 1,000 live births</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>37.1 per 1,000 live births</span> in <span class='fact-year'>2017</span>.",
-                                    "fact_values": [
-                                        "78.4",
-                                        "37.1"
-                                    ],
-                                    "fact_units": [
-                                        " per 1,000 live births",
-                                        " per 1,000 live births"
-                                    ],
-                                    "fact_years": [
-                                        "2000",
-                                        "2017"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017
-                                    ],
-                                    "data_values": [
-                                        "78.4",
-                                        "80.9",
-                                        "83",
-                                        "84.3",
-                                        "84.6",
-                                        "84",
-                                        "81.5",
-                                        "75.4",
-                                        "69.6",
-                                        "62.3",
-                                        "59.3",
-                                        "51.2",
-                                        "47.1",
-                                        "43.6",
-                                        "41.3",
-                                        "40.3",
-                                        "38.5",
-                                        "37.1"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        78.4,
-                                        80.9,
-                                        83,
-                                        84.3,
-                                        84.6,
-                                        84,
-                                        81.5,
-                                        75.4,
-                                        69.6,
-                                        62.3,
-                                        59.3,
-                                        51.2,
-                                        47.1,
-                                        43.6,
-                                        41.3,
-                                        40.3,
-                                        38.5,
-                                        37.1
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "3.2.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SH_DYN_MORT",
-                                    "seriesTitle": "Under-five mortality rate",
-                                    "hub": "941d6bfede104ca8a122877b2e128f09",
-                                    "slice_dimensions": {
-                                        "ageCode": "Y0T4",
-                                        "sexCode": "_T"
+                                        "sexCode": "_T",
+                                        "ageCode": "Y0T4"
                                     },
                                     "text_type": "1",
                                     "fact_text": "The mortality rate of children under 5 years of age fell from <span class='fact-value'>78.4</span>  <span class='fact-unit'> per 1,000 live births</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>37.1 per 1,000 live births</span> in <span class='fact-year'>2017</span>.",
@@ -1282,8 +724,8 @@
                                     "seriesTitle": "Number of new HIV infections per 1,000 uninfected population",
                                     "hub": "f14fe62f978f4e1fb5921c079499e7a0",
                                     "slice_dimensions": {
-                                        "ageCode": "_T",
-                                        "sexCode": "_T"
+                                        "sexCode": "_T",
+                                        "ageCode": "_T"
                                     },
                                     "text_type": "13",
                                     "fact_text": "In <span class='fact-year'> 2017</span>, there were about <span class='fact-value'> 5.46</span>  <span class='fact-unit'> people</span>  in every 100,000 uninfected population that became newly infected with HIV.",
@@ -1466,1084 +908,6 @@
                                     "preferred_visualization": "singleton"
                                 }
                             ]
-                        },
-                        {
-                            "indicatorCode": "4.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SE_GPI_MATACH",
-                                    "seriesTitle": "Gender parity index for achievement in mathematics by the end of primary education",
-                                    "hub": "b76dc42d46b943069a2cbf6695d68f33",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in mathematics at the end of primary education was <span class='fact-value'>0.93</span> in <span class='fact-year'> 2007</span> , meaning 93.0 girls per 100 boys achieved at least a minimum proficiency level in mathematics.",
-                                    "fact_values": [
-                                        "0.93"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2007"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2007
-                                    ],
-                                    "data_values": [
-                                        "0.97618",
-                                        "0.92725"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.98,
-                                        0.93
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SE_GPI_REAACH",
-                                    "seriesTitle": "Gender parity index for achievement in reading by the end of primary education",
-                                    "hub": "1cbee411f9fa41fab2890d3e405cfe95",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in reading at the end of primary education was <span class='fact-value'>0.9</span> in <span class='fact-year'> 2006</span> , meaning 90.0 girls per 100 boys achieved at least a minimum proficiency level in reading.",
-                                    "fact_values": [
-                                        "0.9"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.92665",
-                                        "0.89953"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.93,
-                                        0.9
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "4.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SE_GPI_MATACH",
-                                    "seriesTitle": "Gender parity index for achievement in mathematics by the end of primary education",
-                                    "hub": "b76dc42d46b943069a2cbf6695d68f33",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in mathematics at the end of primary education was <span class='fact-value'>0.93</span> in <span class='fact-year'> 2007</span> , meaning 93.0 girls per 100 boys achieved at least a minimum proficiency level in mathematics.",
-                                    "fact_values": [
-                                        "0.93"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2007"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2007
-                                    ],
-                                    "data_values": [
-                                        "0.97618",
-                                        "0.92725"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.98,
-                                        0.93
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SE_GPI_REAACH",
-                                    "seriesTitle": "Gender parity index for achievement in reading by the end of primary education",
-                                    "hub": "1cbee411f9fa41fab2890d3e405cfe95",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in reading at the end of primary education was <span class='fact-value'>0.9</span> in <span class='fact-year'> 2006</span> , meaning 90.0 girls per 100 boys achieved at least a minimum proficiency level in reading.",
-                                    "fact_values": [
-                                        "0.9"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.92665",
-                                        "0.89953"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.93,
-                                        0.9
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "4.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SE_GPI_MATACH",
-                                    "seriesTitle": "Gender parity index for achievement in mathematics by the end of primary education",
-                                    "hub": "b76dc42d46b943069a2cbf6695d68f33",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in mathematics at the end of primary education was <span class='fact-value'>0.93</span> in <span class='fact-year'> 2007</span> , meaning 93.0 girls per 100 boys achieved at least a minimum proficiency level in mathematics.",
-                                    "fact_values": [
-                                        "0.93"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2007"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2007
-                                    ],
-                                    "data_values": [
-                                        "0.97618",
-                                        "0.92725"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.98,
-                                        0.93
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SE_GPI_REAACH",
-                                    "seriesTitle": "Gender parity index for achievement in reading by the end of primary education",
-                                    "hub": "1cbee411f9fa41fab2890d3e405cfe95",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in reading at the end of primary education was <span class='fact-value'>0.9</span> in <span class='fact-year'> 2006</span> , meaning 90.0 girls per 100 boys achieved at least a minimum proficiency level in reading.",
-                                    "fact_values": [
-                                        "0.9"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.92665",
-                                        "0.89953"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.93,
-                                        0.9
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "4.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SE_GPI_MATACH",
-                                    "seriesTitle": "Gender parity index for achievement in mathematics by the end of primary education",
-                                    "hub": "b76dc42d46b943069a2cbf6695d68f33",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in mathematics at the end of primary education was <span class='fact-value'>0.93</span> in <span class='fact-year'> 2007</span> , meaning 93.0 girls per 100 boys achieved at least a minimum proficiency level in mathematics.",
-                                    "fact_values": [
-                                        "0.93"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2007"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2007
-                                    ],
-                                    "data_values": [
-                                        "0.97618",
-                                        "0.92725"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.98,
-                                        0.93
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SE_GPI_REAACH",
-                                    "seriesTitle": "Gender parity index for achievement in reading by the end of primary education",
-                                    "hub": "1cbee411f9fa41fab2890d3e405cfe95",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in reading at the end of primary education was <span class='fact-value'>0.9</span> in <span class='fact-year'> 2006</span> , meaning 90.0 girls per 100 boys achieved at least a minimum proficiency level in reading.",
-                                    "fact_values": [
-                                        "0.9"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.92665",
-                                        "0.89953"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.93,
-                                        0.9
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "4.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SE_GPI_MATACH",
-                                    "seriesTitle": "Gender parity index for achievement in mathematics by the end of primary education",
-                                    "hub": "b76dc42d46b943069a2cbf6695d68f33",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in mathematics at the end of primary education was <span class='fact-value'>0.93</span> in <span class='fact-year'> 2007</span> , meaning 93.0 girls per 100 boys achieved at least a minimum proficiency level in mathematics.",
-                                    "fact_values": [
-                                        "0.93"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2007"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2007
-                                    ],
-                                    "data_values": [
-                                        "0.97618",
-                                        "0.92725"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.98,
-                                        0.93
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SE_GPI_REAACH",
-                                    "seriesTitle": "Gender parity index for achievement in reading by the end of primary education",
-                                    "hub": "1cbee411f9fa41fab2890d3e405cfe95",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in reading at the end of primary education was <span class='fact-value'>0.9</span> in <span class='fact-year'> 2006</span> , meaning 90.0 girls per 100 boys achieved at least a minimum proficiency level in reading.",
-                                    "fact_values": [
-                                        "0.9"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.92665",
-                                        "0.89953"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.93,
-                                        0.9
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "4.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SE_GPI_MATACH",
-                                    "seriesTitle": "Gender parity index for achievement in mathematics by the end of primary education",
-                                    "hub": "b76dc42d46b943069a2cbf6695d68f33",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in mathematics at the end of primary education was <span class='fact-value'>0.93</span> in <span class='fact-year'> 2007</span> , meaning 93.0 girls per 100 boys achieved at least a minimum proficiency level in mathematics.",
-                                    "fact_values": [
-                                        "0.93"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2007"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2007
-                                    ],
-                                    "data_values": [
-                                        "0.97618",
-                                        "0.92725"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.98,
-                                        0.93
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SE_GPI_REAACH",
-                                    "seriesTitle": "Gender parity index for achievement in reading by the end of primary education",
-                                    "hub": "1cbee411f9fa41fab2890d3e405cfe95",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in reading at the end of primary education was <span class='fact-value'>0.9</span> in <span class='fact-year'> 2006</span> , meaning 90.0 girls per 100 boys achieved at least a minimum proficiency level in reading.",
-                                    "fact_values": [
-                                        "0.9"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.92665",
-                                        "0.89953"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.93,
-                                        0.9
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "4.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SE_GPI_MATACH",
-                                    "seriesTitle": "Gender parity index for achievement in mathematics by the end of primary education",
-                                    "hub": "b76dc42d46b943069a2cbf6695d68f33",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in mathematics at the end of primary education was <span class='fact-value'>0.93</span> in <span class='fact-year'> 2007</span> , meaning 93.0 girls per 100 boys achieved at least a minimum proficiency level in mathematics.",
-                                    "fact_values": [
-                                        "0.93"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2007"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2007
-                                    ],
-                                    "data_values": [
-                                        "0.97618",
-                                        "0.92725"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.98,
-                                        0.93
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SE_GPI_REAACH",
-                                    "seriesTitle": "Gender parity index for achievement in reading by the end of primary education",
-                                    "hub": "1cbee411f9fa41fab2890d3e405cfe95",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in reading at the end of primary education was <span class='fact-value'>0.9</span> in <span class='fact-year'> 2006</span> , meaning 90.0 girls per 100 boys achieved at least a minimum proficiency level in reading.",
-                                    "fact_values": [
-                                        "0.9"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.92665",
-                                        "0.89953"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.93,
-                                        0.9
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "4.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SE_GPI_MATACH",
-                                    "seriesTitle": "Gender parity index for achievement in mathematics by the end of primary education",
-                                    "hub": "b76dc42d46b943069a2cbf6695d68f33",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in mathematics at the end of primary education was <span class='fact-value'>0.93</span> in <span class='fact-year'> 2007</span> , meaning 93.0 girls per 100 boys achieved at least a minimum proficiency level in mathematics.",
-                                    "fact_values": [
-                                        "0.93"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2007"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2007
-                                    ],
-                                    "data_values": [
-                                        "0.97618",
-                                        "0.92725"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.98,
-                                        0.93
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SE_GPI_REAACH",
-                                    "seriesTitle": "Gender parity index for achievement in reading by the end of primary education",
-                                    "hub": "1cbee411f9fa41fab2890d3e405cfe95",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in reading at the end of primary education was <span class='fact-value'>0.9</span> in <span class='fact-year'> 2006</span> , meaning 90.0 girls per 100 boys achieved at least a minimum proficiency level in reading.",
-                                    "fact_values": [
-                                        "0.9"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.92665",
-                                        "0.89953"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.93,
-                                        0.9
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "4.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SE_GPI_MATACH",
-                                    "seriesTitle": "Gender parity index for achievement in mathematics by the end of primary education",
-                                    "hub": "b76dc42d46b943069a2cbf6695d68f33",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in mathematics at the end of primary education was <span class='fact-value'>0.93</span> in <span class='fact-year'> 2007</span> , meaning 93.0 girls per 100 boys achieved at least a minimum proficiency level in mathematics.",
-                                    "fact_values": [
-                                        "0.93"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2007"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2007
-                                    ],
-                                    "data_values": [
-                                        "0.97618",
-                                        "0.92725"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.98,
-                                        0.93
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SE_GPI_REAACH",
-                                    "seriesTitle": "Gender parity index for achievement in reading by the end of primary education",
-                                    "hub": "1cbee411f9fa41fab2890d3e405cfe95",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in reading at the end of primary education was <span class='fact-value'>0.9</span> in <span class='fact-year'> 2006</span> , meaning 90.0 girls per 100 boys achieved at least a minimum proficiency level in reading.",
-                                    "fact_values": [
-                                        "0.9"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.92665",
-                                        "0.89953"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.93,
-                                        0.9
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "4.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SE_GPI_MATACH",
-                                    "seriesTitle": "Gender parity index for achievement in mathematics by the end of primary education",
-                                    "hub": "b76dc42d46b943069a2cbf6695d68f33",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in mathematics at the end of primary education was <span class='fact-value'>0.93</span> in <span class='fact-year'> 2007</span> , meaning 93.0 girls per 100 boys achieved at least a minimum proficiency level in mathematics.",
-                                    "fact_values": [
-                                        "0.93"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2007"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2007
-                                    ],
-                                    "data_values": [
-                                        "0.97618",
-                                        "0.92725"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.98,
-                                        0.93
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SE_GPI_REAACH",
-                                    "seriesTitle": "Gender parity index for achievement in reading by the end of primary education",
-                                    "hub": "1cbee411f9fa41fab2890d3e405cfe95",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in reading at the end of primary education was <span class='fact-value'>0.9</span> in <span class='fact-year'> 2006</span> , meaning 90.0 girls per 100 boys achieved at least a minimum proficiency level in reading.",
-                                    "fact_values": [
-                                        "0.9"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.92665",
-                                        "0.89953"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.93,
-                                        0.9
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "4.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SE_GPI_MATACH",
-                                    "seriesTitle": "Gender parity index for achievement in mathematics by the end of primary education",
-                                    "hub": "b76dc42d46b943069a2cbf6695d68f33",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in mathematics at the end of primary education was <span class='fact-value'>0.93</span> in <span class='fact-year'> 2007</span> , meaning 93.0 girls per 100 boys achieved at least a minimum proficiency level in mathematics.",
-                                    "fact_values": [
-                                        "0.93"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2007"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2007
-                                    ],
-                                    "data_values": [
-                                        "0.97618",
-                                        "0.92725"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.98,
-                                        0.93
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SE_GPI_REAACH",
-                                    "seriesTitle": "Gender parity index for achievement in reading by the end of primary education",
-                                    "hub": "1cbee411f9fa41fab2890d3e405cfe95",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in reading at the end of primary education was <span class='fact-value'>0.9</span> in <span class='fact-year'> 2006</span> , meaning 90.0 girls per 100 boys achieved at least a minimum proficiency level in reading.",
-                                    "fact_values": [
-                                        "0.9"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.92665",
-                                        "0.89953"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.93,
-                                        0.9
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "4.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SE_GPI_MATACH",
-                                    "seriesTitle": "Gender parity index for achievement in mathematics by the end of primary education",
-                                    "hub": "b76dc42d46b943069a2cbf6695d68f33",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in mathematics at the end of primary education was <span class='fact-value'>0.93</span> in <span class='fact-year'> 2007</span> , meaning 93.0 girls per 100 boys achieved at least a minimum proficiency level in mathematics.",
-                                    "fact_values": [
-                                        "0.93"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2007"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2007
-                                    ],
-                                    "data_values": [
-                                        "0.97618",
-                                        "0.92725"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.98,
-                                        0.93
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SE_GPI_REAACH",
-                                    "seriesTitle": "Gender parity index for achievement in reading by the end of primary education",
-                                    "hub": "1cbee411f9fa41fab2890d3e405cfe95",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in reading at the end of primary education was <span class='fact-value'>0.9</span> in <span class='fact-year'> 2006</span> , meaning 90.0 girls per 100 boys achieved at least a minimum proficiency level in reading.",
-                                    "fact_values": [
-                                        "0.9"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.92665",
-                                        "0.89953"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.93,
-                                        0.9
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "4.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SE_GPI_MATACH",
-                                    "seriesTitle": "Gender parity index for achievement in mathematics by the end of primary education",
-                                    "hub": "b76dc42d46b943069a2cbf6695d68f33",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in mathematics at the end of primary education was <span class='fact-value'>0.93</span> in <span class='fact-year'> 2007</span> , meaning 93.0 girls per 100 boys achieved at least a minimum proficiency level in mathematics.",
-                                    "fact_values": [
-                                        "0.93"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2007"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2007
-                                    ],
-                                    "data_values": [
-                                        "0.97618",
-                                        "0.92725"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.98,
-                                        0.93
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SE_GPI_REAACH",
-                                    "seriesTitle": "Gender parity index for achievement in reading by the end of primary education",
-                                    "hub": "1cbee411f9fa41fab2890d3e405cfe95",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in reading at the end of primary education was <span class='fact-value'>0.9</span> in <span class='fact-year'> 2006</span> , meaning 90.0 girls per 100 boys achieved at least a minimum proficiency level in reading.",
-                                    "fact_values": [
-                                        "0.9"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.92665",
-                                        "0.89953"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.93,
-                                        0.9
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "4.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SE_GPI_MATACH",
-                                    "seriesTitle": "Gender parity index for achievement in mathematics by the end of primary education",
-                                    "hub": "b76dc42d46b943069a2cbf6695d68f33",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in mathematics at the end of primary education was <span class='fact-value'>0.93</span> in <span class='fact-year'> 2007</span> , meaning 93.0 girls per 100 boys achieved at least a minimum proficiency level in mathematics.",
-                                    "fact_values": [
-                                        "0.93"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2007"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2007
-                                    ],
-                                    "data_values": [
-                                        "0.97618",
-                                        "0.92725"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.98,
-                                        0.93
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SE_GPI_REAACH",
-                                    "seriesTitle": "Gender parity index for achievement in reading by the end of primary education",
-                                    "hub": "1cbee411f9fa41fab2890d3e405cfe95",
-                                    "slice_dimensions": {
-                                        "educationLevelCode": "PRIMAR"
-                                    },
-                                    "text_type": "4",
-                                    "fact_text": "The gender parity index for achievement in reading at the end of primary education was <span class='fact-value'>0.9</span> in <span class='fact-year'> 2006</span> , meaning 90.0 girls per 100 boys achieved at least a minimum proficiency level in reading.",
-                                    "fact_values": [
-                                        "0.9"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        2001,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.92665",
-                                        "0.89953"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.93,
-                                        0.9
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
                         }
                     ]
                 }
@@ -2563,46 +927,8 @@
                                     "seriesTitle": "Proportion of women aged 20-24 years who were married or in a union before age 18 (percent)",
                                     "hub": "62be27aeb98d417f952bf4e2523915f8",
                                     "slice_dimensions": {
-                                        "ageCode": "Y20T24",
-                                        "sexCode": "F"
-                                    },
-                                    "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2003</span>, <span class='fact-value'>5.6</span> <span class='fact-unit'>% </span> of women between 20 to 24 years of age reported having been married before their eighteenth birthday",
-                                    "fact_values": [
-                                        "5.6"
-                                    ],
-                                    "fact_units": [
-                                        "% "
-                                    ],
-                                    "fact_years": [
-                                        "2003"
-                                    ],
-                                    "data_years": [
-                                        2003
-                                    ],
-                                    "data_values": [
-                                        "5.6"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        5.6
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "5.3.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SP_DYN_MRBF18",
-                                    "seriesTitle": "Proportion of women aged 20-24 years who were married or in a union before age 18 (percent)",
-                                    "hub": "62be27aeb98d417f952bf4e2523915f8",
-                                    "slice_dimensions": {
-                                        "ageCode": "Y20T24",
-                                        "sexCode": "F"
+                                        "sexCode": "F",
+                                        "ageCode": "Y20T24"
                                     },
                                     "text_type": "2",
                                     "fact_text": "In <span class='fact-year'>2003</span>, <span class='fact-value'>5.6</span> <span class='fact-unit'>% </span> of women between 20 to 24 years of age reported having been married before their eighteenth birthday",
@@ -2759,79 +1085,41 @@
                     "targetCode": "7.1",
                     "indicators": [
                         {
-                            "indicatorCode": "7.1.1",
+                            "indicatorCode": "7.1.2",
                             "facts": [
                                 {
-                                    "seriesCode": "EG_ELC_ACCS",
-                                    "seriesTitle": "Proportion of population with access to electricity (percent)",
-                                    "hub": "420c5de5abd94bfc863131d0a7d42c80",
-                                    "slice_dimensions": {
-                                        "locationCode": "_T"
-                                    },
-                                    "text_type": "1",
-                                    "fact_text": "The proportion of the population with access to electricity increased from <span class='fact-value'>71.34</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>84.2%</span> in <span class='fact-year'>2016</span>.",
+                                    "seriesCode": "EG_EGY_CLEAN",
+                                    "seriesTitle": "Proportion of population with primary reliance on clean fuels and technology (percent)",
+                                    "hub": "ce90e2b64eaf48fb8a2d88fa583e53ac",
+                                    "slice_dimensions": {},
+                                    "text_type": "8",
+                                    "fact_text": "In <span class='fact-year'> 2017</span>, <span class='fact-value'> 86</span>  <span class='fact-unit'>% </span> of the population relied primarily on clean fuels and technology.",
                                     "fact_values": [
-                                        "71.34",
-                                        "84.2"
+                                        "86"
                                     ],
                                     "fact_units": [
-                                        "%",
-                                        "%"
+                                        "% "
                                     ],
                                     "fact_years": [
-                                        "2000",
-                                        "2016"
+                                        "2017"
                                     ],
                                     "data_years": [
                                         2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
                                         2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
                                         2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
                                         2015,
-                                        2016
+                                        2016,
+                                        2017
                                     ],
                                     "data_values": [
-                                        "71.34",
-                                        "70.20",
-                                        "77.10",
-                                        "78.80",
-                                        "80.90",
-                                        "80.90",
-                                        "80.70",
-                                        "82.00",
-                                        "81.90",
-                                        "82.70",
-                                        "82.90",
-                                        "84.70",
-                                        "85.30",
-                                        "85.40",
-                                        "86.00",
-                                        "85.50",
-                                        "84.20"
+                                        "55",
+                                        "67",
+                                        "76",
+                                        "83",
+                                        "84",
+                                        "86"
                                     ],
                                     "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
                                         false,
                                         false,
                                         false,
@@ -2840,28 +1128,22 @@
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        71.34,
-                                        70.2,
-                                        77.1,
-                                        78.8,
-                                        80.9,
-                                        80.9,
-                                        80.7,
-                                        82.0,
-                                        81.9,
-                                        82.7,
-                                        82.9,
-                                        84.7,
-                                        85.3,
-                                        85.4,
-                                        86.0,
-                                        85.5,
-                                        84.2
+                                        55,
+                                        67,
+                                        76,
+                                        83,
+                                        84,
+                                        86
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "targetCode": "7.1",
+                    "indicators": [
                         {
                             "indicatorCode": "7.1.2",
                             "facts": [
@@ -3156,117 +1438,8 @@
                                     "seriesTitle": "Unemployment rate of population 15 years of age and older",
                                     "hub": "5065a8bb4c644e3e9eb88899d0cda2e5",
                                     "slice_dimensions": {
-                                        "ageCode": "Y_GE15",
-                                        "sexCode": "_T"
-                                    },
-                                    "text_type": "1",
-                                    "fact_text": "The total unemployment rate declined from <span class='fact-value'>30.2</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>27.3%</span> in <span class='fact-year'>2017</span>.",
-                                    "fact_values": [
-                                        "30.2",
-                                        "27.3"
-                                    ],
-                                    "fact_units": [
-                                        "%",
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2000",
-                                        "2017"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017
-                                    ],
-                                    "data_values": [
-                                        "30.2",
-                                        "30.9",
-                                        "33.5",
-                                        "32.5",
-                                        "29.6",
-                                        "29.3",
-                                        "28.5",
-                                        "26.7",
-                                        "22.4",
-                                        "23.5",
-                                        "24.7",
-                                        "24.7",
-                                        "24.7",
-                                        "24.6",
-                                        "24.9",
-                                        "25.2",
-                                        "26.6",
-                                        "27.3"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        30.2,
-                                        30.9,
-                                        33.5,
-                                        32.5,
-                                        29.6,
-                                        29.3,
-                                        28.5,
-                                        26.7,
-                                        22.4,
-                                        23.5,
-                                        24.7,
-                                        24.7,
-                                        24.7,
-                                        24.6,
-                                        24.9,
-                                        25.2,
-                                        26.6,
-                                        27.3
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "8.5.2",
-                            "facts": [
-                                {
-                                    "seriesCode": "SL_TLF_UEM",
-                                    "seriesTitle": "Unemployment rate of population 15 years of age and older",
-                                    "hub": "5065a8bb4c644e3e9eb88899d0cda2e5",
-                                    "slice_dimensions": {
-                                        "ageCode": "Y_GE15",
-                                        "sexCode": "_T"
+                                        "sexCode": "_T",
+                                        "ageCode": "Y_GE15"
                                     },
                                     "text_type": "1",
                                     "fact_text": "The total unemployment rate declined from <span class='fact-value'>30.2</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>27.3%</span> in <span class='fact-year'>2017</span>.",
@@ -3494,10 +1667,13 @@
                                     "text_type": "9",
                                     "fact_text": "In <span class='fact-year'> 2015</span>, investment in research and development (R&D) stood at <span class='fact-value'> 0.8</span>  <span class='fact-unit'>% of GDP</span>, up from <span class='fact-value'> 0.72</span> <span class='fact-unit'>%</span> in <span class='fact-year'> 2001</span> ",
                                     "fact_values": [
-                                        "0.72% of GDP",
-                                        "0.8% of GDP"
+                                        "0.72",
+                                        "0.8"
                                     ],
-                                    "fact_units": [],
+                                    "fact_units": [
+                                        "% of GDP",
+                                        "% of GDP"
+                                    ],
                                     "fact_years": [
                                         "2001",
                                         "2015"
@@ -3832,7 +2008,7 @@
                                         23.58
                                     ],
                                     "preferred_visualization": "threshold",
-                                    "threshold": "10"
+                                    "threshold": "10  micrograms per cubic metre"
                                 }
                             ]
                         }
@@ -3841,41 +2017,6 @@
                 {
                     "targetCode": "11.b",
                     "indicators": [
-                        {
-                            "indicatorCode": "11.b.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SG_DSR_LEGREG",
-                                    "seriesTitle": "Existence of legislative and/or regulatory provisions for managing disaster risk",
-                                    "hub": "616ca7c722324aafb62e05f0da3f7bc8",
-                                    "slice_dimensions": {},
-                                    "text_type": "12",
-                                    "fact_text": "As of <span class='fact-year'> 2015</span>, South Africa has developed national and local disaster reduction strategies.",
-                                    "fact_values": [
-                                        "1"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2015"
-                                    ],
-                                    "data_years": [
-                                        2015
-                                    ],
-                                    "data_values": [
-                                        "1"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        1
-                                    ],
-                                    "preferred_visualization": "boolean"
-                                }
-                            ]
-                        },
                         {
                             "indicatorCode": "11.b.1",
                             "facts": [
@@ -4073,41 +2214,6 @@
                                     "preferred_visualization": "boolean"
                                 }
                             ]
-                        },
-                        {
-                            "indicatorCode": "13.1.2",
-                            "facts": [
-                                {
-                                    "seriesCode": "SG_DSR_LEGREG",
-                                    "seriesTitle": "Existence of legislative and/or regulatory provisions for managing disaster risk",
-                                    "hub": "616ca7c722324aafb62e05f0da3f7bc8",
-                                    "slice_dimensions": {},
-                                    "text_type": "12",
-                                    "fact_text": "As of <span class='fact-year'> 2015</span>, South Africa has developed national and local disaster reduction strategies.",
-                                    "fact_values": [
-                                        "1"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2015"
-                                    ],
-                                    "data_years": [
-                                        2015
-                                    ],
-                                    "data_values": [
-                                        "1"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        1
-                                    ],
-                                    "preferred_visualization": "boolean"
-                                }
-                            ]
                         }
                     ]
                 }
@@ -4153,41 +2259,6 @@
                                     "preferred_visualization": "singleton"
                                 }
                             ]
-                        },
-                        {
-                            "indicatorCode": "14.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "ER_MRN_MARIN",
-                                    "seriesTitle": "Coverage of protected areas in relation to marine areas (Exclusive Economic Zones) (percent)",
-                                    "hub": "5b238e9156014f0f83b3c4dd92e481be",
-                                    "slice_dimensions": {},
-                                    "text_type": "8",
-                                    "fact_text": "In <span class='fact-year'> 2018</span>, <span class='fact-value'> 11.33</span>  <span class='fact-unit'>% </span> of the marine environment under national jurisdiction (up to 200 nautical miles from shore) was under protection.",
-                                    "fact_values": [
-                                        "11.33"
-                                    ],
-                                    "fact_units": [
-                                        "% "
-                                    ],
-                                    "fact_years": [
-                                        "2018"
-                                    ],
-                                    "data_years": [
-                                        2018
-                                    ],
-                                    "data_values": [
-                                        "11.33183"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        11.33
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
                         }
                     ]
                 }
@@ -4199,53 +2270,6 @@
                 {
                     "targetCode": "15.1",
                     "indicators": [
-                        {
-                            "indicatorCode": "15.1.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "AG_LND_FRST",
-                                    "seriesTitle": "Forest area as a proportion of total land area (percent)",
-                                    "hub": "f0f58708445a4694b741d71798dc12c2",
-                                    "slice_dimensions": {},
-                                    "text_type": "1",
-                                    "fact_text": "The proportion of land area covered by forest was approximately <span class='fact-value'>7.62</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2015</span>.",
-                                    "fact_values": [
-                                        "7.62"
-                                    ],
-                                    "fact_units": [
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2015"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2005,
-                                        2010,
-                                        2015
-                                    ],
-                                    "data_values": [
-                                        "7.61774",
-                                        "7.61774",
-                                        "7.61774",
-                                        "7.61774"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        7.62,
-                                        7.62,
-                                        7.62,
-                                        7.62
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
-                        },
                         {
                             "indicatorCode": "15.1.2",
                             "facts": [
@@ -4458,7 +2482,12 @@
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "targetCode": "15.1",
+                    "indicators": [
                         {
                             "indicatorCode": "15.1.2",
                             "facts": [
@@ -4736,61 +2765,6 @@
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        },
-                        {
-                            "indicatorCode": "16.1.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "VC_IHR_PSRC",
-                                    "seriesTitle": "Number of victims of intentional homicide per 100,000 population",
-                                    "hub": "c4089c337b374a428e787480b8c55ffb",
-                                    "slice_dimensions": {},
-                                    "text_type": "11",
-                                    "fact_text": "In <span class='fact-year'> 2015</span>, the intentional homicide rate was <span class='fact-value'> 33.77</span>  <span class='fact-unit'> per 100,000 population</span>. ",
-                                    "fact_values": [
-                                        "33.77"
-                                    ],
-                                    "fact_units": [
-                                        " per 100,000 population"
-                                    ],
-                                    "fact_years": [
-                                        "2015"
-                                    ],
-                                    "data_years": [
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015
-                                    ],
-                                    "data_values": [
-                                        "30.81",
-                                        "29.76",
-                                        "30.59",
-                                        "31.66",
-                                        "32.65",
-                                        "33.77"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        30.81,
-                                        29.76,
-                                        30.59,
-                                        31.66,
-                                        32.65,
-                                        33.77
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
                         }
                     ]
                 }
@@ -4813,10 +2787,13 @@
                                     "text_type": "9",
                                     "fact_text": "In <span class='fact-year'> 2016</span>, the inflow of personal remittances was <span class='fact-value'> 0.26</span>  <span class='fact-unit'>% of GDP</span>, up from <span class='fact-value'> 0.12</span> <span class='fact-unit'>%</span> in <span class='fact-year'> 1990</span> ",
                                     "fact_values": [
-                                        "0.12% of GDP",
-                                        "0.26% of GDP"
+                                        "0.12",
+                                        "0.26"
                                     ],
-                                    "fact_units": [],
+                                    "fact_units": [
+                                        "% of GDP",
+                                        "% of GDP"
+                                    ],
                                     "fact_years": [
                                         "1990",
                                         "2016"

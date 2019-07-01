@@ -5,6 +5,7 @@ import { StyledSeriesContainer } from './Series-styled';
 
 import MetricIndicator from '../data_viz/MetricIndicator';
 import TimeSeriesChart from '../data_viz/TimeSeriesChart';
+import ThresholdChart from '../data_viz/ThresholdChart';
 import YesNoIndicator from '../data_viz/YesNoIndicator';
 
 const Series = ({ series, goalInfo, countryCode }) => {
@@ -26,7 +27,13 @@ const Series = ({ series, goalInfo, countryCode }) => {
         return <YesNoIndicator series={series} goalInfo={goalInfo} />;
 
       case 'threshold':
-        return 'The threshold series type is still under development.';
+        return (
+          <ThresholdChart
+            series={series}
+            goalInfo={goalInfo}
+            countryCode={countryCode}
+          />
+        );
 
       default:
         break;

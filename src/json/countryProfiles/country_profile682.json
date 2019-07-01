@@ -112,187 +112,12 @@
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        },
-                        {
-                            "indicatorCode": "2.1.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SN_ITK_DEFC",
-                                    "seriesTitle": "Prevalence of undernourishment (percent)",
-                                    "hub": "5bbccf64330e4a76bdf2a9b69230694d",
-                                    "slice_dimensions": {},
-                                    "text_type": "7",
-                                    "fact_text": "The proportion of the population suffering from hunger was <span class='fact-value'> 5.5</span> <span class='fact-unit'>%</span>  in <span class='fact-year'> 2016</span> .",
-                                    "fact_values": [
-                                        "5.5"
-                                    ],
-                                    "fact_units": [
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2016"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016
-                                    ],
-                                    "data_values": [
-                                        "6.1",
-                                        "6.4",
-                                        "7",
-                                        "7.6",
-                                        "7.9",
-                                        "7.9",
-                                        "7.7",
-                                        "7.7",
-                                        "7.7",
-                                        "7.6",
-                                        "7",
-                                        "6.4",
-                                        "5.7",
-                                        "5.5",
-                                        "5.4",
-                                        "5.5",
-                                        "5.5"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        6.1,
-                                        6.4,
-                                        7,
-                                        7.6,
-                                        7.9,
-                                        7.9,
-                                        7.7,
-                                        7.7,
-                                        7.7,
-                                        7.6,
-                                        7,
-                                        6.4,
-                                        5.7,
-                                        5.5,
-                                        5.4,
-                                        5.5,
-                                        5.5
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
                         }
                     ]
                 },
                 {
                     "targetCode": "2.2",
                     "indicators": [
-                        {
-                            "indicatorCode": "2.2.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SH_STA_STUNT",
-                                    "seriesTitle": "Proportion of children under 5 years of age who are moderately or severely stunted (percent)",
-                                    "hub": "1dc7f1ce62854e87989a19b7e798ba96",
-                                    "slice_dimensions": {
-                                        "ageCode": "Y0T4",
-                                        "boundsCode": "_T"
-                                    },
-                                    "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2005</span>, <span class='fact-value'>9.3</span> <span class='fact-unit'>% </span> of children under 5 years of age had stunted growth",
-                                    "fact_values": [
-                                        "9.3"
-                                    ],
-                                    "fact_units": [
-                                        "% "
-                                    ],
-                                    "fact_years": [
-                                        "2005"
-                                    ],
-                                    "data_years": [
-                                        2005
-                                    ],
-                                    "data_values": [
-                                        "9.3"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        9.3
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "2.2.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SH_STA_STUNT",
-                                    "seriesTitle": "Proportion of children under 5 years of age who are moderately or severely stunted (percent)",
-                                    "hub": "1dc7f1ce62854e87989a19b7e798ba96",
-                                    "slice_dimensions": {
-                                        "ageCode": "Y0T4",
-                                        "boundsCode": "_T"
-                                    },
-                                    "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2005</span>, <span class='fact-value'>9.3</span> <span class='fact-unit'>% </span> of children under 5 years of age had stunted growth",
-                                    "fact_values": [
-                                        "9.3"
-                                    ],
-                                    "fact_units": [
-                                        "% "
-                                    ],
-                                    "fact_years": [
-                                        "2005"
-                                    ],
-                                    "data_years": [
-                                        2005
-                                    ],
-                                    "data_values": [
-                                        "9.3"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        9.3
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        },
                         {
                             "indicatorCode": "2.2.2",
                             "facts": [
@@ -330,7 +155,12 @@
                                     "preferred_visualization": "singleton"
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "targetCode": "2.2",
+                    "indicators": [
                         {
                             "indicatorCode": "2.2.2",
                             "facts": [
@@ -532,226 +362,8 @@
                                     "seriesTitle": "Under-five mortality rate",
                                     "hub": "941d6bfede104ca8a122877b2e128f09",
                                     "slice_dimensions": {
-                                        "ageCode": "Y0T4",
-                                        "sexCode": "_T"
-                                    },
-                                    "text_type": "1",
-                                    "fact_text": "The mortality rate of children under 5 years of age fell from <span class='fact-value'>22</span>  <span class='fact-unit'> per 1,000 live births</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>7.4 per 1,000 live births</span> in <span class='fact-year'>2017</span>.",
-                                    "fact_values": [
-                                        "22",
-                                        "7.4"
-                                    ],
-                                    "fact_units": [
-                                        " per 1,000 live births",
-                                        " per 1,000 live births"
-                                    ],
-                                    "fact_years": [
-                                        "2000",
-                                        "2017"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017
-                                    ],
-                                    "data_values": [
-                                        "22",
-                                        "20.7",
-                                        "19.6",
-                                        "18.5",
-                                        "17.5",
-                                        "16.5",
-                                        "15.5",
-                                        "14.6",
-                                        "13.7",
-                                        "12.8",
-                                        "12",
-                                        "11.2",
-                                        "10.5",
-                                        "9.8",
-                                        "9.1",
-                                        "8.4",
-                                        "7.9",
-                                        "7.4"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        22,
-                                        20.7,
-                                        19.6,
-                                        18.5,
-                                        17.5,
-                                        16.5,
-                                        15.5,
-                                        14.6,
-                                        13.7,
-                                        12.8,
-                                        12,
-                                        11.2,
-                                        10.5,
-                                        9.8,
-                                        9.1,
-                                        8.4,
-                                        7.9,
-                                        7.4
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "3.2.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SH_DYN_MORT",
-                                    "seriesTitle": "Under-five mortality rate",
-                                    "hub": "941d6bfede104ca8a122877b2e128f09",
-                                    "slice_dimensions": {
-                                        "ageCode": "Y0T4",
-                                        "sexCode": "_T"
-                                    },
-                                    "text_type": "1",
-                                    "fact_text": "The mortality rate of children under 5 years of age fell from <span class='fact-value'>22</span>  <span class='fact-unit'> per 1,000 live births</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>7.4 per 1,000 live births</span> in <span class='fact-year'>2017</span>.",
-                                    "fact_values": [
-                                        "22",
-                                        "7.4"
-                                    ],
-                                    "fact_units": [
-                                        " per 1,000 live births",
-                                        " per 1,000 live births"
-                                    ],
-                                    "fact_years": [
-                                        "2000",
-                                        "2017"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017
-                                    ],
-                                    "data_values": [
-                                        "22",
-                                        "20.7",
-                                        "19.6",
-                                        "18.5",
-                                        "17.5",
-                                        "16.5",
-                                        "15.5",
-                                        "14.6",
-                                        "13.7",
-                                        "12.8",
-                                        "12",
-                                        "11.2",
-                                        "10.5",
-                                        "9.8",
-                                        "9.1",
-                                        "8.4",
-                                        "7.9",
-                                        "7.4"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        22,
-                                        20.7,
-                                        19.6,
-                                        18.5,
-                                        17.5,
-                                        16.5,
-                                        15.5,
-                                        14.6,
-                                        13.7,
-                                        12.8,
-                                        12,
-                                        11.2,
-                                        10.5,
-                                        9.8,
-                                        9.1,
-                                        8.4,
-                                        7.9,
-                                        7.4
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "3.2.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SH_DYN_MORT",
-                                    "seriesTitle": "Under-five mortality rate",
-                                    "hub": "941d6bfede104ca8a122877b2e128f09",
-                                    "slice_dimensions": {
-                                        "ageCode": "Y0T4",
-                                        "sexCode": "_T"
+                                        "sexCode": "_T",
+                                        "ageCode": "Y0T4"
                                     },
                                     "text_type": "1",
                                     "fact_text": "The mortality rate of children under 5 years of age fell from <span class='fact-value'>22</span>  <span class='fact-unit'> per 1,000 live births</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>7.4 per 1,000 live births</span> in <span class='fact-year'>2017</span>.",
@@ -1119,103 +731,6 @@
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        },
-                        {
-                            "indicatorCode": "6.2.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SH_SAN_SAFE",
-                                    "seriesTitle": "Proportion of population using safely managed sanitation services (percent)",
-                                    "hub": "52689909054a4bd6b10983eb999ab7f6",
-                                    "slice_dimensions": {
-                                        "locationCode": "_T"
-                                    },
-                                    "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2015</span>, <span class='fact-value'>84.5</span> <span class='fact-unit'>% </span> of the population used a \"safely managed\" sanitation service\u00e2\u20ac\u201ca basic facility that safely disposes of human waste",
-                                    "fact_values": [
-                                        "84.5"
-                                    ],
-                                    "fact_units": [
-                                        "% "
-                                    ],
-                                    "fact_years": [
-                                        "2015"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015
-                                    ],
-                                    "data_values": [
-                                        "63.76664",
-                                        "63.76664",
-                                        "63.76664",
-                                        "65.86254",
-                                        "67.95844",
-                                        "70.05434",
-                                        "72.15024",
-                                        "74.24613",
-                                        "76.34203",
-                                        "78.43793",
-                                        "80.53383",
-                                        "82.51583",
-                                        "84.49784",
-                                        "84.49784",
-                                        "84.49784",
-                                        "84.49784"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        63.77,
-                                        63.77,
-                                        63.77,
-                                        65.86,
-                                        67.96,
-                                        70.05,
-                                        72.15,
-                                        74.25,
-                                        76.34,
-                                        78.44,
-                                        80.53,
-                                        82.52,
-                                        84.5,
-                                        84.5,
-                                        84.5,
-                                        84.5
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
                         }
                     ]
                 }
@@ -1228,90 +743,65 @@
                     "targetCode": "7.1",
                     "indicators": [
                         {
-                            "indicatorCode": "7.1.1",
+                            "indicatorCode": "7.1.2",
                             "facts": [
                                 {
-                                    "seriesCode": "EG_ELC_ACCS",
-                                    "seriesTitle": "Proportion of population with access to electricity (percent)",
-                                    "hub": "420c5de5abd94bfc863131d0a7d42c80",
-                                    "slice_dimensions": {
-                                        "locationCode": "_T"
-                                    },
-                                    "text_type": "1",
-                                    "fact_text": "The proportion of the population with access to electricity was <span class='fact-value'>100.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2016</span>.",
+                                    "seriesCode": "EG_EGY_CLEAN",
+                                    "seriesTitle": "Proportion of population with primary reliance on clean fuels and technology (percent)",
+                                    "hub": "ce90e2b64eaf48fb8a2d88fa583e53ac",
+                                    "slice_dimensions": {},
+                                    "text_type": "8",
+                                    "fact_text": "In <span class='fact-year'> 2017</span>, <span class='fact-value'> more than 95</span>  <span class='fact-unit'>% </span> of the population relied primarily on clean fuels and technology.",
                                     "fact_values": [
-                                        "100.0"
+                                        "more than 95"
                                     ],
                                     "fact_units": [
-                                        "%"
+                                        "% "
                                     ],
                                     "fact_years": [
-                                        "2016"
+                                        "2017"
                                     ],
                                     "data_years": [
-                                        2004,
+                                        2000,
                                         2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
                                         2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
                                         2015,
-                                        2016
+                                        2016,
+                                        2017
                                     ],
                                     "data_values": [
-                                        "100.00",
-                                        "100.00",
-                                        "100.00",
-                                        "100.00",
-                                        "100.00",
-                                        "100.00",
-                                        "100.00",
-                                        "100.00",
-                                        "100.00",
-                                        "100.00",
-                                        "100.00",
-                                        "100.00",
-                                        "100.00"
+                                        "more than 95",
+                                        "more than 95",
+                                        "more than 95",
+                                        "more than 95",
+                                        "more than 95",
+                                        "more than 95"
                                     ],
                                     "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
+                                        true,
+                                        true,
+                                        true,
+                                        true,
+                                        true,
+                                        true
                                     ],
                                     "data_numeric_part": [
-                                        100.0,
-                                        100.0,
-                                        100.0,
-                                        100.0,
-                                        100.0,
-                                        100.0,
-                                        100.0,
-                                        100.0,
-                                        100.0,
-                                        100.0,
-                                        100.0,
-                                        100.0,
-                                        100.0
+                                        95,
+                                        95,
+                                        95,
+                                        95,
+                                        95,
+                                        95
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "targetCode": "7.1",
+                    "indicators": [
                         {
                             "indicatorCode": "7.1.2",
                             "facts": [
@@ -1606,117 +1096,8 @@
                                     "seriesTitle": "Unemployment rate of population 15 years of age and older",
                                     "hub": "5065a8bb4c644e3e9eb88899d0cda2e5",
                                     "slice_dimensions": {
-                                        "ageCode": "Y_GE15",
-                                        "sexCode": "_T"
-                                    },
-                                    "text_type": "1",
-                                    "fact_text": "The total unemployment rate increased from <span class='fact-value'>4.6</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>5.9%</span> in <span class='fact-year'>2017</span>.",
-                                    "fact_values": [
-                                        "4.6",
-                                        "5.9"
-                                    ],
-                                    "fact_units": [
-                                        "%",
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2000",
-                                        "2017"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017
-                                    ],
-                                    "data_values": [
-                                        "4.6",
-                                        "4.6",
-                                        "5.3",
-                                        "5.6",
-                                        "5.8",
-                                        "6.1",
-                                        "6.3",
-                                        "5.7",
-                                        "5.1",
-                                        "5.4",
-                                        "5.6",
-                                        "5.8",
-                                        "5.5",
-                                        "5.6",
-                                        "5.7",
-                                        "5.6",
-                                        "5.7",
-                                        "5.9"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        4.6,
-                                        4.6,
-                                        5.3,
-                                        5.6,
-                                        5.8,
-                                        6.1,
-                                        6.3,
-                                        5.7,
-                                        5.1,
-                                        5.4,
-                                        5.6,
-                                        5.8,
-                                        5.5,
-                                        5.6,
-                                        5.7,
-                                        5.6,
-                                        5.7,
-                                        5.9
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "8.5.2",
-                            "facts": [
-                                {
-                                    "seriesCode": "SL_TLF_UEM",
-                                    "seriesTitle": "Unemployment rate of population 15 years of age and older",
-                                    "hub": "5065a8bb4c644e3e9eb88899d0cda2e5",
-                                    "slice_dimensions": {
-                                        "ageCode": "Y_GE15",
-                                        "sexCode": "_T"
+                                        "sexCode": "_T",
+                                        "ageCode": "Y_GE15"
                                     },
                                     "text_type": "1",
                                     "fact_text": "The total unemployment rate increased from <span class='fact-value'>4.6</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>5.9%</span> in <span class='fact-year'>2017</span>.",
@@ -1944,10 +1325,13 @@
                                     "text_type": "9",
                                     "fact_text": "In <span class='fact-year'> 2013</span>, investment in research and development (R&D) stood at <span class='fact-value'> 0.82</span>  <span class='fact-unit'>% of GDP</span>, up from <span class='fact-value'> 0.06</span> <span class='fact-unit'>%</span> in <span class='fact-year'> 2003</span> ",
                                     "fact_values": [
-                                        "0.06% of GDP",
-                                        "0.82% of GDP"
+                                        "0.06",
+                                        "0.82"
                                     ],
-                                    "fact_units": [],
+                                    "fact_units": [
+                                        "% of GDP",
+                                        "% of GDP"
+                                    ],
                                     "fact_years": [
                                         "2003",
                                         "2013"
@@ -2275,7 +1659,7 @@
                                         78.38
                                     ],
                                     "preferred_visualization": "threshold",
-                                    "threshold": "10"
+                                    "threshold": "10  micrograms per cubic metre"
                                 }
                             ]
                         }
@@ -2441,41 +1825,6 @@
                                     "preferred_visualization": "singleton"
                                 }
                             ]
-                        },
-                        {
-                            "indicatorCode": "14.5.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "ER_MRN_MARIN",
-                                    "seriesTitle": "Coverage of protected areas in relation to marine areas (Exclusive Economic Zones) (percent)",
-                                    "hub": "5b238e9156014f0f83b3c4dd92e481be",
-                                    "slice_dimensions": {},
-                                    "text_type": "8",
-                                    "fact_text": "In <span class='fact-year'> 2018</span>, <span class='fact-value'> 2.49</span>  <span class='fact-unit'>% </span> of the marine environment under national jurisdiction (up to 200 nautical miles from shore) was under protection.",
-                                    "fact_values": [
-                                        "2.49"
-                                    ],
-                                    "fact_units": [
-                                        "% "
-                                    ],
-                                    "fact_years": [
-                                        "2018"
-                                    ],
-                                    "data_years": [
-                                        2018
-                                    ],
-                                    "data_values": [
-                                        "2.4941"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        2.49
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
                         }
                     ]
                 }
@@ -2487,53 +1836,6 @@
                 {
                     "targetCode": "15.1",
                     "indicators": [
-                        {
-                            "indicatorCode": "15.1.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "AG_LND_FRST",
-                                    "seriesTitle": "Forest area as a proportion of total land area (percent)",
-                                    "hub": "f0f58708445a4694b741d71798dc12c2",
-                                    "slice_dimensions": {},
-                                    "text_type": "1",
-                                    "fact_text": "The proportion of land area covered by forest was approximately <span class='fact-value'>0.45</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2015</span>.",
-                                    "fact_values": [
-                                        "0.45"
-                                    ],
-                                    "fact_units": [
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2015"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2005,
-                                        2010,
-                                        2015
-                                    ],
-                                    "data_values": [
-                                        "0.45448",
-                                        "0.45448",
-                                        "0.45448",
-                                        "0.45448"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.45,
-                                        0.45,
-                                        0.45,
-                                        0.45
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
-                        },
                         {
                             "indicatorCode": "15.1.2",
                             "facts": [
@@ -2746,7 +2048,12 @@
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "targetCode": "15.1",
+                    "indicators": [
                         {
                             "indicatorCode": "15.1.2",
                             "facts": [
@@ -3004,41 +2311,6 @@
                                     "preferred_visualization": "singleton"
                                 }
                             ]
-                        },
-                        {
-                            "indicatorCode": "16.1.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "VC_IHR_PSRC",
-                                    "seriesTitle": "Number of victims of intentional homicide per 100,000 population",
-                                    "hub": "c4089c337b374a428e787480b8c55ffb",
-                                    "slice_dimensions": {},
-                                    "text_type": "11",
-                                    "fact_text": "In <span class='fact-year'> 2015</span>, the intentional homicide rate was <span class='fact-value'> 1.5</span>  <span class='fact-unit'> per 100,000 population</span>. ",
-                                    "fact_values": [
-                                        "1.5"
-                                    ],
-                                    "fact_units": [
-                                        " per 100,000 population"
-                                    ],
-                                    "fact_years": [
-                                        "2015"
-                                    ],
-                                    "data_years": [
-                                        2015
-                                    ],
-                                    "data_values": [
-                                        "1.50"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        1.5
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
                         }
                     ]
                 }
@@ -3061,10 +2333,13 @@
                                     "text_type": "9",
                                     "fact_text": "In <span class='fact-year'> 2016</span>, the inflow of personal remittances was <span class='fact-value'> 0.05</span>  <span class='fact-unit'>% of GDP</span>, up from <span class='fact-value'> 0.03</span> <span class='fact-unit'>%</span> in <span class='fact-year'> 2005</span> ",
                                     "fact_values": [
-                                        "0.03% of GDP",
-                                        "0.05% of GDP"
+                                        "0.03",
+                                        "0.05"
                                     ],
-                                    "fact_units": [],
+                                    "fact_units": [
+                                        "% of GDP",
+                                        "% of GDP"
+                                    ],
                                     "fact_years": [
                                         "2005",
                                         "2016"

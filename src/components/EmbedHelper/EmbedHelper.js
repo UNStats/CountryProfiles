@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Button from 'calcite-react/Button';
 import CopyToClipboard from 'calcite-react/CopyToClipboard';
 import Panel from 'calcite-react/Panel/Panel';
-import Modal, { ModalActions } from 'calcite-react/Modal';
+import Modal from 'calcite-react/Modal';
 import TextField from 'calcite-react/TextField';
 import Checkbox from 'calcite-react/Checkbox';
 import { CalciteP } from 'calcite-react/Elements';
