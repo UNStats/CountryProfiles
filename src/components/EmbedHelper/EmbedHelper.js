@@ -6,19 +6,15 @@ import Panel from 'calcite-react/Panel/Panel';
 import Modal from 'calcite-react/Modal';
 import TextField from 'calcite-react/TextField';
 import Checkbox from 'calcite-react/Checkbox';
-import { CalciteP } from 'calcite-react/Elements';
-import {
-  FormControl,
-  Fieldset,
-  Legend,
-  FormControlLabel
-} from 'calcite-react/Form';
+import { Fieldset, Legend, FormControlLabel } from 'calcite-react/Form';
 
 import {
   StyledDimensionsContainer,
   StyledModalHeader,
+  StyledSubheader,
   StyledPanel,
-  StyledModalActions
+  StyledModalActions,
+  StyledSmallFormControl
 } from './EmbedHelper-styled';
 
 export class EmbedHelper extends Component {
@@ -134,48 +130,48 @@ export class EmbedHelper extends Component {
         appElement={document.body}
       >
         <StyledModalHeader>Embed in a Website</StyledModalHeader>
-        <CalciteP>
-          Choose how you would would like to display this goal on your website.
-        </CalciteP>
+        <StyledSubheader>
+          Choose how you would like to display this goal on your website.
+        </StyledSubheader>
         <CopyToClipboard>{this.getEmbedString()}</CopyToClipboard>
         <StyledPanel>
-          <CalciteP>Choose the size of your iFrame</CalciteP>
+          <StyledSubheader>Choose the size of your iFrame</StyledSubheader>
           <StyledDimensionsContainer>
-            <FormControl noValidation>
+            <StyledSmallFormControl>
               <FormControlLabel>Width</FormControlLabel>
               <TextField
                 value={this.state.width}
                 type="number"
                 onChange={this.onWidthChanged}
               />
-            </FormControl>
-            <FormControl noValidation>
+            </StyledSmallFormControl>
+            <StyledSmallFormControl>
               <FormControlLabel>Height</FormControlLabel>
               <TextField
                 value={this.state.height}
                 type="number"
                 onChange={this.onHeightChanged}
               />
-            </FormControl>
+            </StyledSmallFormControl>
           </StyledDimensionsContainer>
         </StyledPanel>
         <Panel>
-          <FormControl noValidation>
+          <StyledSmallFormControl>
             <Checkbox
               checked={this.state.showHeader}
               onChange={this.onShowHeaderChanged}
             >
               Show goal header
             </Checkbox>
-          </FormControl>
+          </StyledSmallFormControl>
         </Panel>
         <Panel>
-          <FormControl>
+          <StyledSmallFormControl>
             <Fieldset name="seriesToShow">
               <Legend>Series to show:</Legend>
               {this.getSeriesCheckboxList(this.state.allSeries)}
             </Fieldset>
-          </FormControl>
+          </StyledSmallFormControl>
         </Panel>
         <StyledModalActions>
           <Button onClick={this.closeModal}>Done</Button>
