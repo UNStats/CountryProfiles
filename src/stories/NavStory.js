@@ -28,24 +28,10 @@ const StyledSection = styled.div`
   padding: 2rem 0;
 `;
 
-const NavStory = props => {
+const NavStory = ({ goals, goalInfos }) => {
   return (
     <StyledContentContainer>
-      <Nav
-        selectedCountry="Italy"
-        goals={[
-          { id: 1, title: 'Goal 1' },
-          { id: 2, title: 'Goal 2' },
-          { id: 3, title: 'Goal 3' },
-          { id: 4, title: 'Goal 4' }
-        ]}
-      />
-      <StyledSectionContainer>
-        <StyledSection id="goal-1-section">Goal 1 Section</StyledSection>
-        <StyledSection id="goal-2-section">Goal 2 Section</StyledSection>
-        <StyledSection id="goal-3-section">Goal 3 Section</StyledSection>
-        <StyledSection id="goal-4-section">Goal 4 Section</StyledSection>
-      </StyledSectionContainer>
+      <Nav selectedCountry="Italy" goals={goals} goalInfos={goalInfos} />
     </StyledContentContainer>
   );
 };
