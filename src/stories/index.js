@@ -23,19 +23,25 @@ import UgandaMap from '../assets/uganda_map.png';
 
 // json
 import countries from '../json/countryList.json';
-import country from '../json/countryProfiles/country profile 800 Uganda.json';
+import country from '../json/countryProfiles/country_profile800.json';
 import sdgsMoreInfo from '../json/sdgs-more-info.json';
 
 const goal = country.goals.find(goal => goal.goalCode === '16');
 const timeSeries = goal.targets[0].indicators[0].facts[0];
 const metricSeries = goal.targets[1].indicators[0].facts[0];
+
+const boolGoal = country.goals.find(goal => goal.goalCode === '17');
+const boolSeries = boolGoal.targets[3].indicators[0].facts[0];
+
 const goalInfo = sdgsMoreInfo.data.find(sdgInfo => sdgInfo.goal === 16);
 
 storiesOf('SiteBreadcrumb', module).add('default', () => <SiteBreadcrumb />);
 
 storiesOf('AppHeader', module).add('default', () => <AppHeader />);
 
-storiesOf('Nav', module).add('default', () => <NavStory />);
+storiesOf('Nav', module).add('default', () => (
+  <NavStory goals={country.goals} goalInfos={sdgsMoreInfo.data} />
+));
 
 storiesOf('CountryHeader', module).add('default', () => {
   const { country_name } = country;
@@ -51,10 +57,12 @@ storiesOf('CountryHeader', module).add('default', () => {
 });
 
 storiesOf('CountrySelector', module).add('default', () => (
-  <CountrySelector
-    countries={countries}
-    onCountrySelect={e => console.log('Country selected: ', e)}
-  />
+  <div style={{ height: '100vh' }}>
+    <CountrySelector
+      countryList={countries}
+      onCountrySelect={e => console.log('Country selected: ', e)}
+    />
+  </div>
 ));
 
 storiesOf('GoalHeader', module).add('default', () => (
@@ -70,11 +78,7 @@ storiesOf('Series', module).add('default', () => (
 ));
 
 storiesOf('YesNoIndicator', module).add('default', () => (
-  <YesNoIndicator
-    goalInfo={goalInfo}
-    value={true}
-    description="The sky is blue."
-  />
+  <YesNoIndicator series={boolSeries} goalInfo={goalInfo} />
 ));
 
 storiesOf('MetricIndicator', module).add('default', () => (
