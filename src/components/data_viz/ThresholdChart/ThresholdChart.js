@@ -31,7 +31,7 @@ class ThresholdChart extends Component {
     return (
       <g transform="translate(0,20)">
         <polygon
-          points="-3,-5 -3,-50 3,-50 3,-5 13,10 -13,10"
+          points="-3,-5 -3,-47 3,-47 3,-5 13,10 -13,10"
           fill="rgb(180,185,190)"
           stroke="white"
           strokeWidth={3}
@@ -42,8 +42,10 @@ class ThresholdChart extends Component {
 
   getThresholdChart = ({ series, goalInfo }) => {
     let highVal = Number(series.threshold) * 1.1;
+    let isNormalRange = true;
     if (series.data_numeric_part[0] > Number(series.threshold)) {
       highVal = series.data_numeric_part[0] * 1.1;
+      isNormalRange = false;
     }
 
     return (
@@ -65,6 +67,19 @@ class ThresholdChart extends Component {
                 <stop offset="100%" stopColor="rgb(228,83,70)" />
               </linearGradient>
             </GradientDefs>
+            <XAxis
+              orientation="top"
+              hideLine
+              top={20}
+              style={{
+                ticks: { stroke: 'transparent' },
+                text: {
+                  fill: isNormalRange ? 'rgb(59,170,75)' : 'rgb(228,83,70)'
+                }
+              }}
+              tickValues={[series.data_numeric_part[0]]}
+              tickFormat={i => series.data_numeric_part[0]}
+            />
             <HorizontalBarSeries
               barWidth={0.5}
               color={'url(#greenGradient)'}
