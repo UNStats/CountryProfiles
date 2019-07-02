@@ -9,14 +9,22 @@ import {
   StyledChart,
   StyledCrosshairTooltip,
   StyledCrosshairLabel,
-  StyledCrosshairValue
+  StyledCrosshairValue,
+  StyledChartHeader
 } from './TimeSeriesChart-styled';
 
 import SeriesLinks from '../../SeriesLinks';
 
 import AutoSizer from 'react-virtualized-auto-sizer';
 
-import { XYPlot, XAxis, YAxis, LineMarkSeries, Crosshair } from 'react-vis';
+import {
+  XYPlot,
+  XAxis,
+  YAxis,
+  LineMarkSeries,
+  Crosshair,
+  HorizontalGridLines
+} from 'react-vis';
 import 'react-vis/dist/style.css';
 
 class TimeSeriesChart extends Component {
@@ -27,11 +35,14 @@ class TimeSeriesChart extends Component {
   };
 
   componentDidMount() {
-    const { sortedData, dataIsUniform } = this.getData(this.props.series);
+    const { sortedData, dataIsUniform, dataRange } = this.getData(
+      this.props.series
+    );
 
     this.setState({
       sortedData,
-      dataIsUniform
+      dataIsUniform,
+      dataRange
     });
   }
 
@@ -40,11 +51,14 @@ class TimeSeriesChart extends Component {
       return;
     }
 
-    const { sortedData, dataIsUniform } = this.getData(this.props.series);
+    const { sortedData, dataIsUniform, dataRange } = this.getData(
+      this.props.series
+    );
 
     this.setState({
       sortedData,
-      dataIsUniform
+      dataIsUniform,
+      dataRange
     });
   }
 
@@ -62,9 +76,21 @@ class TimeSeriesChart extends Component {
   getData = series => {
     const { data_years, data_numeric_part, data_values } = series;
     const dataUniqueValues = {};
+    const dataRange = {
+      min: null,
+      max: null
+    };
 
     const joinData = data_years.map((year, index) => {
       dataUniqueValues[data_numeric_part[index].toString()] = true;
+
+      // Get data range to see if we need a 0 axis
+      if (!dataRange.min || data_numeric_part[index] < dataRange.min) {
+        dataRange.min = data_numeric_part[index];
+      }
+      if (!dataRange.max || data_numeric_part[index] > dataRange.max) {
+        dataRange.max = data_numeric_part[index];
+      }
 
       return {
         x: new Date(`1/1/${year}`),
@@ -76,7 +102,7 @@ class TimeSeriesChart extends Component {
 
     const dataIsUniform = Object.keys(dataUniqueValues).length === 1;
 
-    return { sortedData, dataIsUniform };
+    return { sortedData, dataIsUniform, dataRange };
   };
 
   getYDomain = (dataIsUniform, sortedData) => {
@@ -102,6 +128,12 @@ class TimeSeriesChart extends Component {
     return sortedData.length;
   };
 
+  getZeroLine = dataRange => {
+    if (dataRange.min < 0 && dataRange.max > 0) {
+      return <HorizontalGridLines tickValues={[0]} />;
+    }
+  };
+
   getTimeSeriesChart = ({ series, goalInfo }) => {
     return (
       <AutoSizer>
@@ -113,11 +145,13 @@ class TimeSeriesChart extends Component {
               this.state.dataIsUniform,
               this.state.sortedData
             )}
-            width={width}
+            width={width - 10}
             height={200}
-            yPadding={20}
+            yPadding={30}
+            xPadding={20}
             onMouseLeave={() => this._onNearestX(null)}
           >
+            {this.getZeroLine(this.state.dataRange)}
             <LineMarkSeries
               data={this.state.sortedData}
               curve={'curveMonotoneX'}
@@ -167,6 +201,7 @@ class TimeSeriesChart extends Component {
         </StyledDescriptionContainer>
         <StyledChartSection>
           <StyledChart>
+            <StyledChartHeader>{series.seriesTitle}</StyledChartHeader>
             {this.getTimeSeriesChart({ series, goalInfo })}
           </StyledChart>
           <SeriesLinks goalInfo={goalInfo} />
