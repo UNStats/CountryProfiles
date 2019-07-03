@@ -41,9 +41,9 @@ class ThresholdChart extends Component {
   }
 
   getThresholdChart = ({ series, goalInfo }) => {
-    let highVal = Number(series.threshold) * 1.1;
+    let highVal = Number(series.threshold_value) * 1.1;
     let isNormalRange = true;
-    if (series.data_numeric_part[0] > Number(series.threshold)) {
+    if (series.data_numeric_part[0] > Number(series.threshold_value)) {
       highVal = series.data_numeric_part[0] * 1.1;
       isNormalRange = false;
     }
@@ -83,7 +83,7 @@ class ThresholdChart extends Component {
             <HorizontalBarSeries
               barWidth={0.5}
               color={'url(#greenGradient)'}
-              data={[{ y: 1, x: Number(series.threshold) }]}
+              data={[{ y: 1, x: Number(series.threshold_value) }]}
             />
             <HorizontalBarSeries
               barWidth={0.5}
@@ -91,7 +91,7 @@ class ThresholdChart extends Component {
               data={[
                 {
                   y: 1,
-                  x: highVal - Number(series.threshold)
+                  x: highVal - Number(series.threshold_value)
                 }
               ]}
             />

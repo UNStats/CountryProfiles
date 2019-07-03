@@ -13,7 +13,12 @@ import Nav from '../../Nav';
 import CountrySelector from '../../CountrySelector';
 import Goal from '../../Goal';
 
-import { StyledAppContainer, dialogStyle } from './AppContainer-styled';
+import {
+  StyledAppContainer,
+  CenteredLoader,
+  dialogStyle
+} from './AppContainer-styled';
+
 import {
   StyledModalHeader,
   StyledContentContainer,
@@ -78,8 +83,20 @@ class AppContainer extends Component {
   render() {
     const countryCode = this.props.match.params.countryCode;
 
+    // if (
+    //   !this.props.countryJson ||
+    //   !this.state.metricsJson ||
+    //   !this.state.countryListItem
+    // ) {
+    //   return <CenteredLoader />;
+    // }
+
     // Just render the headers and country selector if there's no country code
     if (!countryCode) {
+      if (!this.props.countryList) {
+        return <CenteredLoader />;
+      }
+
       return (
         <StyledAppContainer className="App">
           <SiteBreadcrumb />
@@ -107,6 +124,15 @@ class AppContainer extends Component {
       );
     }
 
+    if (
+      !this.props.countryJson ||
+      !this.props.metricsJson ||
+      !this.props.countryList ||
+      !this.props.countryListItem
+    ) {
+      return <CenteredLoader />;
+    }
+
     return (
       <StyledAppContainer className="App" isLoading={this.props.isLoading}>
         <SiteBreadcrumb />
@@ -116,10 +142,9 @@ class AppContainer extends Component {
           }
         />
         <CountryHeader
+          code={this.props.countryListItem.M49}
           name={this.props.countryJson && this.props.countryJson.country_name}
-          population="42.86 million"
-          capital="Kampala"
-          currency="Ugandan Shilling"
+          metricsJson={this.props.metricsJson}
           image={UgandaMap}
         />
         <StyledContentContainer>
