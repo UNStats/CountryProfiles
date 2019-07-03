@@ -69,6 +69,10 @@ class App extends Component {
   };
 
   render() {
+    if (!this.state.countryJson || !this.state.metricsJson) {
+      return 'loading app...';
+    }
+
     const params = new URLSearchParams(window.location.search);
     const goalId = params.get('goal');
 
