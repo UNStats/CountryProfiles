@@ -15,6 +15,7 @@ const StyledGoalHeader = styled(Panel)`
 
 const StyledHeaderContent = styled.div`
   display: flex;
+  flex: 0 0 calc(100% - 50px);
   box-sizing: border-box;
 `;
 
