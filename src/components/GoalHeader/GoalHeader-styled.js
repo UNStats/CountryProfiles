@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import Panel from 'calcite-react/Panel';
 import { CalciteH3, CalciteP } from 'calcite-react/Elements';
@@ -21,6 +21,13 @@ const StyledHeaderContent = styled.div`
 const StyledIconContainer = styled.div`
   flex: 0 0 120px;
   height: 120px;
+  ${props =>
+    props.iconColor &&
+    css`
+      .cls-1 {
+        fill: ${props.iconColor};
+      }
+    `}
 `;
 
 const StyledTextContainer = styled.div`

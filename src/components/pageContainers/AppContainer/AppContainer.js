@@ -117,9 +117,7 @@ class AppContainer extends Component {
         />
         <CountryHeader
           name={this.props.countryJson && this.props.countryJson.country_name}
-          population="42.86 million"
-          capital="Kampala"
-          currency="Ugandan Shilling"
+          metricsJson={this.props.metricsJson}
           image={UgandaMap}
         />
         <StyledContentContainer>

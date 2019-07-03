@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import {
   StyledGoalHeader,
   StyledHeaderContent,
-  StyledIconContainer,
   StyledTextContainer,
   StyledHeaderText,
   StyledSubheader,
@@ -15,6 +14,7 @@ import EmbedHelper from '../EmbedHelper';
 
 import Tooltip from 'calcite-react/Tooltip';
 import CodeIcon from 'calcite-ui-icons-react/CodeIcon';
+import GoalThumbnail from './GoalThumbnail';
 
 class GoalHeader extends Component {
   state = {
@@ -64,14 +64,10 @@ class GoalHeader extends Component {
     return (
       <StyledGoalHeader noBorder noPadding white>
         <StyledHeaderContent>
-          <StyledIconContainer>
-            <img
-              src={`https://s3.amazonaws.com/un-country-profiles-2019/SDG_ICONS_2019/E_SDG+goals_icons-individual-rgb-${
-                goal.goalCode
-              }.png`}
-              alt="goal icon"
-            />
-          </StyledIconContainer>
+          <GoalThumbnail
+            goalCode={goal.goalCode}
+            goalColor={goalInfo.colorInfo.hex}
+          />
           <StyledTextContainer>
             <StyledHeaderText>{goalInfo.short}</StyledHeaderText>
             <StyledSubheader>{goalInfo.title}</StyledSubheader>
