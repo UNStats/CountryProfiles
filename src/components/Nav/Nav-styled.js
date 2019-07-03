@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 const StyledNavContainer = styled.div`
   position: sticky;
@@ -17,6 +17,7 @@ const StyledListItem = styled.li``;
 
 const StyledNavLink = styled.a`
   display: inline-flex;
+  align-items: center;
   margin-bottom: 7px;
   text-decoration: none;
   color: ${props => props.theme.palette.darkerGray};
@@ -36,9 +37,22 @@ const StyledNavLink = styled.a`
 `;
 
 const StyledGoalNum = styled.span`
-  min-width: 60px;
-  margin-right: 5px;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 8px;
   white-space: nowrap;
+  font-weight: 600;
+  border-radius: 1px;
+
+  ${props =>
+    props.goalColor &&
+    css`
+      background: ${props.goalColor};
+      color: white;
+    `};
 `;
 
 const StyledGoalTitle = styled.span``;
