@@ -24,26 +24,21 @@ const StyledNavLink = styled.a`
   line-height: 1.25;
   transition: color 125ms linear;
 
-  &:hover {
-    color: ${props => props.theme.palette.black};
-  }
-
   .active &,
   .active &:hover {
-    color: ${props => props.theme.palette.blue};
-    font-weight: 600;
     cursor: default;
   }
 `;
 
 const StyledGoalNum = styled.span`
-  width: 30px;
-  min-width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 28px;
+  min-width: 28px;
+  height: 28px;
+  line-height: 28px;
   text-align: center;
   margin-right: 8px;
   white-space: nowrap;
+  font-size: 14px;
   font-weight: 600;
   border-radius: 1px;
 
@@ -55,7 +50,17 @@ const StyledGoalNum = styled.span`
     `};
 `;
 
-const StyledGoalTitle = styled.span``;
+const StyledGoalTitle = styled.span`
+  &:hover {
+    color: ${props => props.theme.palette.black};
+  }
+
+  .active &,
+  .active &:hover {
+    color: ${props => props.theme.palette.blue};
+    font-weight: 600;
+  }
+`;
 
 const StyledScrollToTopContainer = styled.div`
   position: fixed;
