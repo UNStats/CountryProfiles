@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import './App.css';
 
-import { CenteredLoader } from './App-styled';
-
 import AppContainer from './components/pageContainers/AppContainer';
 import GoalContainer from './components/pageContainers/GoalContainer';
 
@@ -77,14 +75,6 @@ class App extends Component {
   };
 
   render() {
-    if (
-      !this.state.countryJson ||
-      !this.state.metricsJson ||
-      !this.state.countryListItem
-    ) {
-      return <CenteredLoader />;
-    }
-
     const params = new URLSearchParams(window.location.search);
     const goalId = params.get('goal');
 

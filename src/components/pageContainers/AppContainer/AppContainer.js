@@ -13,7 +13,12 @@ import Nav from '../../Nav';
 import CountrySelector from '../../CountrySelector';
 import Goal from '../../Goal';
 
-import { StyledAppContainer, dialogStyle } from './AppContainer-styled';
+import {
+  StyledAppContainer,
+  CenteredLoader,
+  dialogStyle
+} from './AppContainer-styled';
+
 import {
   StyledModalHeader,
   StyledContentContainer,
@@ -78,8 +83,20 @@ class AppContainer extends Component {
   render() {
     const countryCode = this.props.match.params.countryCode;
 
+    // if (
+    //   !this.props.countryJson ||
+    //   !this.state.metricsJson ||
+    //   !this.state.countryListItem
+    // ) {
+    //   return <CenteredLoader />;
+    // }
+
     // Just render the headers and country selector if there's no country code
     if (!countryCode) {
+      if (!this.props.countryList) {
+        return <CenteredLoader />;
+      }
+
       return (
         <StyledAppContainer className="App">
           <SiteBreadcrumb />
@@ -105,6 +122,15 @@ class AppContainer extends Component {
           </Modal>
         </StyledAppContainer>
       );
+    }
+
+    if (
+      !this.props.countryJson ||
+      !this.props.metricsJson ||
+      !this.props.countryList ||
+      !this.props.countryListItem
+    ) {
+      return <CenteredLoader />;
     }
 
     return (

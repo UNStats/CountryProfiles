@@ -1,4 +1,12 @@
 import styled, { css } from 'styled-components';
+import Loader from 'calcite-react/Loader';
+
+const CenteredLoader = styled(Loader)`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+`;
 
 const StyledAppContainer = styled.div`
   transition: opacity 250ms linear;
@@ -16,4 +24,4 @@ const dialogStyle = {
   maxHeight: '600px'
 };
 
-export { StyledAppContainer, dialogStyle };
+export { StyledAppContainer, CenteredLoader, dialogStyle };
