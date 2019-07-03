@@ -10,6 +10,7 @@ import countryList from './json/countryList.json';
 class App extends Component {
   state = {
     countryJson: null,
+    metricsJson: null,
     isFetchingProfile: false
   };
 
@@ -37,9 +38,19 @@ class App extends Component {
       country => country.ISO3.toLowerCase() === countryCode.toLowerCase()
     );
 
-    import(`./json/countryProfiles/country_profile${countryInfo.M49}.json`)
-      .then(({ default: countryJson }) => {
-        this.setState({ countryJson, isFetchingProfile: false });
+    const profilePromise = import(
+      `./json/countryProfiles/country_profile${countryInfo.M49}.json`
+    );
+
+    const metricsPromise = import(
+      `./json/countryProfiles/SYB_country_profile${countryInfo.M49}.json`
+    );
+
+    Promise.all([profilePromise, metricsPromise])
+      .then(([profile, metrics]) => {
+        const { default: countryJson } = profile;
+        const { default: metricsJson } = metrics;
+        this.setState({ countryJson, metricsJson, isFetchingProfile: false });
       })
       .catch(err => {
         // Handle failure
@@ -73,6 +84,7 @@ class App extends Component {
       <AppContainer
         countryList={countryList}
         countryJson={this.state.countryJson}
+        metricsJson={this.state.metricsJson}
         isLoading={this.state.isFetchingProfile}
       />
     );
