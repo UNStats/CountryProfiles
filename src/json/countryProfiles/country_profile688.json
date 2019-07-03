@@ -22,8 +22,8 @@
                                     "seriesTitle": "Employed population below international poverty line (percent)",
                                     "hub": "e8e11539dd9a4293b502b076d041133d",
                                     "slice_dimensions": {
-                                        "sexCode": "_T",
-                                        "ageCode": "Y_GE15"
+                                        "ageCode": "Y_GE15",
+                                        "sexCode": "_T"
                                     },
                                     "text_type": "2",
                                     "fact_text": "In <span class='fact-year'>2015</span>, <span class='fact-value'>0.0</span> <span class='fact-unit'>% </span> of the country's workers and their families were living on less than 1.90 US dollars per person per day",
@@ -237,28 +237,25 @@
                     "targetCode": "2.2",
                     "indicators": [
                         {
-                            "indicatorCode": "2.2.2",
+                            "indicatorCode": "2.2.1",
                             "facts": [
                                 {
-                                    "seriesCode": "SH_STA_OVRWGT",
-                                    "seriesTitle": "Proportion of children under 5 years of age who are moderately or severely overweight",
-                                    "hub": "f456502dced44ba1b2fc1ac91217d643",
+                                    "seriesCode": "SH_STA_STUNT",
+                                    "seriesTitle": "Proportion of children under 5 years of age who are moderately or severely stunted (percent)",
+                                    "hub": "1dc7f1ce62854e87989a19b7e798ba96",
                                     "slice_dimensions": {
                                         "ageCode": "Y0T4",
                                         "boundsCode": "_T"
                                     },
-                                    "text_type": "1",
-                                    "fact_text": "The share of overweight children under 5 years of age decreased from <span class='fact-value'>19.3</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2005</span> to <span class='fact-value'>13.9%</span> in <span class='fact-year'>2014</span>.",
+                                    "text_type": "2",
+                                    "fact_text": "In <span class='fact-year'>2014</span>, <span class='fact-value'>6.0</span> <span class='fact-unit'>% </span> of children under 5 years of age had stunted growth",
                                     "fact_values": [
-                                        "19.3",
-                                        "13.9"
+                                        "6.0"
                                     ],
                                     "fact_units": [
-                                        "%",
-                                        "%"
+                                        "% "
                                     ],
                                     "fact_years": [
-                                        "2005",
                                         "2014"
                                     ],
                                     "data_years": [
@@ -267,9 +264,9 @@
                                         2014
                                     ],
                                     "data_values": [
-                                        "19.3",
-                                        "15.6",
-                                        "13.9"
+                                        "8.1",
+                                        "6.6",
+                                        "6.0"
                                     ],
                                     "data_is_censored": [
                                         false,
@@ -277,19 +274,14 @@
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        19.3,
-                                        15.6,
-                                        13.9
+                                        8.1,
+                                        6.6,
+                                        6.0
                                     ],
                                     "preferred_visualization": "singleton"
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "targetCode": "2.2",
-                    "indicators": [
+                        },
                         {
                             "indicatorCode": "2.2.2",
                             "facts": [
@@ -502,8 +494,8 @@
                                     "seriesTitle": "Under-five mortality rate",
                                     "hub": "941d6bfede104ca8a122877b2e128f09",
                                     "slice_dimensions": {
-                                        "sexCode": "_T",
-                                        "ageCode": "Y0T4"
+                                        "ageCode": "Y0T4",
+                                        "sexCode": "_T"
                                     },
                                     "text_type": "1",
                                     "fact_text": "The mortality rate of children under 5 years of age fell from <span class='fact-value'>12.6</span>  <span class='fact-unit'> per 1,000 live births</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>5.7 per 1,000 live births</span> in <span class='fact-year'>2017</span>.",
@@ -616,8 +608,8 @@
                                     "seriesTitle": "Number of new HIV infections per 1,000 uninfected population",
                                     "hub": "f14fe62f978f4e1fb5921c079499e7a0",
                                     "slice_dimensions": {
-                                        "sexCode": "_T",
-                                        "ageCode": "_T"
+                                        "ageCode": "_T",
+                                        "sexCode": "_T"
                                     },
                                     "text_type": "13",
                                     "fact_text": "In <span class='fact-year'> 2017</span>, there were about <span class='fact-value'> 0.02</span>  <span class='fact-unit'> people</span>  in every 100,000 uninfected population that became newly infected with HIV.",
@@ -841,8 +833,8 @@
                                     "seriesTitle": "Proportion of women aged 20-24 years who were married or in a union before age 18 (percent)",
                                     "hub": "62be27aeb98d417f952bf4e2523915f8",
                                     "slice_dimensions": {
-                                        "sexCode": "F",
-                                        "ageCode": "Y20T24"
+                                        "ageCode": "Y20T24",
+                                        "sexCode": "F"
                                     },
                                     "text_type": "2",
                                     "fact_text": "In <span class='fact-year'>2014</span>, <span class='fact-value'>3.2</span> <span class='fact-unit'>% </span> of women between 20 to 24 years of age reported having been married before their eighteenth birthday",
@@ -1180,41 +1172,76 @@
                     "targetCode": "7.1",
                     "indicators": [
                         {
-                            "indicatorCode": "7.1.2",
+                            "indicatorCode": "7.1.1",
                             "facts": [
                                 {
-                                    "seriesCode": "EG_EGY_CLEAN",
-                                    "seriesTitle": "Proportion of population with primary reliance on clean fuels and technology (percent)",
-                                    "hub": "ce90e2b64eaf48fb8a2d88fa583e53ac",
-                                    "slice_dimensions": {},
-                                    "text_type": "8",
-                                    "fact_text": "In <span class='fact-year'> 2017</span>, <span class='fact-value'> 74</span>  <span class='fact-unit'>% </span> of the population relied primarily on clean fuels and technology.",
+                                    "seriesCode": "EG_ELC_ACCS",
+                                    "seriesTitle": "Proportion of population with access to electricity (percent)",
+                                    "hub": "420c5de5abd94bfc863131d0a7d42c80",
+                                    "slice_dimensions": {
+                                        "locationCode": "_T"
+                                    },
+                                    "text_type": "1",
+                                    "fact_text": "The proportion of the population with access to electricity was <span class='fact-value'>100.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
-                                        "74"
+                                        "100.0"
                                     ],
                                     "fact_units": [
-                                        "% "
+                                        "%"
                                     ],
                                     "fact_years": [
-                                        "2017"
+                                        "2016"
                                     ],
                                     "data_years": [
                                         2000,
+                                        2001,
+                                        2002,
+                                        2003,
+                                        2004,
                                         2005,
+                                        2006,
+                                        2007,
+                                        2008,
+                                        2009,
                                         2010,
+                                        2011,
+                                        2012,
+                                        2013,
+                                        2014,
                                         2015,
-                                        2016,
-                                        2017
+                                        2016
                                     ],
                                     "data_values": [
-                                        "52",
-                                        "60",
-                                        "67",
-                                        "73",
-                                        "74",
-                                        "74"
+                                        "99.84",
+                                        "99.82",
+                                        "100.00",
+                                        "99.73",
+                                        "99.69",
+                                        "99.69",
+                                        "99.62",
+                                        "99.62",
+                                        "99.62",
+                                        "99.64",
+                                        "99.72",
+                                        "99.74",
+                                        "99.81",
+                                        "99.89",
+                                        "99.66",
+                                        "99.98",
+                                        "100.00"
                                     ],
                                     "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
                                         false,
                                         false,
                                         false,
@@ -1223,22 +1250,28 @@
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        52,
-                                        60,
-                                        67,
-                                        73,
-                                        74,
-                                        74
+                                        99.84,
+                                        99.82,
+                                        100.0,
+                                        99.73,
+                                        99.69,
+                                        99.69,
+                                        99.62,
+                                        99.62,
+                                        99.62,
+                                        99.64,
+                                        99.72,
+                                        99.74,
+                                        99.81,
+                                        99.89,
+                                        99.66,
+                                        99.98,
+                                        100.0
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "targetCode": "7.1",
-                    "indicators": [
+                        },
                         {
                             "indicatorCode": "7.1.2",
                             "facts": [
@@ -1512,8 +1545,8 @@
                                     "seriesTitle": "Unemployment rate of population 15 years of age and older",
                                     "hub": "5065a8bb4c644e3e9eb88899d0cda2e5",
                                     "slice_dimensions": {
-                                        "sexCode": "_T",
-                                        "ageCode": "Y_GE15"
+                                        "ageCode": "Y_GE15",
+                                        "sexCode": "_T"
                                     },
                                     "text_type": "1",
                                     "fact_text": "The total unemployment rate increased from <span class='fact-value'>12.6</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>13.5%</span> in <span class='fact-year'>2017</span>.",
@@ -2032,7 +2065,8 @@
                                         24.27
                                     ],
                                     "preferred_visualization": "threshold",
-                                    "threshold": "10  micrograms per cubic metre"
+                                    "threshold_value": 10.0,
+                                    "threshold_units": " micrograms per cubic metre"
                                 }
                             ]
                         }
@@ -2141,223 +2175,55 @@
                     "targetCode": "15.1",
                     "indicators": [
                         {
-                            "indicatorCode": "15.1.2",
+                            "indicatorCode": "15.1.1",
                             "facts": [
                                 {
-                                    "seriesCode": "ER_PTD_FRWRT",
-                                    "seriesTitle": "Average proportion of freshwater key biodiversity areas (KBAs) covered by protected areas (percent)",
-                                    "hub": "ca72cb9dfd784898baa44fa497cfac02",
-                                    "slice_dimensions": {
-                                        "boundsCode": "_T"
-                                    },
-                                    "text_type": "7",
-                                    "fact_text": "The average proportion of freshwater key biodiversity areas (KBAs) covered by protected areas was <span class='fact-value'> 31.5</span> <span class='fact-unit'>%</span>  in <span class='fact-year'> 2018</span> .",
+                                    "seriesCode": "AG_LND_FRST",
+                                    "seriesTitle": "Forest area as a proportion of total land area (percent)",
+                                    "hub": "f0f58708445a4694b741d71798dc12c2",
+                                    "slice_dimensions": {},
+                                    "text_type": "1",
+                                    "fact_text": "Land area covered by forest increased from <span class='fact-value'>28.13</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>31.1%</span> in <span class='fact-year'>2015</span>.",
                                     "fact_values": [
-                                        "31.5"
+                                        "28.13",
+                                        "31.1"
                                     ],
                                     "fact_units": [
+                                        "%",
                                         "%"
                                     ],
                                     "fact_years": [
-                                        "2018"
+                                        "2000",
+                                        "2015"
                                     ],
                                     "data_years": [
                                         2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
                                         2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
                                         2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017,
-                                        2018
+                                        2015
                                     ],
                                     "data_values": [
-                                        "24.6213",
-                                        "25.12554",
-                                        "25.12554",
-                                        "25.12554",
-                                        "25.30383",
-                                        "26.15573",
-                                        "29.44815",
-                                        "29.6973",
-                                        "30.71398",
-                                        "30.71398",
-                                        "30.71398",
-                                        "30.71398",
-                                        "31.22409",
-                                        "31.34153",
-                                        "31.46507",
-                                        "31.50048",
-                                        "31.50048",
-                                        "31.50048",
-                                        "31.50048"
+                                        "28.12714",
+                                        "28.31008",
+                                        "31.01989",
+                                        "31.09993"
                                     ],
                                     "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
                                         false,
                                         false,
                                         false,
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        24.62,
-                                        25.13,
-                                        25.13,
-                                        25.13,
-                                        25.3,
-                                        26.16,
-                                        29.45,
-                                        29.7,
-                                        30.71,
-                                        30.71,
-                                        30.71,
-                                        30.71,
-                                        31.22,
-                                        31.34,
-                                        31.47,
-                                        31.5,
-                                        31.5,
-                                        31.5,
-                                        31.5
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                },
-                                {
-                                    "seriesCode": "ER_PTD_TERRS",
-                                    "seriesTitle": "Average proportion of terrestrial key biodiversity areas (KBAs) covered by protected areas (percent)",
-                                    "hub": "4c1bbb2c82954356b4045c028158da8b",
-                                    "slice_dimensions": {
-                                        "boundsCode": "_T"
-                                    },
-                                    "text_type": "7",
-                                    "fact_text": "The average proportion of terrestrial key biodiversity areas (KBAs) covered by protected areas was <span class='fact-value'> 29.53</span> <span class='fact-unit'>%</span>  in <span class='fact-year'> 2018</span> .",
-                                    "fact_values": [
-                                        "29.53"
-                                    ],
-                                    "fact_units": [
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2018"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017,
-                                        2018
-                                    ],
-                                    "data_values": [
-                                        "19.86659",
-                                        "22.34238",
-                                        "22.34238",
-                                        "22.34238",
-                                        "22.42116",
-                                        "23.52636",
-                                        "25.16355",
-                                        "25.27366",
-                                        "25.7229",
-                                        "25.73401",
-                                        "25.73401",
-                                        "25.73401",
-                                        "26.03796",
-                                        "27.49301",
-                                        "27.77601",
-                                        "29.46831",
-                                        "29.53006",
-                                        "29.53006",
-                                        "29.53006"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        19.87,
-                                        22.34,
-                                        22.34,
-                                        22.34,
-                                        22.42,
-                                        23.53,
-                                        25.16,
-                                        25.27,
-                                        25.72,
-                                        25.73,
-                                        25.73,
-                                        25.73,
-                                        26.04,
-                                        27.49,
-                                        27.78,
-                                        29.47,
-                                        29.53,
-                                        29.53,
-                                        29.53
+                                        28.13,
+                                        28.31,
+                                        31.02,
+                                        31.1
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "targetCode": "15.1",
-                    "indicators": [
+                        },
                         {
                             "indicatorCode": "15.1.2",
                             "facts": [

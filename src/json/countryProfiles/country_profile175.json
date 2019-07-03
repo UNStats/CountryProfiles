@@ -135,223 +135,55 @@
                     "targetCode": "15.1",
                     "indicators": [
                         {
-                            "indicatorCode": "15.1.2",
+                            "indicatorCode": "15.1.1",
                             "facts": [
                                 {
-                                    "seriesCode": "ER_PTD_FRWRT",
-                                    "seriesTitle": "Average proportion of freshwater key biodiversity areas (KBAs) covered by protected areas (percent)",
-                                    "hub": "ca72cb9dfd784898baa44fa497cfac02",
-                                    "slice_dimensions": {
-                                        "boundsCode": "_T"
-                                    },
-                                    "text_type": "7",
-                                    "fact_text": "The average proportion of freshwater key biodiversity areas (KBAs) covered by protected areas was <span class='fact-value'> 100</span> <span class='fact-unit'>%</span>  in <span class='fact-year'> 2018</span> .",
+                                    "seriesCode": "AG_LND_FRST",
+                                    "seriesTitle": "Forest area as a proportion of total land area (percent)",
+                                    "hub": "f0f58708445a4694b741d71798dc12c2",
+                                    "slice_dimensions": {},
+                                    "text_type": "1",
+                                    "fact_text": "Land area covered by forest declined from <span class='fact-value'>23.34</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>15.56%</span> in <span class='fact-year'>2015</span>.",
                                     "fact_values": [
-                                        "100"
+                                        "23.34",
+                                        "15.56"
                                     ],
                                     "fact_units": [
+                                        "%",
                                         "%"
                                     ],
                                     "fact_years": [
-                                        "2018"
+                                        "2000",
+                                        "2015"
                                     ],
                                     "data_years": [
                                         2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
                                         2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
                                         2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017,
-                                        2018
+                                        2015
                                     ],
                                     "data_values": [
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100"
+                                        "23.34225",
+                                        "20.74866",
+                                        "18.15508",
+                                        "15.5615"
                                     ],
                                     "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
                                         false,
                                         false,
                                         false,
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                },
-                                {
-                                    "seriesCode": "ER_PTD_TERRS",
-                                    "seriesTitle": "Average proportion of terrestrial key biodiversity areas (KBAs) covered by protected areas (percent)",
-                                    "hub": "4c1bbb2c82954356b4045c028158da8b",
-                                    "slice_dimensions": {
-                                        "boundsCode": "_T"
-                                    },
-                                    "text_type": "7",
-                                    "fact_text": "The average proportion of terrestrial key biodiversity areas (KBAs) covered by protected areas was <span class='fact-value'> 54.09</span> <span class='fact-unit'>%</span>  in <span class='fact-year'> 2018</span> .",
-                                    "fact_values": [
-                                        "54.09"
-                                    ],
-                                    "fact_units": [
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2018"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017,
-                                        2018
-                                    ],
-                                    "data_values": [
-                                        "7.93626",
-                                        "7.93626",
-                                        "15.62851",
-                                        "15.62851",
-                                        "15.62851",
-                                        "15.62851",
-                                        "15.62851",
-                                        "30.84817",
-                                        "30.84817",
-                                        "53.92438",
-                                        "54.08633",
-                                        "54.08633",
-                                        "54.08633",
-                                        "54.08633",
-                                        "54.08633",
-                                        "54.08633",
-                                        "54.08633",
-                                        "54.08633",
-                                        "54.08633"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        7.94,
-                                        7.94,
-                                        15.63,
-                                        15.63,
-                                        15.63,
-                                        15.63,
-                                        15.63,
-                                        30.85,
-                                        30.85,
-                                        53.92,
-                                        54.09,
-                                        54.09,
-                                        54.09,
-                                        54.09,
-                                        54.09,
-                                        54.09,
-                                        54.09,
-                                        54.09,
-                                        54.09
+                                        23.34,
+                                        20.75,
+                                        18.16,
+                                        15.56
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "targetCode": "15.1",
-                    "indicators": [
+                        },
                         {
                             "indicatorCode": "15.1.2",
                             "facts": [

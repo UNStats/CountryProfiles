@@ -723,119 +723,55 @@
                     "targetCode": "15.1",
                     "indicators": [
                         {
-                            "indicatorCode": "15.1.2",
+                            "indicatorCode": "15.1.1",
                             "facts": [
                                 {
-                                    "seriesCode": "ER_PTD_TERRS",
-                                    "seriesTitle": "Average proportion of terrestrial key biodiversity areas (KBAs) covered by protected areas (percent)",
-                                    "hub": "4c1bbb2c82954356b4045c028158da8b",
-                                    "slice_dimensions": {
-                                        "boundsCode": "_T"
-                                    },
-                                    "text_type": "7",
-                                    "fact_text": "The average proportion of terrestrial key biodiversity areas (KBAs) covered by protected areas was <span class='fact-value'> 33.98</span> <span class='fact-unit'>%</span>  in <span class='fact-year'> 2018</span> .",
+                                    "seriesCode": "AG_LND_FRST",
+                                    "seriesTitle": "Forest area as a proportion of total land area (percent)",
+                                    "hub": "f0f58708445a4694b741d71798dc12c2",
+                                    "slice_dimensions": {},
+                                    "text_type": "1",
+                                    "fact_text": "Land area covered by forest increased from <span class='fact-value'>50.74</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>55.91%</span> in <span class='fact-year'>2015</span>.",
                                     "fact_values": [
-                                        "33.98"
+                                        "50.74",
+                                        "55.91"
                                     ],
                                     "fact_units": [
+                                        "%",
                                         "%"
                                     ],
                                     "fact_years": [
-                                        "2018"
+                                        "2000",
+                                        "2015"
                                     ],
                                     "data_years": [
                                         2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
                                         2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
                                         2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017,
-                                        2018
+                                        2015
                                     ],
                                     "data_values": [
-                                        "32.68987",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375",
-                                        "33.98375"
+                                        "50.74295",
+                                        "52.18377",
+                                        "54.04848",
+                                        "55.91319"
                                     ],
                                     "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
                                         false,
                                         false,
                                         false,
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        32.69,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98,
-                                        33.98
+                                        50.74,
+                                        52.18,
+                                        54.05,
+                                        55.91
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "targetCode": "15.1",
-                    "indicators": [
+                        },
                         {
                             "indicatorCode": "15.1.2",
                             "facts": [
