@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import './App.css';
 
+import { CenteredLoader } from './App-styled';
+
 import AppContainer from './components/pageContainers/AppContainer';
 import GoalContainer from './components/pageContainers/GoalContainer';
 
@@ -80,7 +82,7 @@ class App extends Component {
       !this.state.metricsJson ||
       !this.state.countryListItem
     ) {
-      return 'loading app...';
+      return <CenteredLoader />;
     }
 
     const params = new URLSearchParams(window.location.search);

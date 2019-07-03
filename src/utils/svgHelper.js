@@ -1,5 +1,3 @@
-import react from 'react';
-
 import { ReactComponent as Icon01 } from '../assets/goalThumbnails/Color_Goal_01.svg';
 import { ReactComponent as Icon02 } from '../assets/goalThumbnails/Color_Goal_02.svg';
 import { ReactComponent as Icon03 } from '../assets/goalThumbnails/Color_Goal_03.svg';
