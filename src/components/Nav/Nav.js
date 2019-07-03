@@ -29,7 +29,9 @@ const Nav = ({ goals, goalInfos }) => {
       return (
         <StyledListItem key={goal.goalCode}>
           <StyledNavLink href={`#goal-${goal.goalCode}`}>
-            <StyledGoalNum>Goal {goal.goalCode}:</StyledGoalNum>
+            <StyledGoalNum goalColor={goalInfo.colorInfo.hex}>
+              {goal.goalCode}
+            </StyledGoalNum>
             <StyledGoalTitle>{goalInfo.short}</StyledGoalTitle>
           </StyledNavLink>
         </StyledListItem>

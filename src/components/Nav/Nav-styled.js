@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 const StyledNavContainer = styled.div`
   position: sticky;
@@ -17,12 +17,40 @@ const StyledListItem = styled.li``;
 
 const StyledNavLink = styled.a`
   display: inline-flex;
+  align-items: center;
   margin-bottom: 7px;
   text-decoration: none;
   color: ${props => props.theme.palette.darkerGray};
   line-height: 1.25;
   transition: color 125ms linear;
 
+  .active &,
+  .active &:hover {
+    cursor: default;
+  }
+`;
+
+const StyledGoalNum = styled.span`
+  width: 28px;
+  min-width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  margin-right: 8px;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 1px;
+
+  ${props =>
+    props.goalColor &&
+    css`
+      background: ${props.goalColor};
+      color: white;
+    `};
+`;
+
+const StyledGoalTitle = styled.span`
   &:hover {
     color: ${props => props.theme.palette.black};
   }
@@ -31,17 +59,8 @@ const StyledNavLink = styled.a`
   .active &:hover {
     color: ${props => props.theme.palette.blue};
     font-weight: 600;
-    cursor: default;
   }
 `;
-
-const StyledGoalNum = styled.span`
-  min-width: 60px;
-  margin-right: 5px;
-  white-space: nowrap;
-`;
-
-const StyledGoalTitle = styled.span``;
 
 const StyledScrollToTopContainer = styled.div`
   position: fixed;
