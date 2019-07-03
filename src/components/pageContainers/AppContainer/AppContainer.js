@@ -116,6 +116,7 @@ class AppContainer extends Component {
           }
         />
         <CountryHeader
+          code={this.props.countryListItem.M49}
           name={this.props.countryJson && this.props.countryJson.country_name}
           metricsJson={this.props.metricsJson}
           image={UgandaMap}

@@ -5,14 +5,22 @@ import { StyledImageCard } from './CountryHeader-styled';
 class CountryMap extends Component {
   state = { image: null };
 
-  async componentDidMount() {
-    const { default: image } = await import(
-      `../../assets/countryThumbnails/${this.props.code || '004'}.png`
-    );
-
-    console.log(image);
-    this.setState({ image });
+  async componentDidUpdate(prevProps, prevState) {
+    if (prevProps.code !== this.props.code) {
+      this.getCountryImage();
+    }
   }
+
+  async componentDidMount() {
+    this.getCountryImage();
+  }
+
+  getCountryImage = async () => {
+    const { default: image } = await import(
+      `../../assets/countryThumbnails/${this.props.code}.png`
+    );
+    this.setState({ image });
+  };
 
   render() {
     if (!this.state.image) {

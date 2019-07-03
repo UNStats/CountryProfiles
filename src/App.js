@@ -11,6 +11,7 @@ class App extends Component {
   state = {
     countryJson: null,
     metricsJson: null,
+    countryListItem: null,
     isFetchingProfile: false
   };
 
@@ -50,7 +51,12 @@ class App extends Component {
       .then(([profile, metrics]) => {
         const { default: countryJson } = profile;
         const { default: metricsJson } = metrics;
-        this.setState({ countryJson, metricsJson, isFetchingProfile: false });
+        this.setState({
+          countryListItem: countryInfo,
+          countryJson,
+          metricsJson,
+          isFetchingProfile: false
+        });
       })
       .catch(err => {
         // Handle failure
@@ -69,7 +75,11 @@ class App extends Component {
   };
 
   render() {
-    if (!this.state.countryJson || !this.state.metricsJson) {
+    if (
+      !this.state.countryJson ||
+      !this.state.metricsJson ||
+      !this.state.countryListItem
+    ) {
       return 'loading app...';
     }
 
@@ -86,6 +96,7 @@ class App extends Component {
 
     return (
       <AppContainer
+        countryListItem={this.state.countryListItem}
         countryList={countryList}
         countryJson={this.state.countryJson}
         metricsJson={this.state.metricsJson}

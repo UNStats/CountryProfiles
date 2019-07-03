@@ -10,7 +10,7 @@ import {
 import CountryMetrics from './CountryMetrics';
 import CountryMap from './CountryMap';
 
-const CountryHeader = ({ name, image, metricsJson }) => {
+const CountryHeader = ({ name, code, metricsJson }) => {
   return (
     <StyledCountryHeader>
       <SpacerDiv>
@@ -18,7 +18,7 @@ const CountryHeader = ({ name, image, metricsJson }) => {
           <StyledCountryTitle>{name}</StyledCountryTitle>
           <CountryMetrics metrics={metricsJson} />
         </StyledDetailsCard>
-        <CountryMap />
+        <CountryMap code={code} />
       </SpacerDiv>
     </StyledCountryHeader>
   );
