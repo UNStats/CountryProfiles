@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { CalciteP } from 'calcite-react/Elements';
+import { CalciteP, CalciteH6 } from 'calcite-react/Elements';
 
 const StyledTimeSeries = styled.div`
   display: flex;
@@ -23,7 +23,8 @@ const StyledChartSection = styled.div`
 
 const StyledChart = styled.div`
   flex: 1 0 auto;
-  height: 200px;
+  height: 224px;
+  padding-left: 10px;
 `;
 
 const StyledCrosshairTooltip = styled.div`
@@ -45,6 +46,11 @@ const StyledCrosshairValue = styled(CalciteP)`
   white-space: nowrap;
 `;
 
+const StyledChartHeader = styled(CalciteH6)`
+  margin: 0;
+  text-align: center;
+`;
+
 export {
   StyledTimeSeries,
   StyledDescriptionContainer,
@@ -53,5 +59,6 @@ export {
   StyledChart,
   StyledCrosshairTooltip,
   StyledCrosshairLabel,
-  StyledCrosshairValue
+  StyledCrosshairValue,
+  StyledChartHeader
 };
