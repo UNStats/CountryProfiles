@@ -27,12 +27,12 @@ import {
 import 'react-vis/dist/style.css';
 
 class ThresholdChart extends Component {
-  getSVGThingy(row, positionInPixels) {
+  getSVGNeedle(row, positionInPixels, goalInfo) {
     return (
       <g transform="translate(0,20)">
         <polygon
           points="-3,-5 -3,-47 3,-47 3,-5 13,10 -13,10"
-          fill="rgb(180,185,190)"
+          fill={goalInfo.colorInfo.hex}
           stroke="white"
           strokeWidth={3}
         />
@@ -96,7 +96,9 @@ class ThresholdChart extends Component {
               ]}
             />
             <CustomSVGSeries
-              customComponent={this.getSVGThingy}
+              customComponent={(row, positionInPixels) =>
+                this.getSVGNeedle(row, positionInPixels, goalInfo)
+              }
               data={[{ x: series.data_numeric_part[0], y: 1 }]}
             />
             <XAxis />
