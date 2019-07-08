@@ -1,6 +1,8 @@
 import styled, { css } from 'styled-components';
 
 import { CalciteH2 } from 'calcite-react/Elements';
+import { TabTitle } from 'calcite-react/Tabs';
+import { TableCell } from 'calcite-react/Table';
 
 const StyledCountryHeader = styled.div`
   display: flex;
@@ -45,6 +47,20 @@ const SpacerDiv = styled.div`
   margin: 0 auto;
 `;
 
+const StyledTabTitle = styled(TabTitle)`
+  flex: 1 0 auto;
+  text-align: center;
+`;
+
+const StyledValueTableCell = styled(TableCell)`
+  text-align: right;
+  padding-right: 0;
+`;
+
+const StyledUnitTableCell = styled(TableCell)`
+  color: ${props => props.theme.palette.darkGray};
+`;
+
 export {
   StyledCountryHeader,
   StyledImageCard,
@@ -53,5 +69,8 @@ export {
   StyledMetricsContainer,
   StyledMetric,
   StyledMetricValue,
-  SpacerDiv
+  SpacerDiv,
+  StyledTabTitle,
+  StyledValueTableCell,
+  StyledUnitTableCell
 };

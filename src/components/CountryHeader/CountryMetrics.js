@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 
-import { StyledMetricsContainer } from './CountryHeader-styled';
+import { StyledMetricsContainer, StyledTabTitle } from './CountryHeader-styled';
 
-import Tabs, {
-  TabNav,
-  TabTitle,
-  TabContents,
-  TabSection
-} from 'calcite-react/Tabs';
+import Tabs, { TabNav, TabContents, TabSection } from 'calcite-react/Tabs';
 import CountryTheme from './CountryTheme';
 
 class CountryMetrics extends Component {
@@ -33,9 +28,9 @@ class CountryMetrics extends Component {
         >
           <TabNav>
             {themes.map(theme => (
-              <TabTitle style={{ flex: '1' }} key={theme.themeTitle}>
+              <StyledTabTitle title={theme.themeTitle} key={theme.themeTitle}>
                 {theme.themeTitle}
-              </TabTitle>
+              </StyledTabTitle>
             ))}
           </TabNav>
           <TabContents>
