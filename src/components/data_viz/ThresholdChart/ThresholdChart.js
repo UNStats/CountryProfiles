@@ -129,7 +129,10 @@ class ThresholdChart extends Component {
           <StyledChart>
             {this.getThresholdChart({ series, goalInfo })}
           </StyledChart>
-          <SeriesLinks goalInfo={goalInfo} />
+          <SeriesLinks
+            hub={this.props.series.hub}
+            dashboard={this.props.series.dashboard}
+          />
         </StyledChartSection>
       </StyledTimeSeries>
     );

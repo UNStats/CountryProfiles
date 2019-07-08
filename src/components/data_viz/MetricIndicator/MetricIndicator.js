@@ -36,7 +36,7 @@ const MetricIndicator = ({ series, goalInfo }) => {
           />
         </StyledMetricDescription>
       </StyledMetricContent>
-      <SeriesLinks goalInfo={goalInfo} />
+      <SeriesLinks hub={series.hub} dashboard={series.dashboard} />
     </StyledMetricSeries>
   );
 };
