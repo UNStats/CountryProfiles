@@ -16,7 +16,11 @@ import SeriesLinks from '../../SeriesLinks';
 const MetricIndicator = ({ series, goalInfo }) => {
   const getMetricValue = () => {
     // Trim value to 2 decimals and trim trailing zeros
-    return parseFloat(Number(series.data_numeric_part[0]).toFixed(2));
+    return parseFloat(
+      Number(
+        series.data_numeric_part[series.data_numeric_part.length - 1]
+      ).toFixed(2)
+    );
   };
 
   const unitLength = series.fact_units[0] ? series.fact_units[0].length : 0;
