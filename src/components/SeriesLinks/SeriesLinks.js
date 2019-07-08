@@ -9,8 +9,6 @@ import DownloadIcon from 'calcite-ui-icons-react/DownloadIcon';
 import WebIcon from 'calcite-ui-icons-react/WebIcon';
 
 const SeriesLinks = ({ hub, dashboard }) => {
-  console.log({ hub, dashboard });
-
   return (
     <StyledLinksContainer>
       <Tooltip placement="left" title="View Dashboard">
