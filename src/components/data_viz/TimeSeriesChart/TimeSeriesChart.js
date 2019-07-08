@@ -204,7 +204,10 @@ class TimeSeriesChart extends Component {
             <StyledChartHeader>{series.seriesTitle}</StyledChartHeader>
             {this.getTimeSeriesChart({ series, goalInfo })}
           </StyledChart>
-          <SeriesLinks goalInfo={goalInfo} />
+          <SeriesLinks
+            hub={this.props.series.hub}
+            dashboard={this.props.series.dashboard}
+          />
         </StyledChartSection>
       </StyledTimeSeries>
     );

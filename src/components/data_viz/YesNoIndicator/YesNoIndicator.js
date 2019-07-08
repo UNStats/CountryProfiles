@@ -36,7 +36,7 @@ const YesNoIndicator = ({ series, goalInfo }) => {
           />
         </StyledBoolDescription>
       </StyledBoolContent>
-      <SeriesLinks goalInfo={goalInfo} />
+      <SeriesLinks hub={series.hub} dashboard={series.dashboard} />
     </StyledBoolSeries>
   );
 };
