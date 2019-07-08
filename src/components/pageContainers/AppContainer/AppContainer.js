@@ -83,7 +83,11 @@ class AppContainer extends Component {
         );
 
         return (
-          <StyledSection key={goal.goalCode} id={`goal-${goal.goalCode}`}>
+          <StyledSection
+            key={goal.goalCode}
+            id={`goal-${goal.goalCode}`}
+            isMobile={this.state.isMobile}
+          >
             <Goal
               goal={goal}
               goalInfo={goalInfo}
@@ -118,20 +122,6 @@ class AppContainer extends Component {
         <StyledAppContainer className="App">
           <SiteBreadcrumb />
           <AppHeader
-            showCountrySelector={() =>
-              this.setState({ showCountrySelector: true })
-            }
-            showMobileDrawer={() => this.setState({ showMobileDrawer: true })}
-            goals={this.props.countryJson.goals}
-            goalInfos={sdgsMoreInfo.data}
-            isMobile={this.state.isMobile}
-          />
-          <MobileNav
-            active={this.state.showMobileDrawer}
-            right
-            onRequestClose={() => this.setState({ showMobileDrawer: false })}
-            goals={this.props.countryJson.goals}
-            goalInfos={sdgsMoreInfo.data}
             showCountrySelector={() =>
               this.setState({ showCountrySelector: true })
             }

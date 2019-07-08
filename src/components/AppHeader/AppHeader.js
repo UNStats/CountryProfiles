@@ -1,9 +1,9 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 
-import { SpacerDiv } from './AppHeader-styled';
+import { StyledTopNav, SpacerDiv } from './AppHeader-styled';
 
-import TopNav, {
+import {
   TopNavBrand,
   TopNavTitle,
   TopNavList,
@@ -27,7 +27,7 @@ const AppHeader = ({
       // Get hamburger menu
       return (
         <Button
-          icon={<HamburgerIcon size={16} />}
+          icon={<HamburgerIcon size={24} />}
           iconButton
           onClick={showMobileDrawer}
         />
@@ -46,14 +46,14 @@ const AppHeader = ({
   };
 
   return (
-    <TopNav isMobile={isMobile}>
+    <StyledTopNav isMobile={isMobile}>
       <SpacerDiv>
         <TopNavBrand href="#" src={UnSdgLogo} />
         <TopNavTitle href="#">SDG Country Profile</TopNavTitle>
         <TopNavList />
         <TopNavActionsList>{getActionButtons()}</TopNavActionsList>
       </SpacerDiv>
-    </TopNav>
+    </StyledTopNav>
   );
 };
 

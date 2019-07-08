@@ -36,6 +36,16 @@ const StyledSectionContainer = styled.div`
 const StyledSection = styled.div`
   padding: 2rem 0 4rem;
   margin-top: 1px;
+
+  ${props =>
+    props.isMobile &&
+    css`
+      padding: 5rem 0 1rem;
+
+      &:first-child {
+        margin-top: -3rem;
+      }
+    `};
 `;
 
 export {
