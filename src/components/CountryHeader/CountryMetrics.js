@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import { StyledMetricsContainer, StyledTabTitle } from './CountryHeader-styled';
 
 import Tabs, { TabNav, TabContents, TabSection } from 'calcite-react/Tabs';
+import Select from 'calcite-react/Select';
+import { MenuItem } from 'calcite-react/Menu';
 import CountryTheme from './CountryTheme';
 
 class CountryMetrics extends Component {
@@ -10,6 +12,30 @@ class CountryMetrics extends Component {
 
   onTabChange = index => {
     this.setState({ activeTabIndex: index });
+  };
+
+  getNav = themes => {
+    if (this.props.isMobile) {
+      return (
+        <Select
+          fullWidth
+          onChange={this.onTabChange}
+          selectedValue={this.state.activeTabIndex}
+        >
+          {themes.map((theme, i) => (
+            <MenuItem value={i} label={theme.themeTitle} key={theme.themeTitle}>
+              {theme.themeTitle}
+            </MenuItem>
+          ))}
+        </Select>
+      );
+    }
+
+    return themes.map(theme => (
+      <StyledTabTitle title={theme.themeTitle} key={theme.themeTitle}>
+        {theme.themeTitle}
+      </StyledTabTitle>
+    ));
   };
 
   render() {
@@ -26,13 +52,7 @@ class CountryMetrics extends Component {
           onTabChange={this.onTabChange}
           activeTabIndex={this.state.activeTabIndex}
         >
-          <TabNav>
-            {themes.map(theme => (
-              <StyledTabTitle title={theme.themeTitle} key={theme.themeTitle}>
-                {theme.themeTitle}
-              </StyledTabTitle>
-            ))}
-          </TabNav>
+          <TabNav>{this.getNav(themes)}</TabNav>
           <TabContents>
             {themes.map(theme => (
               <TabSection key={theme.themeTitle}>

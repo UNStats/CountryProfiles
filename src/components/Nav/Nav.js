@@ -13,7 +13,7 @@ import ScrollToTop from './ScrollToTop';
 
 import Scrollspy from 'react-scrollspy';
 
-const Nav = ({ goals, goalInfos }) => {
+const Nav = ({ goals, goalInfos, isMobile }) => {
   const getGoalSections = () => {
     return goals.map(goal => {
       return `goal-${goal.goalCode}`;
@@ -40,7 +40,7 @@ const Nav = ({ goals, goalInfos }) => {
   };
 
   return (
-    <StyledNavContainer>
+    <StyledNavContainer isMobile={isMobile}>
       <Scrollspy items={getGoalSections()} currentClassName="active">
         {getGoalLinks()}
       </Scrollspy>

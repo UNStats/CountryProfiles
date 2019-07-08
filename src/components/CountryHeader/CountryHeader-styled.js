@@ -25,6 +25,9 @@ const StyledImageCard = styled.div`
 const StyledDetailsCard = styled.div`
   padding: ${props => props.theme.baseline};
   flex: 1 0 auto;
+
+  max-width: 100%;
+  box-sizing: border-box;
 `;
 
 const StyledCountryTitle = styled(CalciteH2)``;
