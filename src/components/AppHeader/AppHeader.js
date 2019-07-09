@@ -19,7 +19,7 @@ const AppHeader = ({ showCountrySelector }) => {
     <TopNav>
       <SpacerDiv>
         <TopNavBrand href="#" src={UnSdgLogo} />
-        <TopNavTitle href="#">SDG Country Profile</TopNavTitle>
+        <TopNavTitle href="#">SDG Country Profiles</TopNavTitle>
         <TopNavList />
         <TopNavActionsList>
           <Button

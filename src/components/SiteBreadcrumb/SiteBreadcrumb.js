@@ -17,7 +17,7 @@ const SiteBreadcrumb = () => {
           Department of Economic and Social Affairs
         </Crumb>
         <Crumb href="https://unstats.un.org/home/">Statistics Division</Crumb>
-        <Crumb href="#">Country Profile</Crumb>
+        <Crumb href="#">Country Profiles</Crumb>
       </StyledBreadcrumbs>
     </StyledBreadcrumbsWrapper>
   );
