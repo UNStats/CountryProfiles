@@ -21,7 +21,7 @@ class CountryMap extends Component {
   getCountryImage = async () => {
     this.setState({ isLoading: true });
     const { default: image } = await import(
-      `../../assets/countryThumbnails/${this.props.code}.png`
+      `../../assets/countryThumbnails/${this.props.code}.jpg`
     );
     this.setState({ image, isLoading: false });
   };
