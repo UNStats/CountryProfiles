@@ -3,34 +3,40 @@ import React, { Component } from 'react';
 import { StyledImageCard } from './CountryHeader-styled';
 
 // TODO: this is a placeholder
-import UgandaMap from '../../assets/uganda_map.png';
+import WorldMap from '../../assets/WorldMap.jpg';
 
 class CountryMap extends Component {
-  state = { image: UgandaMap };
+  state = { image: WorldMap, isLoading: true };
 
-  // async componentDidUpdate(prevProps, prevState) {
-  //   if (prevProps.code !== this.props.code) {
-  //     this.getCountryImage();
-  //   }
-  // }
+  async componentDidUpdate(prevProps, prevState) {
+    if (prevProps.code !== this.props.code) {
+      this.getCountryImage();
+    }
+  }
 
-  // async componentDidMount() {
-  //   this.getCountryImage();
-  // }
+  async componentDidMount() {
+    this.getCountryImage();
+  }
 
-  // getCountryImage = async () => {
-  //   const { default: image } = await import(
-  //     `../../assets/countryThumbnails/${this.props.code}.png`
-  //   );
-  //   this.setState({ image });
-  // };
+  getCountryImage = async () => {
+    this.setState({ isLoading: true });
+    const { default: image } = await import(
+      `../../assets/countryThumbnails/${this.props.code}.jpg`
+    );
+    this.setState({ image, isLoading: false });
+  };
 
   render() {
     if (!this.state.image) {
       return 'loading...';
     }
 
-    return <StyledImageCard image={this.state.image} />;
+    return (
+      <StyledImageCard
+        isLoading={this.state.isLoading}
+        image={this.state.image}
+      />
+    );
   }
 }
 

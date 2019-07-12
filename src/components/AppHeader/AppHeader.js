@@ -49,7 +49,7 @@ const AppHeader = ({
     <StyledTopNav isMobile={isMobile}>
       <SpacerDiv>
         <TopNavBrand href="#" src={UnSdgLogo} />
-        <TopNavTitle href="#">SDG Country Profile</TopNavTitle>
+        <TopNavTitle href="#">SDG Country Profiles</TopNavTitle>
         <TopNavList />
         <TopNavActionsList>{getActionButtons()}</TopNavActionsList>
       </SpacerDiv>

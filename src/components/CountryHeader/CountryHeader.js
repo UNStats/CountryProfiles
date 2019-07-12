@@ -8,7 +8,7 @@ import {
   SpacerDiv
 } from './CountryHeader-styled';
 import CountryMetrics from './CountryMetrics';
-// import CountryMap from './CountryMap';
+import CountryMap from './CountryMap';
 
 const CountryHeader = ({ name, code, metricsJson, isMobile }) => {
   return (
@@ -18,7 +18,7 @@ const CountryHeader = ({ name, code, metricsJson, isMobile }) => {
           <StyledCountryTitle>{name}</StyledCountryTitle>
           <CountryMetrics metrics={metricsJson} isMobile={isMobile} />
         </StyledDetailsCard>
-        {/* <CountryMap code={code} /> */}
+        <CountryMap code={code} />
       </SpacerDiv>
     </StyledCountryHeader>
   );

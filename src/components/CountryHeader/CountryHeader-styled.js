@@ -12,13 +12,23 @@ const StyledCountryHeader = styled.div`
 
 const StyledImageCard = styled.div`
   width: 450px;
+  margin-right: ${props => props.theme.baseline};
+  opacity: 1;
+  transition: opacity 125ms linear;
+  background-color: ${props => props.theme.palette.offWhite};
 
   ${props =>
     props.image &&
     css`
-      background: url(${props.image});
+      background-image: url(${props.image});
       background-position: center;
       background-size: cover;
+    `};
+
+  ${props =>
+    props.isLoading &&
+    css`
+      opacity: 0.5;
     `};
 `;
 
