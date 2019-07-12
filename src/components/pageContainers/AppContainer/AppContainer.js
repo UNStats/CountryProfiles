@@ -166,13 +166,16 @@ class AppContainer extends Component {
             this.setState({ showCountrySelector: true })
           }
           showMobileDrawer={() => this.setState({ showMobileDrawer: true })}
+          countryName={
+            this.props.countryJson && this.props.countryJson.country_name
+          }
           goals={this.props.countryJson.goals}
           goalInfos={sdgsMoreInfo.data}
           isMobile={this.state.isMobile}
         />
         <CountryHeader
           code={this.props.countryListItem.M49}
-          name={this.props.countryJson && this.props.countryJson.country_name}
+          // name={this.props.countryJson && this.props.countryJson.country_name}
           metricsJson={this.props.metricsJson}
           image={UgandaMap}
           isMobile={this.state.isMobile}

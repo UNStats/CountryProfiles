@@ -1,40 +1,35 @@
 import React, { Component } from 'react';
 
-import { StyledMetricsContainer, StyledTabTitle } from './CountryHeader-styled';
+import {
+  StyledMetricsContainer,
+  StyledAccordionContent
+} from './CountryHeader-styled';
 
-import Tabs, { TabNav, TabContents, TabSection } from 'calcite-react/Tabs';
-import Select from 'calcite-react/Select';
-import { MenuItem } from 'calcite-react/Menu';
+import Accordion, {
+  AccordionSection,
+  AccordionTitle
+} from 'calcite-react/Accordion';
 import CountryTheme from './CountryTheme';
 
 class CountryMetrics extends Component {
-  state = { activeTabIndex: 0 };
+  state = { activeSectionIndexes: [] };
 
-  onTabChange = index => {
-    this.setState({ activeTabIndex: index });
+  onAccordionChange = (e, index) => {
+    if (this.state.activeSectionIndexes.includes(index)) {
+      this.setState({ activeSectionIndexes: [] });
+    } else {
+      this.setState({ activeSectionIndexes: [index] });
+    }
   };
 
-  getNav = themes => {
-    if (this.props.isMobile) {
-      return (
-        <Select
-          fullWidth
-          onChange={this.onTabChange}
-          selectedValue={this.state.activeTabIndex}
-        >
-          {themes.map((theme, i) => (
-            <MenuItem value={i} label={theme.themeTitle} key={theme.themeTitle}>
-              {theme.themeTitle}
-            </MenuItem>
-          ))}
-        </Select>
-      );
-    }
-
+  getAccordionSections = themes => {
     return themes.map(theme => (
-      <StyledTabTitle title={theme.themeTitle} key={theme.themeTitle}>
-        {theme.themeTitle}
-      </StyledTabTitle>
+      <AccordionSection key={theme.themeTitle}>
+        <AccordionTitle>{theme.themeTitle}</AccordionTitle>
+        <StyledAccordionContent>
+          <CountryTheme theme={theme} />
+        </StyledAccordionContent>
+      </AccordionSection>
     ));
   };
 
@@ -47,39 +42,16 @@ class CountryMetrics extends Component {
 
     return (
       <StyledMetricsContainer>
-        <Tabs
+        <Accordion
           transparent
-          onTabChange={this.onTabChange}
-          activeTabIndex={this.state.activeTabIndex}
+          onAccordionChange={this.onAccordionChange}
+          activeSectionIndexes={this.state.activeSectionIndexes}
         >
-          <TabNav>{this.getNav(themes)}</TabNav>
-          <TabContents>
-            {themes.map(theme => (
-              <TabSection key={theme.themeTitle}>
-                <CountryTheme theme={theme} />
-              </TabSection>
-            ))}
-          </TabContents>
-        </Tabs>
+          {this.getAccordionSections(themes)}
+        </Accordion>
       </StyledMetricsContainer>
     );
   }
-  // return (
-  //   <StyledMetricsContainer>
-  //     <StyledMetric>
-  //       <GroupIcon size={16} />
-  //       <StyledMetricValue>Population: {0}</StyledMetricValue>
-  //     </StyledMetric>
-  //     <StyledMetric>
-  //       <OrganizationIcon size={16} />
-  //       <StyledMetricValue>Capital: {0}</StyledMetricValue>
-  //     </StyledMetric>
-  //     <StyledMetric>
-  //       <LayersIcon size={16} />
-  //       <StyledMetricValue>Currency: {0}</StyledMetricValue>
-  //     </StyledMetric>
-  //   </StyledMetricsContainer>
-  // );
 }
 
 export default CountryMetrics;

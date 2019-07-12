@@ -3,6 +3,9 @@ import styled, { css } from 'styled-components';
 import { CalciteH2 } from 'calcite-react/Elements';
 import { TabTitle } from 'calcite-react/Tabs';
 import { TableCell } from 'calcite-react/Table';
+import { AccordionContent } from 'calcite-react/Accordion';
+
+import { unitCalc } from 'calcite-react/utils/helpers';
 
 const StyledCountryHeader = styled.div`
   display: flex;
@@ -65,6 +68,11 @@ const StyledTabTitle = styled(TabTitle)`
   text-align: center;
 `;
 
+const StyledAccordionContent = styled(AccordionContent)`
+  padding: ${props => unitCalc(props.theme.baseline, 2, '/')}
+    ${props => props.theme.baseline};
+`;
+
 const StyledValueTableCell = styled(TableCell)`
   text-align: right;
   padding-right: 0;
@@ -84,6 +92,7 @@ export {
   StyledMetricValue,
   SpacerDiv,
   StyledTabTitle,
+  StyledAccordionContent,
   StyledValueTableCell,
   StyledUnitTableCell
 };

@@ -1,13 +1,11 @@
-import styled, { css } from 'styled-components';
-import TopNav from 'calcite-react/TopNav/TopNav';
+import styled from 'styled-components';
+import TopNav, { TopNavTitle } from 'calcite-react/TopNav';
+
+import { unitCalc } from 'calcite-react/utils/helpers';
 
 const StyledTopNav = styled(TopNav)`
-  ${props =>
-    props.isMobile &&
-    css`
-      position: sticky;
-      top: 0;
-    `};
+  position: sticky;
+  top: 0;
 `;
 
 const SpacerDiv = styled.div`
@@ -18,4 +16,19 @@ const SpacerDiv = styled.div`
   margin: 0 auto;
 `;
 
-export { StyledTopNav, SpacerDiv };
+const TopNavSubTitle = styled(TopNavTitle)`
+  height: ${props => props.theme.baseline};
+  padding: ${props => unitCalc(props.theme.baseline, 3, '/')} 0
+    ${props => unitCalc(props.theme.baseline, 3, '/')}
+    ${props => props.theme.baseline};
+  align-self: center;
+  border-left: 1px solid ${props => props.theme.palette.gray};
+  color: ${props => props.theme.palette.blue};
+
+  &:hover {
+    cursor: auto;
+    color: ${props => props.theme.palette.blue};
+  }
+`;
+
+export { StyledTopNav, SpacerDiv, TopNavSubTitle };
