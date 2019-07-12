@@ -17,7 +17,7 @@ const StyledContentContainer = styled.div`
 const StyledSectionContainer = styled.div`
   width: calc(100% - 400px);
   max-width: 1000px;
-  margin: 0 2rem;
+  margin: 0 ${props => props.theme.baseline};
 `;
 
 const StyledSection = styled.div`
