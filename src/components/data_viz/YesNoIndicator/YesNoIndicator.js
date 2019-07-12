@@ -15,7 +15,7 @@ import SeriesLinks from '../../SeriesLinks';
 import CheckIcon from 'calcite-ui-icons-react/CheckIcon';
 import XIcon from 'calcite-ui-icons-react/XIcon';
 
-const YesNoIndicator = ({ series, goalInfo }) => {
+const YesNoIndicator = ({ series, goalInfo, isMobile }) => {
   const getBoolIcon = () => {
     if (series.fact_values[0] === '1') {
       return <CheckIcon size={120} />;
@@ -36,7 +36,11 @@ const YesNoIndicator = ({ series, goalInfo }) => {
           />
         </StyledBoolDescription>
       </StyledBoolContent>
-      <SeriesLinks hub={series.hub} dashboard={series.dashboard} />
+      <SeriesLinks
+        hub={series.hub}
+        dashboard={series.dashboard}
+        isMobile={isMobile}
+      />
     </StyledBoolSeries>
   );
 };

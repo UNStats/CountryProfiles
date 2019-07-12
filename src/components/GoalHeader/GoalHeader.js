@@ -21,8 +21,8 @@ class GoalHeader extends Component {
     showEmbedHelper: false
   };
 
-  getEmbedBtn = showEmbedBtn => {
-    if (showEmbedBtn) {
+  getEmbedBtn = (showEmbedBtn, isMobile) => {
+    if (showEmbedBtn && !isMobile) {
       return (
         <Tooltip title="Embed" placement="left">
           <StyledActionButton
@@ -57,7 +57,7 @@ class GoalHeader extends Component {
   };
 
   render() {
-    const { goal, goalInfo } = this.props;
+    const { goal, goalInfo, isMobile } = this.props;
     const params = new URLSearchParams(window.location.search);
     const showEmbedBtn = !params.get('goal');
 
@@ -73,7 +73,7 @@ class GoalHeader extends Component {
             <StyledSubheader>{goalInfo.title}</StyledSubheader>
           </StyledTextContainer>
         </StyledHeaderContent>
-        {this.getEmbedBtn(showEmbedBtn)}
+        {this.getEmbedBtn(showEmbedBtn, isMobile)}
         {this.getEmbedHelper()}
       </StyledGoalHeader>
     );

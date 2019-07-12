@@ -51,7 +51,7 @@ const AppHeader = ({
       <SpacerDiv>
         <TopNavBrand href="#" src={UnSdgLogo} />
         <TopNavTitle href="#">SDG Country Profile</TopNavTitle>
-        <TopNavSubTitle href="#">{countryName}</TopNavSubTitle>
+        <TopNavSubTitle>{countryName}</TopNavSubTitle>
         <TopNavList />
         <TopNavActionsList>{getActionButtons()}</TopNavActionsList>
       </SpacerDiv>

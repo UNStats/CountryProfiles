@@ -13,7 +13,7 @@ import {
 
 import SeriesLinks from '../../SeriesLinks';
 
-const MetricIndicator = ({ series, goalInfo }) => {
+const MetricIndicator = ({ series, goalInfo, isMobile }) => {
   const getMetricValue = () => {
     // Trim value to 2 decimals and trim trailing zeros
     return parseFloat(
@@ -40,7 +40,11 @@ const MetricIndicator = ({ series, goalInfo }) => {
           />
         </StyledMetricDescription>
       </StyledMetricContent>
-      <SeriesLinks hub={series.hub} dashboard={series.dashboard} />
+      <SeriesLinks
+        hub={series.hub}
+        dashboard={series.dashboard}
+        isMobile={isMobile}
+      />
     </StyledMetricSeries>
   );
 };

@@ -95,6 +95,7 @@ class AppContainer extends Component {
               goal={goal}
               goalInfo={goalInfo}
               countryCode={this.props.countryJson.country_code}
+              isMobile={this.state.isMobile}
             />
           </StyledSection>
         );
