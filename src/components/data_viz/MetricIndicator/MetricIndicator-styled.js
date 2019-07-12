@@ -9,6 +9,7 @@ const StyledMetricContainer = styled.div`
   flex: 0 0 200px;
   background: ${props => props.color};
   color: #fff;
+  min-height: 7.5rem;
 `;
 
 const StyledMetricContent = styled.div`

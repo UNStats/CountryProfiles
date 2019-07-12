@@ -8,7 +8,11 @@ import DashboardIcon from 'calcite-ui-icons-react/DashboardIcon';
 import DownloadIcon from 'calcite-ui-icons-react/DownloadIcon';
 import WebIcon from 'calcite-ui-icons-react/WebIcon';
 
-const SeriesLinks = ({ hub, dashboard }) => {
+const SeriesLinks = ({ hub, dashboard, isMobile }) => {
+  if (isMobile) {
+    return null;
+  }
+
   return (
     <StyledLinksContainer>
       <Tooltip placement="left" title="View Dashboard">
