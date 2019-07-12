@@ -1,9 +1,10 @@
 import styled, { css } from 'styled-components';
+import SideNavLink from 'calcite-react/SideNav/SideNavLink';
 
 const StyledNavContainer = styled.div`
   position: sticky;
-  top: 2rem;
-  margin: ${props => props.theme.baseline};
+  top: 0;
+  padding: ${props => props.theme.baseline};
   max-width: 300px;
 
   ul {
@@ -11,6 +12,16 @@ const StyledNavContainer = styled.div`
     margin: 0;
     list-style: none;
   }
+
+  ${props =>
+    props.isMobile &&
+    css`
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      background: ${props => props.theme.palette.white};
+      box-shadow: ${props => props.theme.boxShadow};
+    `};
 `;
 
 const StyledListItem = styled.li``;
@@ -83,6 +94,10 @@ const TooltipSpan = styled.span`
   white-space: nowrap;
 `;
 
+const StyledSideNavLink = styled(SideNavLink)`
+  display: flex;
+`;
+
 export {
   StyledNavContainer,
   StyledListItem,
@@ -90,5 +105,6 @@ export {
   StyledGoalNum,
   StyledGoalTitle,
   StyledScrollToTopContainer,
-  TooltipSpan
+  TooltipSpan,
+  StyledSideNavLink
 };

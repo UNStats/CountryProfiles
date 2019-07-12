@@ -6,13 +6,13 @@ import { StyledGoal, StyledIndicatorContainer } from './Goal-styled';
 import GoalHeader from '../GoalHeader';
 import Series from '../Series';
 
-const Goal = ({ goal, goalInfo, countryCode }) => {
+const Goal = ({ goal, goalInfo, countryCode, isMobile }) => {
   const getGoalHeader = () => {
     const params = new URLSearchParams(window.location.search);
     const hideGoalHeader = params.get('hideGoalHeader');
 
     if (!hideGoalHeader) {
-      return <GoalHeader goal={goal} goalInfo={goalInfo} />;
+      return <GoalHeader goal={goal} goalInfo={goalInfo} isMobile={isMobile} />;
     }
 
     return null;
@@ -32,6 +32,7 @@ const Goal = ({ goal, goalInfo, countryCode }) => {
                 series={series}
                 goalInfo={goalInfo}
                 countryCode={countryCode}
+                isMobile={isMobile}
               />
             );
           }

@@ -1,4 +1,14 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import TopNav from 'calcite-react/TopNav/TopNav';
+
+const StyledTopNav = styled(TopNav)`
+  ${props =>
+    props.isMobile &&
+    css`
+      position: sticky;
+      top: 0;
+    `};
+`;
 
 const SpacerDiv = styled.div`
   display: flex;
@@ -8,4 +18,4 @@ const SpacerDiv = styled.div`
   margin: 0 auto;
 `;
 
-export { SpacerDiv };
+export { StyledTopNav, SpacerDiv };

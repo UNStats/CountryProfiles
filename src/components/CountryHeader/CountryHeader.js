@@ -10,13 +10,13 @@ import {
 import CountryMetrics from './CountryMetrics';
 import CountryMap from './CountryMap';
 
-const CountryHeader = ({ name, code, metricsJson }) => {
+const CountryHeader = ({ name, code, metricsJson, isMobile }) => {
   return (
     <StyledCountryHeader>
       <SpacerDiv>
         <StyledDetailsCard>
           <StyledCountryTitle>{name}</StyledCountryTitle>
-          <CountryMetrics metrics={metricsJson} />
+          <CountryMetrics metrics={metricsJson} isMobile={isMobile} />
         </StyledDetailsCard>
         <CountryMap code={code} />
       </SpacerDiv>

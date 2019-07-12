@@ -10,6 +10,7 @@ import AppHeader from '../../AppHeader';
 import CountryHeader from '../../CountryHeader';
 import SiteBreadcrumb from '../../SiteBreadcrumb';
 import Nav from '../../Nav';
+import MobileNav from '../../Nav/MobileNav';
 import CountrySelector from '../../CountrySelector';
 import Goal from '../../Goal';
 
@@ -32,10 +33,28 @@ import sdgsMoreInfo from '../../../json/sdgs-more-info.json';
 
 class AppContainer extends Component {
   state = {
-    showCountrySelector: false
+    showCountrySelector: false,
+    showMobileDrawer: false,
+    isMobile: false
+  };
+
+  componentDidMount() {
+    this.updatePredicate();
+    window.addEventListener('resize', this.updatePredicate);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updatePredicate);
+  }
+
+  updatePredicate = () => {
+    this.setState({ isMobile: window.outerWidth < 1000 });
   };
 
   updateRoute = selectedCountry => {
+    // Scroll to top of page
+    window.scrollTo(0, 0);
+
     this.props.history.push({
       pathname: `/${selectedCountry.ISO3.toLowerCase()}`,
       search: this.props.history.location.search
@@ -46,11 +65,12 @@ class AppContainer extends Component {
   };
 
   getNav = () => {
-    if (this.props.countryJson) {
+    if (this.props.countryJson && !this.state.isMobile) {
       return (
         <Nav
           goals={this.props.countryJson.goals}
           goalInfos={sdgsMoreInfo.data}
+          isMobile={this.state.isMobile}
         />
       );
     }
@@ -66,11 +86,16 @@ class AppContainer extends Component {
         );
 
         return (
-          <StyledSection key={goal.goalCode} id={`goal-${goal.goalCode}`}>
+          <StyledSection
+            key={goal.goalCode}
+            id={`goal-${goal.goalCode}`}
+            isMobile={this.state.isMobile}
+          >
             <Goal
               goal={goal}
               goalInfo={goalInfo}
               countryCode={this.props.countryJson.country_code}
+              isMobile={this.state.isMobile}
             />
           </StyledSection>
         );
@@ -140,19 +165,34 @@ class AppContainer extends Component {
           showCountrySelector={() =>
             this.setState({ showCountrySelector: true })
           }
+          showMobileDrawer={() => this.setState({ showMobileDrawer: true })}
+          goals={this.props.countryJson.goals}
+          goalInfos={sdgsMoreInfo.data}
+          isMobile={this.state.isMobile}
         />
         <CountryHeader
           code={this.props.countryListItem.M49}
           name={this.props.countryJson && this.props.countryJson.country_name}
           metricsJson={this.props.metricsJson}
           image={UgandaMap}
+          isMobile={this.state.isMobile}
         />
-        <StyledContentContainer>
+        <StyledContentContainer isMobile={this.state.isMobile}>
           {this.getNav()}
-          <StyledSectionContainer>
+          <StyledSectionContainer isMobile={this.state.isMobile}>
             {this.getGoalSections()}
           </StyledSectionContainer>
         </StyledContentContainer>
+        <MobileNav
+          active={this.state.showMobileDrawer}
+          right
+          onRequestClose={() => this.setState({ showMobileDrawer: false })}
+          goals={this.props.countryJson.goals}
+          goalInfos={sdgsMoreInfo.data}
+          showCountrySelector={() =>
+            this.setState({ showCountrySelector: true })
+          }
+        />
         <Modal
           dialogStyle={dialogStyle}
           appElement={document.getElementById('root')}

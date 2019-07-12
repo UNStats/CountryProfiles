@@ -118,7 +118,7 @@ class ThresholdChart extends Component {
   };
 
   render() {
-    const { series, goalInfo } = this.props;
+    const { series, goalInfo, isMobile } = this.props;
 
     return (
       <StyledTimeSeries>
@@ -132,8 +132,9 @@ class ThresholdChart extends Component {
             {this.getThresholdChart({ series, goalInfo })}
           </StyledChart>
           <SeriesLinks
-            hub={this.props.series.hub}
-            dashboard={this.props.series.dashboard}
+            hub={series.hub}
+            dashboard={series.dashboard}
+            isMobile={isMobile}
           />
         </StyledChartSection>
       </StyledTimeSeries>

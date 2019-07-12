@@ -8,11 +8,17 @@ import TimeSeriesChart from '../data_viz/TimeSeriesChart';
 import ThresholdChart from '../data_viz/ThresholdChart';
 import YesNoIndicator from '../data_viz/YesNoIndicator';
 
-const Series = ({ series, goalInfo, countryCode }) => {
+const Series = ({ series, goalInfo, countryCode, isMobile }) => {
   const getContent = () => {
     switch (series.preferred_visualization) {
       case 'singleton':
-        return <MetricIndicator series={series} goalInfo={goalInfo} />;
+        return (
+          <MetricIndicator
+            series={series}
+            goalInfo={goalInfo}
+            isMobile={isMobile}
+          />
+        );
 
       case 'time_series':
         return (
@@ -20,11 +26,18 @@ const Series = ({ series, goalInfo, countryCode }) => {
             series={series}
             goalInfo={goalInfo}
             countryCode={countryCode}
+            isMobile={isMobile}
           />
         );
 
       case 'boolean':
-        return <YesNoIndicator series={series} goalInfo={goalInfo} />;
+        return (
+          <YesNoIndicator
+            series={series}
+            goalInfo={goalInfo}
+            isMobile={isMobile}
+          />
+        );
 
       case 'threshold':
         return (
@@ -32,6 +45,7 @@ const Series = ({ series, goalInfo, countryCode }) => {
             series={series}
             goalInfo={goalInfo}
             countryCode={countryCode}
+            isMobile={isMobile}
           />
         );
 
