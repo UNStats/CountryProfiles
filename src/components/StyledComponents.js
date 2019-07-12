@@ -1,5 +1,7 @@
 import styled, { css } from 'styled-components';
 
+import { unitCalc } from 'calcite-react/utils/helpers';
+
 const StyledModalHeader = styled.div`
   display: flex;
   align-items: flex-start;
@@ -34,18 +36,17 @@ const StyledSectionContainer = styled.div`
 `;
 
 const StyledSection = styled.div`
-  padding: 2rem 0 4rem;
+  padding: ${props => unitCalc(props.theme.baseline, 4, '*')} 0
+    ${props => unitCalc(props.theme.baseline, 3, '/')};
   margin-top: 1px;
 
-  ${props =>
-    props.isMobile &&
-    css`
-      padding: 5rem 0 1rem;
+  &:first-child {
+    margin-top: ${props => unitCalc(props.theme.baseline, -3, '*')};
+  }
 
-      &:first-child {
-        margin-top: -3rem;
-      }
-    `};
+  &:last-child {
+    margin-bottom: ${props => props.theme.baseline};
+  }
 `;
 
 export {

@@ -1,7 +1,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 
-import { StyledTopNav, SpacerDiv } from './AppHeader-styled';
+import { StyledTopNav, SpacerDiv, TopNavSubTitle } from './AppHeader-styled';
 
 import {
   TopNavBrand,
@@ -18,6 +18,7 @@ import UnSdgLogo from '../../assets/UN_SDG_Logo.svg';
 const AppHeader = ({
   showCountrySelector,
   showMobileDrawer,
+  countryName,
   goals,
   goalInfos,
   isMobile
@@ -50,6 +51,7 @@ const AppHeader = ({
       <SpacerDiv>
         <TopNavBrand href="#" src={UnSdgLogo} />
         <TopNavTitle href="#">SDG Country Profile</TopNavTitle>
+        <TopNavSubTitle href="#">{countryName}</TopNavSubTitle>
         <TopNavList />
         <TopNavActionsList>{getActionButtons()}</TopNavActionsList>
       </SpacerDiv>

@@ -3,7 +3,7 @@ import SideNavLink from 'calcite-react/SideNav/SideNavLink';
 
 const StyledNavContainer = styled.div`
   position: sticky;
-  top: 0;
+  top: 4rem;
   padding: ${props => props.theme.baseline};
   max-width: 300px;
 
