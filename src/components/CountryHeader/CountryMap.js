@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { StyledImageCard } from './CountryHeader-styled';
 
 // TODO: this is a placeholder
-import WorldMap from '../../assets/WorldMap.png';
+import WorldMap from '../../assets/WorldMap.jpg';
 
 class CountryMap extends Component {
   state = { image: WorldMap, isLoading: true };
