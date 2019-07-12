@@ -48,7 +48,10 @@ const Nav = ({
             fullWidth
             icon={<SearchIcon size={16} />}
             iconPosition="before"
-            onClick={showCountrySelector}
+            onClick={() => {
+              onRequestClose();
+              showCountrySelector();
+            }}
           >
             Select a Country
           </Button>

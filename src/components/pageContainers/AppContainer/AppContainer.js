@@ -52,6 +52,9 @@ class AppContainer extends Component {
   };
 
   updateRoute = selectedCountry => {
+    // Scroll to top of page
+    window.scrollTo(0, 0);
+
     this.props.history.push({
       pathname: `/${selectedCountry.ISO3.toLowerCase()}`,
       search: this.props.history.location.search
