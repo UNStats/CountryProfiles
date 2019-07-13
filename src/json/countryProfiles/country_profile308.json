@@ -1,5 +1,5 @@
 {
-    "release": "2019.Q1.G.03",
+    "release": "2019.Q2.G.01",
     "country_code": "308",
     "country_name": "Grenada",
     "X": "-61.68248568",
@@ -20,8 +20,8 @@
                                 {
                                     "seriesCode": "SH_STA_MMR",
                                     "seriesTitle": "Maternal mortality ratio",
-                                    "hub": "367280a8dd7644e285e8167d6a66ceac",
-                                    "dashboard": "d7953b9c346c4173a8275411a3aba341",
+                                    "hub": "1e40231c75c64219952a92c61d916452",
+                                    "dashboard": "e2b586b25509486490c57748aff47516",
                                     "slice_dimensions": {
                                         "boundsCode": "_T"
                                     },
@@ -166,8 +166,8 @@
                                 {
                                     "seriesCode": "SH_DYN_MORT",
                                     "seriesTitle": "Under-five mortality rate",
-                                    "hub": "941d6bfede104ca8a122877b2e128f09",
-                                    "dashboard": "7643ca29e27c44819f0c08d3379df557",
+                                    "hub": "f7f1ee3e71f14210a777d25aa95b846c",
+                                    "dashboard": "914c48a36022406cbad299d4392d12e3",
                                     "slice_dimensions": {
                                         "ageCode": "Y0T4",
                                         "sexCode": "_T"
@@ -286,8 +286,8 @@
                                 {
                                     "seriesCode": "SE_PRE_PARTN",
                                     "seriesTitle": "Participation rate in organized learning (one year before the official primary entry age)",
-                                    "hub": "a263ead9ba12483f9d61d9853e847271",
-                                    "dashboard": "0cf42d6c0a534927b1e996a9d093ebb5",
+                                    "hub": "8bb6d84e7a5a4253ba5dba1c9144439b",
+                                    "dashboard": "e61108a9f9de49be8bc3a267d0dc604c",
                                     "slice_dimensions": {
                                         "sexCode": "_T"
                                     },
@@ -366,16 +366,16 @@
                                 {
                                     "seriesCode": "SG_GEN_PARL",
                                     "seriesTitle": "Proportion of seats held by women in national parliaments (percent)",
-                                    "hub": "d3d1a4c416ac4e8ab16c9010d78c16ed",
-                                    "dashboard": "388d74a92db64b4b88cc4083e6510e17",
+                                    "hub": "29b8dbe8209c4966802edf3a38623f2c",
+                                    "dashboard": "c6d78d35533f4f778602b9d299b30594",
                                     "slice_dimensions": {
                                         "sexCode": "F"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The proportion of seats held by women in single or lower houses of parliament increased from <span class='fact-value'>26.67</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>33.33%</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The proportion of seats held by women in single or lower houses of parliament increased from <span class='fact-value'>26.67</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>46.67%</span> in <span class='fact-year'>2019</span>.",
                                     "fact_values": [
                                         "26.67",
-                                        "33.33"
+                                        "46.67"
                                     ],
                                     "fact_units": [
                                         "%",
@@ -383,7 +383,7 @@
                                     ],
                                     "fact_years": [
                                         "2000",
-                                        "2018"
+                                        "2019"
                                     ],
                                     "data_years": [
                                         2000,
@@ -404,7 +404,8 @@
                                         2015,
                                         2016,
                                         2017,
-                                        2018
+                                        2018,
+                                        2019
                                     ],
                                     "data_values": [
                                         "26.6667",
@@ -425,9 +426,11 @@
                                         "33.3333",
                                         "33.3333",
                                         "33.3333",
-                                        "33.3333"
+                                        "33.3333",
+                                        "46.6667"
                                     ],
                                     "data_is_censored": [
+                                        false,
                                         false,
                                         false,
                                         false,
@@ -467,7 +470,124 @@
                                         33.33,
                                         33.33,
                                         33.33,
-                                        33.33
+                                        33.33,
+                                        46.67
+                                    ],
+                                    "preferred_visualization": "time_series"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "goalCode": "6",
+            "targets": [
+                {
+                    "targetCode": "6.1",
+                    "indicators": [
+                        {
+                            "indicatorCode": "6.1.1",
+                            "facts": [
+                                {
+                                    "seriesCode": "SH_H2O_SAFE",
+                                    "seriesTitle": "Proportion of population using safely managed drinking water services (percent)",
+                                    "hub": "db95089773654b6898ef4af01c440140",
+                                    "dashboard": "c7ff144a74dd46f48dab758279feb066",
+                                    "slice_dimensions": {
+                                        "locationCode": "_T"
+                                    },
+                                    "text_type": "2",
+                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>87.12</span> <span class='fact-unit'>% </span> of the population used a \"safely managed\" drinking water service\u00e2\u20ac\u201dan improved source located on premises, available when needed and free from contamination",
+                                    "fact_values": [
+                                        "87.12"
+                                    ],
+                                    "fact_units": [
+                                        "% "
+                                    ],
+                                    "fact_years": [
+                                        "2017"
+                                    ],
+                                    "data_years": [
+                                        2000,
+                                        2001,
+                                        2002,
+                                        2003,
+                                        2004,
+                                        2005,
+                                        2006,
+                                        2007,
+                                        2008,
+                                        2009,
+                                        2010,
+                                        2011,
+                                        2012,
+                                        2013,
+                                        2014,
+                                        2015,
+                                        2016,
+                                        2017
+                                    ],
+                                    "data_values": [
+                                        "78.71873",
+                                        "79.61002",
+                                        "80.50478",
+                                        "81.40299",
+                                        "82.30465",
+                                        "83.20976",
+                                        "84.11833",
+                                        "85.03035",
+                                        "85.94583",
+                                        "86.86476",
+                                        "87.11722",
+                                        "87.32885",
+                                        "87.42749",
+                                        "87.11527",
+                                        "87.11527",
+                                        "87.11527",
+                                        "87.11527",
+                                        "87.11527"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        78.72,
+                                        79.61,
+                                        80.5,
+                                        81.4,
+                                        82.3,
+                                        83.21,
+                                        84.12,
+                                        85.03,
+                                        85.95,
+                                        86.86,
+                                        87.12,
+                                        87.33,
+                                        87.43,
+                                        87.12,
+                                        87.12,
+                                        87.12,
+                                        87.12,
+                                        87.12
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
@@ -489,26 +609,28 @@
                                 {
                                     "seriesCode": "EG_ELC_ACCS",
                                     "seriesTitle": "Proportion of population with access to electricity (percent)",
-                                    "hub": "420c5de5abd94bfc863131d0a7d42c80",
-                                    "dashboard": "c73bd2f0f9cb44bb8746565118c5c845",
+                                    "hub": "efe5c0628d4749b38b4be596740e2956",
+                                    "dashboard": "b918be47f3084b87a717e5d28df28f07",
                                     "slice_dimensions": {
                                         "locationCode": "_T"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The proportion of the population with access to electricity increased from <span class='fact-value'>85.95</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>92.34%</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "The proportion of the population with access to electricity increased from <span class='fact-value'>85.04</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>1998</span> to <span class='fact-value'>94.7%</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
-                                        "85.95",
-                                        "92.34"
+                                        "85.04",
+                                        "94.7"
                                     ],
                                     "fact_units": [
                                         "%",
                                         "%"
                                     ],
                                     "fact_years": [
-                                        "2000",
-                                        "2016"
+                                        "1998",
+                                        "2017"
                                     ],
                                     "data_years": [
+                                        1998,
+                                        1999,
                                         2000,
                                         2001,
                                         2002,
@@ -525,28 +647,35 @@
                                         2013,
                                         2014,
                                         2015,
-                                        2016
+                                        2016,
+                                        2017
                                     ],
                                     "data_values": [
-                                        "85.95",
-                                        "86.30",
-                                        "86.64",
-                                        "86.97",
-                                        "87.30",
-                                        "87.63",
-                                        "87.98",
-                                        "88.35",
-                                        "90.00",
-                                        "89.14",
-                                        "89.57",
-                                        "88.80",
-                                        "90.47",
-                                        "90.93",
-                                        "91.40",
-                                        "91.87",
-                                        "92.34"
+                                        "85.04",
+                                        "85.56734",
+                                        "85.98982",
+                                        "86.40296",
+                                        "86.80182",
+                                        "87.18147",
+                                        "87.53699",
+                                        "87.86652",
+                                        "88.18056",
+                                        "88.49269",
+                                        "90",
+                                        "89.16543",
+                                        "89.55319",
+                                        "88.8",
+                                        "90.46961",
+                                        "90.98454",
+                                        "91.52563",
+                                        "92.58148",
+                                        "93.6599",
+                                        "94.69567"
                                     ],
                                     "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
                                         false,
                                         false,
                                         false,
@@ -566,23 +695,26 @@
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        85.95,
-                                        86.3,
-                                        86.64,
-                                        86.97,
-                                        87.3,
-                                        87.63,
-                                        87.98,
-                                        88.35,
-                                        90.0,
-                                        89.14,
-                                        89.57,
+                                        85.04,
+                                        85.57,
+                                        85.99,
+                                        86.4,
+                                        86.8,
+                                        87.18,
+                                        87.54,
+                                        87.87,
+                                        88.18,
+                                        88.49,
+                                        90,
+                                        89.17,
+                                        89.55,
                                         88.8,
                                         90.47,
-                                        90.93,
-                                        91.4,
-                                        91.87,
-                                        92.34
+                                        90.98,
+                                        91.53,
+                                        92.58,
+                                        93.66,
+                                        94.7
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
@@ -594,8 +726,8 @@
                                 {
                                     "seriesCode": "EG_EGY_CLEAN",
                                     "seriesTitle": "Proportion of population with primary reliance on clean fuels and technology (percent)",
-                                    "hub": "ce90e2b64eaf48fb8a2d88fa583e53ac",
-                                    "dashboard": "bc376deab4684c14bddcac5ac473a9e1",
+                                    "hub": "1dc5d53ca0834e8da4594e86180cf55e",
+                                    "dashboard": "eeab7876df7f48ab82e018a57c761146",
                                     "slice_dimensions": {},
                                     "text_type": "8",
                                     "fact_text": "In <span class='fact-year'> 2017</span>, <span class='fact-value'> more than 95</span>  <span class='fact-unit'>% </span> of the population relied primarily on clean fuels and technology.",
@@ -660,8 +792,8 @@
                                 {
                                     "seriesCode": "NY_GDP_PCAP",
                                     "seriesTitle": "Annual growth rate of real GDP per capita (percent)",
-                                    "hub": "bb559e1958cb4049b9f82b60896e767a",
-                                    "dashboard": "31c3e5df4b9e4a75a33221157591a37f",
+                                    "hub": "97f4c9aba77f4fed8f217784dfdd649f",
+                                    "dashboard": "378205c3c3124a31818863e86a0c41a1",
                                     "slice_dimensions": {},
                                     "text_type": "1",
                                     "fact_text": "The annual growth rate of real gross domestic product (GDP) per capita was <span class='fact-value'>4.56</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2017</span>.",
@@ -769,8 +901,8 @@
                                 {
                                     "seriesCode": "EN_MAT_DOMCMPC",
                                     "seriesTitle": "Domestic material consumption per capita (tonnes)",
-                                    "hub": "5a1a9bfc83424da584ad4cbb266fd6b6",
-                                    "dashboard": "e794a8fa2ae2494cb22bc7a7f9712821",
+                                    "hub": "b224da3fb5df4cbe83dc8b20de71dc89",
+                                    "dashboard": "95628afb11054f069b7a4d1dea9277b6",
                                     "slice_dimensions": {
                                         "typeOfProductCode": "RAW"
                                     },
@@ -880,8 +1012,8 @@
                                 {
                                     "seriesCode": "SL_TLF_UEM",
                                     "seriesTitle": "Unemployment rate of population 15 years of age and older",
-                                    "hub": "5065a8bb4c644e3e9eb88899d0cda2e5",
-                                    "dashboard": "533fa3c5833541b3986ac8309f66b1aa",
+                                    "hub": "c386199f78d041d5b1c7b5403ed6bc52",
+                                    "dashboard": "c8c399f1941345faa28a4969f03b746b",
                                     "slice_dimensions": {
                                         "ageCode": "Y_GE15",
                                         "sexCode": "_T"
@@ -937,8 +1069,8 @@
                                 {
                                     "seriesCode": "IT_MOB_NTWK",
                                     "seriesTitle": "Proportion of population covered by at least a 2G mobile network (percent)",
-                                    "hub": "7fcb589a24444052b5c54177b0796ef2",
-                                    "dashboard": "e08d9967278346efb827a0c2ddc14c52",
+                                    "hub": "bcf2ed2c448a4a3bafe7ea8951d4a259",
+                                    "dashboard": "d5a2248b66c94b46a5bb80d739ba5a65",
                                     "slice_dimensions": {
                                         "typeOfMobileTechnologyCode": "AL2G"
                                     },
@@ -1001,8 +1133,8 @@
                                 {
                                     "seriesCode": "EN_LND_SLUM",
                                     "seriesTitle": "Proportion of urban population living in slums (percent)",
-                                    "hub": "8fede37e3d634d3db2139e660be00e39",
-                                    "dashboard": "c28d0e785cb64e86af1a02ce845aae1e",
+                                    "hub": "27d1c1e5ebc6410597603e9bf52829f3",
+                                    "dashboard": "e0d01f7b25cd44b19904a17588c13566",
                                     "slice_dimensions": {},
                                     "text_type": "1",
                                     "fact_text": "The proportion of the urban population living in slums was <span class='fact-value'>6.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2014</span>.",
@@ -1046,8 +1178,8 @@
                                 {
                                     "seriesCode": "EN_ATM_PM25",
                                     "seriesTitle": "Annual mean levels of fine particulate matter in cities (micrograms per cubic meter)",
-                                    "hub": "8cdde3a14182449998ee0cc803d74ce9",
-                                    "dashboard": "e5f39b918faa4fa58357b941c8dd1eda",
+                                    "hub": "e9df4c5818464ca89b1f0cc403897836",
+                                    "dashboard": "1461785b619a49618c6cffd52afe0142",
                                     "slice_dimensions": {
                                         "locationCode": "_T"
                                     },
@@ -1096,8 +1228,8 @@
                                 {
                                     "seriesCode": "EN_MAT_DOMCMPC",
                                     "seriesTitle": "Domestic material consumption per capita (tonnes)",
-                                    "hub": "5a1a9bfc83424da584ad4cbb266fd6b6",
-                                    "dashboard": "e794a8fa2ae2494cb22bc7a7f9712821",
+                                    "hub": "b224da3fb5df4cbe83dc8b20de71dc89",
+                                    "dashboard": "95628afb11054f069b7a4d1dea9277b6",
                                     "slice_dimensions": {
                                         "typeOfProductCode": "RAW"
                                     },
@@ -1212,8 +1344,8 @@
                                 {
                                     "seriesCode": "ER_MRN_MARIN",
                                     "seriesTitle": "Coverage of protected areas in relation to marine areas (Exclusive Economic Zones) (percent)",
-                                    "hub": "5b238e9156014f0f83b3c4dd92e481be",
-                                    "dashboard": "8ebf3c9c33d1480bacf3fa30fecc759b",
+                                    "hub": "f205b31db8bf44ea9f8d23b41cd4a9a9",
+                                    "dashboard": "5c9481ffde5842978e0b7e64f83ebd20",
                                     "slice_dimensions": {},
                                     "text_type": "8",
                                     "fact_text": "In <span class='fact-year'> 2018</span>, <span class='fact-value'> 0.09</span>  <span class='fact-unit'>% </span> of the marine environment under national jurisdiction (up to 200 nautical miles from shore) was under protection.",
@@ -1258,8 +1390,8 @@
                                 {
                                     "seriesCode": "AG_LND_FRST",
                                     "seriesTitle": "Forest area as a proportion of total land area (percent)",
-                                    "hub": "f0f58708445a4694b741d71798dc12c2",
-                                    "dashboard": "80866e37499c454788cf48d66c434762",
+                                    "hub": "2f7acf84fdad47d183f7e2041b474e02",
+                                    "dashboard": "2793cd777b704144bb04ef96648f0a1c",
                                     "slice_dimensions": {},
                                     "text_type": "1",
                                     "fact_text": "The proportion of land area covered by forest was approximately <span class='fact-value'>49.97</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2015</span>.",
@@ -1306,8 +1438,8 @@
                                 {
                                     "seriesCode": "ER_PTD_TERRS",
                                     "seriesTitle": "Average proportion of terrestrial key biodiversity areas (KBAs) covered by protected areas (percent)",
-                                    "hub": "4c1bbb2c82954356b4045c028158da8b",
-                                    "dashboard": "c42704c17fc64fcfbccafecfa2c70b44",
+                                    "hub": "50b0017bc20a400e8bfb92da7591a28b",
+                                    "dashboard": "6c72e28c8daf4aebb97a6e937623a14e",
                                     "slice_dimensions": {
                                         "boundsCode": "_T"
                                     },
@@ -1426,8 +1558,8 @@
                                 {
                                     "seriesCode": "VC_IHR_PSRC",
                                     "seriesTitle": "Number of victims of intentional homicide per 100,000 population",
-                                    "hub": "c4089c337b374a428e787480b8c55ffb",
-                                    "dashboard": "e2ae2e8b01024f78a91190a023f672ac",
+                                    "hub": "f0b52ccea69a48b09df3f5fd58e58e84",
+                                    "dashboard": "11445197f42a45ba8c836639c3e4aa71",
                                     "slice_dimensions": {},
                                     "text_type": "11",
                                     "fact_text": "In <span class='fact-year'> 2016</span>, the intentional homicide rate was <span class='fact-value'> 10.25</span>  <span class='fact-unit'> per 100,000 population</span>. ",
@@ -1442,23 +1574,65 @@
                                     ],
                                     "data_years": [
                                         2010,
+                                        2010,
+                                        2010,
+                                        2011,
+                                        2011,
                                         2011,
                                         2012,
+                                        2012,
+                                        2012,
+                                        2013,
+                                        2013,
                                         2013,
                                         2014,
+                                        2014,
+                                        2014,
                                         2015,
+                                        2015,
+                                        2015,
+                                        2016,
+                                        2016,
                                         2016
                                     ],
                                     "data_values": [
-                                        "9.55",
-                                        "3.81",
-                                        "13.27",
-                                        "5.67",
-                                        "7.52",
-                                        "5.62",
-                                        "10.25"
+                                        "9.5532",
+                                        "15.29754",
+                                        "3.81825",
+                                        "3.8068",
+                                        "5.71004",
+                                        "1.90371",
+                                        "17.04771",
+                                        "9.48893",
+                                        "13.27253",
+                                        "5.66524",
+                                        "7.5402",
+                                        "3.78379",
+                                        "9.37787",
+                                        "5.6559",
+                                        "7.52162",
+                                        "7.46491",
+                                        "3.75636",
+                                        "5.61677",
+                                        "10.24932",
+                                        "14.86011",
+                                        "5.60823"
                                     ],
                                     "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
                                         false,
                                         false,
                                         false,
@@ -1469,12 +1643,26 @@
                                     ],
                                     "data_numeric_part": [
                                         9.55,
+                                        15.3,
+                                        3.82,
                                         3.81,
+                                        5.71,
+                                        1.9,
+                                        17.05,
+                                        9.49,
                                         13.27,
                                         5.67,
+                                        7.54,
+                                        3.78,
+                                        9.38,
+                                        5.66,
                                         7.52,
+                                        7.46,
+                                        3.76,
                                         5.62,
-                                        10.25
+                                        10.25,
+                                        14.86,
+                                        5.61
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
@@ -1496,19 +1684,22 @@
                                 {
                                     "seriesCode": "BX_TRF_PWKR",
                                     "seriesTitle": "Volume of remittances as a proportion of total GCP (percent)",
-                                    "hub": "57b9fa3dcfc24840b698c7f6eb4d42a1",
-                                    "dashboard": "6785de3b7b8844b6b7597695101803f1",
+                                    "hub": "00e65cf61d8042f591c27ddb56d10063",
+                                    "dashboard": "5e34da4282df4c179ef13366a8e29f23",
                                     "slice_dimensions": {},
                                     "text_type": "9",
-                                    "fact_text": "In <span class='fact-year'> 2016</span>, the inflow of personal remittances was <span class='fact-value'> 0.11</span>  <span class='fact-unit'>% of GDP</span>.",
+                                    "fact_text": "In <span class='fact-year'> 2017</span>, the inflow of personal remittances was <span class='fact-value'> 4.07</span>  <span class='fact-unit'>% of GDP</span>, down from <span class='fact-value'> 6.46</span> <span class='fact-unit'>%</span> in <span class='fact-year'> 1990</span> ",
                                     "fact_values": [
-                                        "0.11"
+                                        "6.46",
+                                        "4.07"
                                     ],
                                     "fact_units": [
+                                        "% of GDP",
                                         "% of GDP"
                                     ],
                                     "fact_years": [
-                                        "2016"
+                                        "1990",
+                                        "2017"
                                     ],
                                     "data_years": [
                                         1990,
@@ -1537,38 +1728,41 @@
                                         2013,
                                         2014,
                                         2015,
-                                        2016
+                                        2016,
+                                        2017
                                     ],
                                     "data_values": [
-                                        "6.46",
-                                        "2.75",
-                                        "2.77",
-                                        "5.93",
-                                        "8.05",
-                                        "5.80",
-                                        "5.71",
-                                        "5.49",
-                                        "4.95",
-                                        "4.80",
-                                        "4.66",
-                                        "4.67",
-                                        "4.58",
-                                        "4.28",
-                                        "8.03",
-                                        "3.86",
-                                        "4.07",
-                                        "3.77",
-                                        "3.49",
-                                        "3.59",
-                                        "3.69",
-                                        "3.72",
-                                        "3.66",
-                                        "3.52",
-                                        "4.48",
-                                        "4.34",
-                                        "0.11"
+                                        "6.4632",
+                                        "2.75231",
+                                        "2.77156",
+                                        "5.92593",
+                                        "8.04623",
+                                        "5.80171",
+                                        "5.71235",
+                                        "5.48769",
+                                        "4.94792",
+                                        "4.8032",
+                                        "4.65986",
+                                        "4.67122",
+                                        "4.5815",
+                                        "4.27708",
+                                        "8.03032",
+                                        "3.85925",
+                                        "4.07087",
+                                        "3.77297",
+                                        "3.49288",
+                                        "3.58531",
+                                        "3.69321",
+                                        "3.71779",
+                                        "3.66233",
+                                        "3.5183",
+                                        "4.47938",
+                                        "4.33677",
+                                        "4.22426",
+                                        "4.07448"
                                     ],
                                     "data_is_censored": [
+                                        false,
                                         false,
                                         false,
                                         false,
@@ -1624,7 +1818,8 @@
                                         3.52,
                                         4.48,
                                         4.34,
-                                        0.11
+                                        4.22,
+                                        4.07
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
@@ -1641,14 +1836,14 @@
                                 {
                                     "seriesCode": "DT_TDS_DECT",
                                     "seriesTitle": "Debt service as a proportion of exports of goods and services (percent)",
-                                    "hub": "ebfc4bd6fed94a7da997050dbf4b7d11",
-                                    "dashboard": "1f03ee89a69147ebab82ae5e5a839977",
+                                    "hub": "e061fd67f9f84933addcd27ca6154354",
+                                    "dashboard": "2e8a46f45b764dfcb4f5c2162351f846",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "Debt service as a proportion of exports of goods and services increased from <span class='fact-value'>3.95</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>1990</span> to <span class='fact-value'>5.13%</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "Debt service as a proportion of exports of goods and services increased from <span class='fact-value'>3.95</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>1990</span> to <span class='fact-value'>9.35%</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
                                         "3.95",
-                                        "5.13"
+                                        "9.35"
                                     ],
                                     "fact_units": [
                                         "%",
@@ -1656,7 +1851,7 @@
                                     ],
                                     "fact_years": [
                                         "1990",
-                                        "2016"
+                                        "2017"
                                     ],
                                     "data_years": [
                                         1990,
@@ -1685,38 +1880,41 @@
                                         2013,
                                         2014,
                                         2015,
-                                        2016
+                                        2016,
+                                        2017
                                     ],
                                     "data_values": [
-                                        "3.95",
-                                        "3.61",
-                                        "5.94",
-                                        "6.81",
-                                        "6.24",
-                                        "5.80",
-                                        "5.54",
-                                        "4.82",
-                                        "5.71",
-                                        "4.33",
-                                        "5.64",
-                                        "7.97",
-                                        "15.49",
-                                        "16.54",
-                                        "13.54",
-                                        "5.81",
-                                        "8.39",
-                                        "8.27",
-                                        "9.51",
-                                        "12.10",
-                                        "14.21",
-                                        "12.85",
-                                        "7.33",
-                                        "16.62",
-                                        "4.45",
-                                        "4.62",
-                                        "5.13"
+                                        "3.94916",
+                                        "3.60823",
+                                        "5.94147",
+                                        "6.80139",
+                                        "6.24336",
+                                        "5.8053",
+                                        "5.53753",
+                                        "4.81692",
+                                        "5.71238",
+                                        "4.33554",
+                                        "5.63711",
+                                        "7.96855",
+                                        "15.48521",
+                                        "16.53797",
+                                        "13.54271",
+                                        "5.81471",
+                                        "8.1277",
+                                        "8.06123",
+                                        "9.29823",
+                                        "11.46907",
+                                        "13.46103",
+                                        "12.34352",
+                                        "6.83617",
+                                        "10.40768",
+                                        "4.24228",
+                                        "5.15902",
+                                        "8.88592",
+                                        "9.34717"
                                     ],
                                     "data_is_censored": [
+                                        false,
                                         false,
                                         false,
                                         false,
@@ -1749,30 +1947,31 @@
                                         3.95,
                                         3.61,
                                         5.94,
-                                        6.81,
+                                        6.8,
                                         6.24,
-                                        5.8,
+                                        5.81,
                                         5.54,
                                         4.82,
                                         5.71,
-                                        4.33,
+                                        4.34,
                                         5.64,
                                         7.97,
                                         15.49,
                                         16.54,
                                         13.54,
                                         5.81,
-                                        8.39,
-                                        8.27,
-                                        9.51,
-                                        12.1,
-                                        14.21,
-                                        12.85,
-                                        7.33,
-                                        16.62,
-                                        4.45,
-                                        4.62,
-                                        5.13
+                                        8.13,
+                                        8.06,
+                                        9.3,
+                                        11.47,
+                                        13.46,
+                                        12.34,
+                                        6.84,
+                                        10.41,
+                                        4.24,
+                                        5.16,
+                                        8.89,
+                                        9.35
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
@@ -1789,8 +1988,8 @@
                                 {
                                     "seriesCode": "IT_NET_BBP",
                                     "seriesTitle": "Fixed internet broadband subscriptions per 100 inhabitants",
-                                    "hub": "2e8bee2bc3214317ab8ebd39ffb10c62",
-                                    "dashboard": "3aa03b2fb75a42bb8f58fc431b016b08",
+                                    "hub": "9e7ac88c99e1423abcac29a5f5a3ab28",
+                                    "dashboard": "560237e356b948fc8d053adfe2c67f84",
                                     "slice_dimensions": {
                                         "typeOfSpeedCode": "ANYS"
                                     },

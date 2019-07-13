@@ -1,5 +1,5 @@
 {
-    "release": "2019.Q1.G.03",
+    "release": "2019.Q2.G.01",
     "country_code": "788",
     "country_name": "Tunisia",
     "X": "9.572737411",
@@ -20,38 +20,38 @@
                                 {
                                     "seriesCode": "SI_POV_DAY1",
                                     "seriesTitle": "Population below international poverty line (percent)",
-                                    "hub": "42a999ea5a564f1c91b9c45cbe00cce2",
-                                    "dashboard": "be1a5aba68f34ea2a4bfbe9a2899efad",
+                                    "hub": "d80b4105e32a4832bbea4e0bd3dcbf40",
+                                    "dashboard": "75163e0b461f405391481f2f0881c98a",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The proportion of the population living below the extreme poverty line declined from <span class='fact-value'>9.8</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>1990</span> to <span class='fact-value'>2%</span> in <span class='fact-year'>2010</span>.",
+                                    "fact_text": "The proportion of the population living below the extreme poverty line was approximately <span class='fact-value'>0.3</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2015</span>.",
                                     "fact_values": [
-                                        "9.8",
-                                        "2"
+                                        "0.3"
                                     ],
                                     "fact_units": [
-                                        "%",
                                         "%"
                                     ],
                                     "fact_years": [
-                                        "1990",
-                                        "2010"
+                                        "2015"
                                     ],
                                     "data_years": [
                                         1990,
                                         1995,
                                         2000,
                                         2005,
-                                        2010
+                                        2010,
+                                        2015
                                     ],
                                     "data_values": [
-                                        "9.8",
-                                        "10.9",
-                                        "5.3",
-                                        "3.1",
-                                        "2"
+                                        "10.6",
+                                        "11.7",
+                                        "5.9",
+                                        "3.3",
+                                        "2",
+                                        "0.3"
                                     ],
                                     "data_is_censored": [
+                                        false,
                                         false,
                                         false,
                                         false,
@@ -59,19 +59,20 @@
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        9.8,
-                                        10.9,
-                                        5.3,
-                                        3.1,
-                                        2
+                                        10.6,
+                                        11.7,
+                                        5.9,
+                                        3.3,
+                                        2,
+                                        0.3
                                     ],
                                     "preferred_visualization": "time_series"
                                 },
                                 {
                                     "seriesCode": "SI_POV_EMP1",
                                     "seriesTitle": "Employed population below international poverty line (percent)",
-                                    "hub": "e8e11539dd9a4293b502b076d041133d",
-                                    "dashboard": "2e5d940573a34be3b2f6a492429edb0a",
+                                    "hub": "254e360b5e434665b99233dd1d6747cb",
+                                    "dashboard": "8b72fa61453e46f68acad3dc8b6c349f",
                                     "slice_dimensions": {
                                         "ageCode": "Y_GE15",
                                         "sexCode": "_T"
@@ -122,8 +123,8 @@
                                 {
                                     "seriesCode": "SI_POV_NAHC",
                                     "seriesTitle": "Proportion of population living below the national poverty line (percent)",
-                                    "hub": "039ea02982034ec0953a49dacd22cbd6",
-                                    "dashboard": "f68a6af80d154be2bdeb1221a41fc099",
+                                    "hub": "ee9dd63027a442cb9af00d1d289a14e4",
+                                    "dashboard": "0c3086aeb8eb4d8fa552c8a86d5f9139",
                                     "slice_dimensions": {
                                         "locationCode": "_T"
                                     },
@@ -170,51 +171,6 @@
                             ]
                         }
                     ]
-                },
-                {
-                    "targetCode": "1.5",
-                    "indicators": [
-                        {
-                            "indicatorCode": "1.5.3",
-                            "facts": [
-                                {
-                                    "seriesCode": "SG_DSR_LEGREG",
-                                    "seriesTitle": "Existence of legislative and/or regulatory provisions for managing disaster risk",
-                                    "hub": "616ca7c722324aafb62e05f0da3f7bc8",
-                                    "dashboard": "378491ec94b0404b89f3341386036e5b",
-                                    "slice_dimensions": {},
-                                    "text_type": "12",
-                                    "fact_text": "As of <span class='fact-year'> 2015</span>, Tunisia has developed national and local disaster reduction strategies.",
-                                    "fact_values": [
-                                        "1"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2015"
-                                    ],
-                                    "data_years": [
-                                        2013,
-                                        2015
-                                    ],
-                                    "data_values": [
-                                        "1",
-                                        "1"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        1,
-                                        1
-                                    ],
-                                    "preferred_visualization": "boolean"
-                                }
-                            ]
-                        }
-                    ]
                 }
             ]
         },
@@ -230,8 +186,8 @@
                                 {
                                     "seriesCode": "SN_ITK_DEFC",
                                     "seriesTitle": "Prevalence of undernourishment (percent)",
-                                    "hub": "5bbccf64330e4a76bdf2a9b69230694d",
-                                    "dashboard": "452f4c395d9c4386944be4bc885df74c",
+                                    "hub": "08f4e15e1afe43d8a9bbeeae7f4bd3ca",
+                                    "dashboard": "b059d952ee70447fab55eb33f4e78556",
                                     "slice_dimensions": {},
                                     "text_type": "7",
                                     "fact_text": "The proportion of the population suffering from hunger was <span class='fact-value'> 4.9</span> <span class='fact-unit'>%</span>  in <span class='fact-year'> 2016</span> .",
@@ -335,8 +291,8 @@
                                 {
                                     "seriesCode": "SH_STA_STUNT",
                                     "seriesTitle": "Proportion of children under 5 years of age who are moderately or severely stunted (percent)",
-                                    "hub": "1dc7f1ce62854e87989a19b7e798ba96",
-                                    "dashboard": "e4463dfbe570440ba3a78c2767643ff3",
+                                    "hub": "c4bdefff898c4183a01dcdc6d085ff26",
+                                    "dashboard": "72daffa410434649b784afe3bffa5a7a",
                                     "slice_dimensions": {
                                         "ageCode": "Y0T4",
                                         "boundsCode": "_T"
@@ -382,17 +338,17 @@
                                 {
                                     "seriesCode": "SH_STA_OVRWGT",
                                     "seriesTitle": "Proportion of children under 5 years of age who are moderately or severely overweight",
-                                    "hub": "f456502dced44ba1b2fc1ac91217d643",
-                                    "dashboard": "49effd5b7eca4c1eb9bec35c126caca3",
+                                    "hub": "17d4351d412c4c05a0e45c31f5cc1385",
+                                    "dashboard": "d0da936402004019a222b9bcc1cd84bf",
                                     "slice_dimensions": {
                                         "ageCode": "Y0T4",
                                         "boundsCode": "_T"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The share of overweight children under 5 years of age increased from <span class='fact-value'>8.8</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2006</span> to <span class='fact-value'>14.3%</span> in <span class='fact-year'>2012</span>.",
+                                    "fact_text": "The share of overweight children under 5 years of age increased from <span class='fact-value'>8.8</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2006</span> to <span class='fact-value'>14.24%</span> in <span class='fact-year'>2012</span>.",
                                     "fact_values": [
                                         "8.8",
-                                        "14.3"
+                                        "14.24"
                                     ],
                                     "fact_units": [
                                         "%",
@@ -408,7 +364,7 @@
                                     ],
                                     "data_values": [
                                         "8.8",
-                                        "14.3"
+                                        "14.23715"
                                     ],
                                     "data_is_censored": [
                                         false,
@@ -416,7 +372,7 @@
                                     ],
                                     "data_numeric_part": [
                                         8.8,
-                                        14.3
+                                        14.24
                                     ],
                                     "preferred_visualization": "singleton"
                                 }
@@ -438,8 +394,8 @@
                                 {
                                     "seriesCode": "SH_STA_MMR",
                                     "seriesTitle": "Maternal mortality ratio",
-                                    "hub": "367280a8dd7644e285e8167d6a66ceac",
-                                    "dashboard": "d7953b9c346c4173a8275411a3aba341",
+                                    "hub": "1e40231c75c64219952a92c61d916452",
+                                    "dashboard": "e2b586b25509486490c57748aff47516",
                                     "slice_dimensions": {
                                         "boundsCode": "_T"
                                     },
@@ -584,8 +540,8 @@
                                 {
                                     "seriesCode": "SH_DYN_MORT",
                                     "seriesTitle": "Under-five mortality rate",
-                                    "hub": "941d6bfede104ca8a122877b2e128f09",
-                                    "dashboard": "7643ca29e27c44819f0c08d3379df557",
+                                    "hub": "f7f1ee3e71f14210a777d25aa95b846c",
+                                    "dashboard": "914c48a36022406cbad299d4392d12e3",
                                     "slice_dimensions": {
                                         "ageCode": "Y0T4",
                                         "sexCode": "_T"
@@ -699,8 +655,8 @@
                                 {
                                     "seriesCode": "SH_HIV_INCD",
                                     "seriesTitle": "Number of new HIV infections per 1,000 uninfected population",
-                                    "hub": "f14fe62f978f4e1fb5921c079499e7a0",
-                                    "dashboard": "8362fa2fc9c54f0191c09aef1c5532a1",
+                                    "hub": "6e8b1982b7a643b9bb1906a8edfd31a2",
+                                    "dashboard": "33fad98d004f430f8f00b16fb9c76a9c",
                                     "slice_dimensions": {
                                         "ageCode": "_T",
                                         "sexCode": "_T"
@@ -816,8 +772,8 @@
                                 {
                                     "seriesCode": "SE_PRE_PARTN",
                                     "seriesTitle": "Participation rate in organized learning (one year before the official primary entry age)",
-                                    "hub": "a263ead9ba12483f9d61d9853e847271",
-                                    "dashboard": "0cf42d6c0a534927b1e996a9d093ebb5",
+                                    "hub": "8bb6d84e7a5a4253ba5dba1c9144439b",
+                                    "dashboard": "e61108a9f9de49be8bc3a267d0dc604c",
                                     "slice_dimensions": {
                                         "sexCode": "_T"
                                     },
@@ -872,8 +828,8 @@
                                 {
                                     "seriesCode": "SP_DYN_MRBF18",
                                     "seriesTitle": "Proportion of women aged 20-24 years who were married or in a union before age 18 (percent)",
-                                    "hub": "62be27aeb98d417f952bf4e2523915f8",
-                                    "dashboard": "8f8aec4dc7964775a3d0ad03afb98f2f",
+                                    "hub": "c87948a7e6ab4aec92abffb70bab4e7c",
+                                    "dashboard": "09cd234b0ab74aef885201469fb7ec01",
                                     "slice_dimensions": {
                                         "ageCode": "Y20T24",
                                         "sexCode": "F"
@@ -916,16 +872,16 @@
                                 {
                                     "seriesCode": "SG_GEN_PARL",
                                     "seriesTitle": "Proportion of seats held by women in national parliaments (percent)",
-                                    "hub": "d3d1a4c416ac4e8ab16c9010d78c16ed",
-                                    "dashboard": "388d74a92db64b4b88cc4083e6510e17",
+                                    "hub": "29b8dbe8209c4966802edf3a38623f2c",
+                                    "dashboard": "c6d78d35533f4f778602b9d299b30594",
                                     "slice_dimensions": {
                                         "sexCode": "F"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The proportion of seats held by women in single or lower houses of parliament increased from <span class='fact-value'>11.54</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>31.34%</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The proportion of seats held by women in single or lower houses of parliament increased from <span class='fact-value'>11.54</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>35.94%</span> in <span class='fact-year'>2019</span>.",
                                     "fact_values": [
                                         "11.54",
-                                        "31.34"
+                                        "35.94"
                                     ],
                                     "fact_units": [
                                         "%",
@@ -933,7 +889,7 @@
                                     ],
                                     "fact_years": [
                                         "2000",
-                                        "2018"
+                                        "2019"
                                     ],
                                     "data_years": [
                                         2000,
@@ -954,7 +910,8 @@
                                         2015,
                                         2016,
                                         2017,
-                                        2018
+                                        2018,
+                                        2019
                                     ],
                                     "data_values": [
                                         "11.5385",
@@ -975,9 +932,11 @@
                                         "31.3364",
                                         "31.3364",
                                         "31.3364",
-                                        "31.3364"
+                                        "31.3364",
+                                        "35.9447"
                                     ],
                                     "data_is_censored": [
+                                        false,
                                         false,
                                         false,
                                         false,
@@ -1017,7 +976,8 @@
                                         31.34,
                                         31.34,
                                         31.34,
-                                        31.34
+                                        31.34,
+                                        35.94
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
@@ -1039,21 +999,21 @@
                                 {
                                     "seriesCode": "SH_H2O_SAFE",
                                     "seriesTitle": "Proportion of population using safely managed drinking water services (percent)",
-                                    "hub": "d16cc14b91fa436fbbf08c5aa72af2cc",
-                                    "dashboard": "eb95dae49ec54590a3fe4c83e9143b14",
+                                    "hub": "db95089773654b6898ef4af01c440140",
+                                    "dashboard": "c7ff144a74dd46f48dab758279feb066",
                                     "slice_dimensions": {
                                         "locationCode": "_T"
                                     },
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2015</span>, <span class='fact-value'>92.74</span> <span class='fact-unit'>% </span> of the population used a \"safely managed\" drinking water service\u2014an improved source located on premises, available when needed and free from contamination",
+                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>92.66</span> <span class='fact-unit'>% </span> of the population used a \"safely managed\" drinking water service\u00e2\u20ac\u201dan improved source located on premises, available when needed and free from contamination",
                                     "fact_values": [
-                                        "92.74"
+                                        "92.66"
                                     ],
                                     "fact_units": [
                                         "% "
                                     ],
                                     "fact_years": [
-                                        "2015"
+                                        "2017"
                                     ],
                                     "data_years": [
                                         2000,
@@ -1071,27 +1031,33 @@
                                         2012,
                                         2013,
                                         2014,
-                                        2015
+                                        2015,
+                                        2016,
+                                        2017
                                     ],
                                     "data_values": [
-                                        "37.07737",
-                                        "42.0679",
-                                        "47.1093",
-                                        "52.20064",
-                                        "57.33769",
-                                        "62.50758",
-                                        "67.72412",
-                                        "72.98687",
-                                        "78.29557",
-                                        "83.64954",
-                                        "89.04861",
-                                        "91.25981",
-                                        "91.68435",
-                                        "92.09916",
-                                        "92.42018",
-                                        "92.73801"
+                                        "40.92445",
+                                        "45.30992",
+                                        "49.73199",
+                                        "54.19005",
+                                        "58.6819",
+                                        "63.2012",
+                                        "67.75428",
+                                        "72.34045",
+                                        "76.95932",
+                                        "81.61039",
+                                        "86.29307",
+                                        "90.85251",
+                                        "91.21785",
+                                        "91.57965",
+                                        "91.87399",
+                                        "92.13805",
+                                        "92.39927",
+                                        "92.65752"
                                     ],
                                     "data_is_censored": [
+                                        false,
+                                        false,
                                         false,
                                         false,
                                         false,
@@ -1110,22 +1076,24 @@
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        37.08,
-                                        42.07,
-                                        47.11,
-                                        52.2,
-                                        57.34,
-                                        62.51,
-                                        67.72,
-                                        72.99,
-                                        78.3,
-                                        83.65,
-                                        89.05,
-                                        91.26,
-                                        91.68,
-                                        92.1,
-                                        92.42,
-                                        92.74
+                                        40.92,
+                                        45.31,
+                                        49.73,
+                                        54.19,
+                                        58.68,
+                                        63.2,
+                                        67.75,
+                                        72.34,
+                                        76.96,
+                                        81.61,
+                                        86.29,
+                                        90.85,
+                                        91.22,
+                                        91.58,
+                                        91.87,
+                                        92.14,
+                                        92.4,
+                                        92.66
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
@@ -1142,21 +1110,21 @@
                                 {
                                     "seriesCode": "SH_SAN_SAFE",
                                     "seriesTitle": "Proportion of population using safely managed sanitation services (percent)",
-                                    "hub": "52689909054a4bd6b10983eb999ab7f6",
-                                    "dashboard": "97309ad2a8ae46e5ba712e27d62fd2e2",
+                                    "hub": "961186c499834224bb09e32f68092855",
+                                    "dashboard": "27d5a4907ed54fd58b805268ed29dfdb",
                                     "slice_dimensions": {
                                         "locationCode": "_T"
                                     },
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2015</span>, <span class='fact-value'>73.46</span> <span class='fact-unit'>% </span> of the population used a \"safely managed\" sanitation service\u2014a basic facility that safely disposes of human waste",
+                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>78.12</span> <span class='fact-unit'>% </span> of the population used a \"safely managed\" sanitation service\u00e2\u20ac\u201da basic facility that safely disposes of human waste",
                                     "fact_values": [
-                                        "73.46"
+                                        "78.12"
                                     ],
                                     "fact_units": [
                                         "% "
                                     ],
                                     "fact_years": [
-                                        "2015"
+                                        "2017"
                                     ],
                                     "data_years": [
                                         2000,
@@ -1174,27 +1142,33 @@
                                         2012,
                                         2013,
                                         2014,
-                                        2015
+                                        2015,
+                                        2016,
+                                        2017
                                     ],
                                     "data_values": [
-                                        "57.70638",
-                                        "58.55627",
-                                        "59.40209",
-                                        "60.63453",
-                                        "61.86213",
-                                        "63.02401",
-                                        "64.19736",
-                                        "65.38224",
-                                        "66.57964",
-                                        "67.78825",
-                                        "69.00951",
-                                        "70.24257",
-                                        "71.49169",
-                                        "72.29855",
-                                        "73.08268",
-                                        "73.45685"
+                                        "58.72939",
+                                        "59.38566",
+                                        "60.24221",
+                                        "61.46909",
+                                        "62.70135",
+                                        "63.9157",
+                                        "65.14349",
+                                        "66.38391",
+                                        "67.63728",
+                                        "68.90354",
+                                        "70.18226",
+                                        "71.4741",
+                                        "72.77863",
+                                        "74.0951",
+                                        "75.42446",
+                                        "76.50687",
+                                        "77.59442",
+                                        "78.11826"
                                     ],
                                     "data_is_censored": [
+                                        false,
+                                        false,
                                         false,
                                         false,
                                         false,
@@ -1213,22 +1187,24 @@
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        57.71,
-                                        58.56,
-                                        59.4,
-                                        60.63,
-                                        61.86,
-                                        63.02,
-                                        64.2,
-                                        65.38,
-                                        66.58,
-                                        67.79,
-                                        69.01,
-                                        70.24,
-                                        71.49,
-                                        72.3,
-                                        73.08,
-                                        73.46
+                                        58.73,
+                                        59.39,
+                                        60.24,
+                                        61.47,
+                                        62.7,
+                                        63.92,
+                                        65.14,
+                                        66.38,
+                                        67.64,
+                                        68.9,
+                                        70.18,
+                                        71.47,
+                                        72.78,
+                                        74.1,
+                                        75.42,
+                                        76.51,
+                                        77.59,
+                                        78.12
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
@@ -1250,26 +1226,32 @@
                                 {
                                     "seriesCode": "EG_ELC_ACCS",
                                     "seriesTitle": "Proportion of population with access to electricity (percent)",
-                                    "hub": "420c5de5abd94bfc863131d0a7d42c80",
-                                    "dashboard": "c73bd2f0f9cb44bb8746565118c5c845",
+                                    "hub": "efe5c0628d4749b38b4be596740e2956",
+                                    "dashboard": "b918be47f3084b87a717e5d28df28f07",
                                     "slice_dimensions": {
                                         "locationCode": "_T"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The proportion of the population with access to electricity increased from <span class='fact-value'>94.8</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>100.0%</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "The proportion of the population with access to electricity increased from <span class='fact-value'>86.8</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>1994</span> to <span class='fact-value'>100%</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
-                                        "94.8",
-                                        "100.0"
+                                        "86.8",
+                                        "100"
                                     ],
                                     "fact_units": [
                                         "%",
                                         "%"
                                     ],
                                     "fact_years": [
-                                        "2000",
-                                        "2016"
+                                        "1994",
+                                        "2017"
                                     ],
                                     "data_years": [
+                                        1994,
+                                        1995,
+                                        1996,
+                                        1997,
+                                        1998,
+                                        1999,
                                         2000,
                                         2001,
                                         2002,
@@ -1286,28 +1268,43 @@
                                         2013,
                                         2014,
                                         2015,
-                                        2016
+                                        2016,
+                                        2017
                                     ],
                                     "data_values": [
-                                        "94.80",
-                                        "97.30",
-                                        "97.80",
-                                        "98.40",
-                                        "99.00",
-                                        "99.30",
-                                        "99.40",
-                                        "99.40",
-                                        "99.40",
-                                        "99.50",
-                                        "99.50",
-                                        "99.50",
-                                        "99.50",
-                                        "99.70",
-                                        "99.80",
-                                        "100.00",
-                                        "100.00"
+                                        "86.8",
+                                        "88.7",
+                                        "90.4",
+                                        "92",
+                                        "93.2",
+                                        "94.2",
+                                        "94.8",
+                                        "97.3",
+                                        "97.8",
+                                        "98.4",
+                                        "99",
+                                        "99.3",
+                                        "99.4",
+                                        "99.4",
+                                        "99.4",
+                                        "99.5",
+                                        "99.5",
+                                        "99.5",
+                                        "99.5",
+                                        "99.7",
+                                        "99.8",
+                                        "100",
+                                        "100",
+                                        "100"
                                     ],
                                     "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
                                         false,
                                         false,
                                         false,
@@ -1327,11 +1324,17 @@
                                         false
                                     ],
                                     "data_numeric_part": [
+                                        86.8,
+                                        88.7,
+                                        90.4,
+                                        92,
+                                        93.2,
+                                        94.2,
                                         94.8,
                                         97.3,
                                         97.8,
                                         98.4,
-                                        99.0,
+                                        99,
                                         99.3,
                                         99.4,
                                         99.4,
@@ -1342,8 +1345,9 @@
                                         99.5,
                                         99.7,
                                         99.8,
-                                        100.0,
-                                        100.0
+                                        100,
+                                        100,
+                                        100
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
@@ -1355,8 +1359,8 @@
                                 {
                                     "seriesCode": "EG_EGY_CLEAN",
                                     "seriesTitle": "Proportion of population with primary reliance on clean fuels and technology (percent)",
-                                    "hub": "ce90e2b64eaf48fb8a2d88fa583e53ac",
-                                    "dashboard": "bc376deab4684c14bddcac5ac473a9e1",
+                                    "hub": "1dc5d53ca0834e8da4594e86180cf55e",
+                                    "dashboard": "eeab7876df7f48ab82e018a57c761146",
                                     "slice_dimensions": {},
                                     "text_type": "8",
                                     "fact_text": "In <span class='fact-year'> 2017</span>, <span class='fact-value'> more than 95</span>  <span class='fact-unit'>% </span> of the population relied primarily on clean fuels and technology.",
@@ -1421,8 +1425,8 @@
                                 {
                                     "seriesCode": "NY_GDP_PCAP",
                                     "seriesTitle": "Annual growth rate of real GDP per capita (percent)",
-                                    "hub": "bb559e1958cb4049b9f82b60896e767a",
-                                    "dashboard": "31c3e5df4b9e4a75a33221157591a37f",
+                                    "hub": "97f4c9aba77f4fed8f217784dfdd649f",
+                                    "dashboard": "378205c3c3124a31818863e86a0c41a1",
                                     "slice_dimensions": {},
                                     "text_type": "1",
                                     "fact_text": "The annual growth rate of real gross domestic product (GDP) per capita declined from <span class='fact-value'>3.27</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>0.82%</span> in <span class='fact-year'>2017</span>.",
@@ -1533,8 +1537,8 @@
                                 {
                                     "seriesCode": "EN_MAT_DOMCMPC",
                                     "seriesTitle": "Domestic material consumption per capita (tonnes)",
-                                    "hub": "5a1a9bfc83424da584ad4cbb266fd6b6",
-                                    "dashboard": "e794a8fa2ae2494cb22bc7a7f9712821",
+                                    "hub": "b224da3fb5df4cbe83dc8b20de71dc89",
+                                    "dashboard": "95628afb11054f069b7a4d1dea9277b6",
                                     "slice_dimensions": {
                                         "typeOfProductCode": "RAW"
                                     },
@@ -1647,8 +1651,8 @@
                                 {
                                     "seriesCode": "SL_TLF_UEM",
                                     "seriesTitle": "Unemployment rate of population 15 years of age and older",
-                                    "hub": "5065a8bb4c644e3e9eb88899d0cda2e5",
-                                    "dashboard": "533fa3c5833541b3986ac8309f66b1aa",
+                                    "hub": "c386199f78d041d5b1c7b5403ed6bc52",
+                                    "dashboard": "c8c399f1941345faa28a4969f03b746b",
                                     "slice_dimensions": {
                                         "ageCode": "Y_GE15",
                                         "sexCode": "_T"
@@ -1760,8 +1764,8 @@
                                 {
                                     "seriesCode": "EN_ATM_CO2GDP",
                                     "seriesTitle": "Carbon dioxide emissions per unit of GDP (kg per constant 2010 US dollars)",
-                                    "hub": "86270206bc654a0096b434df4a1e5786",
-                                    "dashboard": "290f81cf418940b48f3c27a25bf009df",
+                                    "hub": "36ff192d48504b34bbc8af3ff30f565b",
+                                    "dashboard": "544b47cf17374d4881b5cec507585d4f",
                                     "slice_dimensions": {},
                                     "text_type": "1",
                                     "fact_text": "The carbon dioxide emissions per unit of GDP decreased from <span class='fact-value'>0.25</span>  <span class='fact-unit'> kg</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>0.21 kg</span> in <span class='fact-year'>2016</span>.",
@@ -1868,8 +1872,8 @@
                                 {
                                     "seriesCode": "GB_XPD_RSDV",
                                     "seriesTitle": "Research and development expenditure as a proportion of GDP (percent)",
-                                    "hub": "328ab7e567a8480ebd92c114a53a575e",
-                                    "dashboard": "849027f8e0d2446c92ba42c2ab6d11a6",
+                                    "hub": "06bbe00c627d46f884b9caf36413ad97",
+                                    "dashboard": "f841760c54bc4eaa9229ca9a0fad6900",
                                     "slice_dimensions": {},
                                     "text_type": "9",
                                     "fact_text": "In <span class='fact-year'> 2016</span>, investment in research and development (R&D) stood at <span class='fact-value'> 0.6</span>  <span class='fact-unit'>% of GDP</span>, up from <span class='fact-value'> 0.54</span> <span class='fact-unit'>%</span> in <span class='fact-year'> 2002</span> ",
@@ -1968,8 +1972,8 @@
                                 {
                                     "seriesCode": "IT_MOB_NTWK",
                                     "seriesTitle": "Proportion of population covered by at least a 2G mobile network (percent)",
-                                    "hub": "7fcb589a24444052b5c54177b0796ef2",
-                                    "dashboard": "e08d9967278346efb827a0c2ddc14c52",
+                                    "hub": "bcf2ed2c448a4a3bafe7ea8951d4a259",
+                                    "dashboard": "d5a2248b66c94b46a5bb80d739ba5a65",
                                     "slice_dimensions": {
                                         "typeOfMobileTechnologyCode": "AL2G"
                                     },
@@ -2076,11 +2080,11 @@
                                 {
                                     "seriesCode": "EN_LND_SLUM",
                                     "seriesTitle": "Proportion of urban population living in slums (percent)",
-                                    "hub": "8fede37e3d634d3db2139e660be00e39",
-                                    "dashboard": "c28d0e785cb64e86af1a02ce845aae1e",
+                                    "hub": "27d1c1e5ebc6410597603e9bf52829f3",
+                                    "dashboard": "e0d01f7b25cd44b19904a17588c13566",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The proportion of the urban population living in slums was <span class='fact-value'>8.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2014</span>.",
+                                    "fact_text": "The proportion of the urban population living in slums was <span class='fact-value'>8.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
                                         "8.0"
                                     ],
@@ -2088,18 +2092,22 @@
                                         "%"
                                     ],
                                     "fact_years": [
-                                        "2014"
+                                        "2016"
                                     ],
                                     "data_years": [
-                                        2014
+                                        2014,
+                                        2016
                                     ],
                                     "data_values": [
+                                        "8.0",
                                         "8.0"
                                     ],
                                     "data_is_censored": [
+                                        false,
                                         false
                                     ],
                                     "data_numeric_part": [
+                                        8.0,
                                         8.0
                                     ],
                                     "preferred_visualization": "singleton"
@@ -2117,8 +2125,8 @@
                                 {
                                     "seriesCode": "EN_ATM_PM25",
                                     "seriesTitle": "Annual mean levels of fine particulate matter in cities (micrograms per cubic meter)",
-                                    "hub": "8cdde3a14182449998ee0cc803d74ce9",
-                                    "dashboard": "e5f39b918faa4fa58357b941c8dd1eda",
+                                    "hub": "e9df4c5818464ca89b1f0cc403897836",
+                                    "dashboard": "1461785b619a49618c6cffd52afe0142",
                                     "slice_dimensions": {
                                         "locationCode": "_T"
                                     },
@@ -2152,51 +2160,6 @@
                             ]
                         }
                     ]
-                },
-                {
-                    "targetCode": "11.b",
-                    "indicators": [
-                        {
-                            "indicatorCode": "11.b.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "SG_DSR_LEGREG",
-                                    "seriesTitle": "Existence of legislative and/or regulatory provisions for managing disaster risk",
-                                    "hub": "616ca7c722324aafb62e05f0da3f7bc8",
-                                    "dashboard": "378491ec94b0404b89f3341386036e5b",
-                                    "slice_dimensions": {},
-                                    "text_type": "12",
-                                    "fact_text": "As of <span class='fact-year'> 2015</span>, Tunisia has developed national and local disaster reduction strategies.",
-                                    "fact_values": [
-                                        "1"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2015"
-                                    ],
-                                    "data_years": [
-                                        2013,
-                                        2015
-                                    ],
-                                    "data_values": [
-                                        "1",
-                                        "1"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        1,
-                                        1
-                                    ],
-                                    "preferred_visualization": "boolean"
-                                }
-                            ]
-                        }
-                    ]
                 }
             ]
         },
@@ -2212,8 +2175,8 @@
                                 {
                                     "seriesCode": "EN_MAT_DOMCMPC",
                                     "seriesTitle": "Domestic material consumption per capita (tonnes)",
-                                    "hub": "5a1a9bfc83424da584ad4cbb266fd6b6",
-                                    "dashboard": "e794a8fa2ae2494cb22bc7a7f9712821",
+                                    "hub": "b224da3fb5df4cbe83dc8b20de71dc89",
+                                    "dashboard": "95628afb11054f069b7a4d1dea9277b6",
                                     "slice_dimensions": {
                                         "typeOfProductCode": "RAW"
                                     },
@@ -2320,56 +2283,6 @@
             ]
         },
         {
-            "goalCode": "13",
-            "targets": [
-                {
-                    "targetCode": "13.1",
-                    "indicators": [
-                        {
-                            "indicatorCode": "13.1.2",
-                            "facts": [
-                                {
-                                    "seriesCode": "SG_DSR_LEGREG",
-                                    "seriesTitle": "Existence of legislative and/or regulatory provisions for managing disaster risk",
-                                    "hub": "616ca7c722324aafb62e05f0da3f7bc8",
-                                    "dashboard": "378491ec94b0404b89f3341386036e5b",
-                                    "slice_dimensions": {},
-                                    "text_type": "12",
-                                    "fact_text": "As of <span class='fact-year'> 2015</span>, Tunisia has developed national and local disaster reduction strategies.",
-                                    "fact_values": [
-                                        "1"
-                                    ],
-                                    "fact_units": [
-                                        ""
-                                    ],
-                                    "fact_years": [
-                                        "2015"
-                                    ],
-                                    "data_years": [
-                                        2013,
-                                        2015
-                                    ],
-                                    "data_values": [
-                                        "1",
-                                        "1"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        1,
-                                        1
-                                    ],
-                                    "preferred_visualization": "boolean"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "goalCode": "14",
             "targets": [
                 {
@@ -2381,8 +2294,8 @@
                                 {
                                     "seriesCode": "ER_MRN_MARIN",
                                     "seriesTitle": "Coverage of protected areas in relation to marine areas (Exclusive Economic Zones) (percent)",
-                                    "hub": "5b238e9156014f0f83b3c4dd92e481be",
-                                    "dashboard": "8ebf3c9c33d1480bacf3fa30fecc759b",
+                                    "hub": "f205b31db8bf44ea9f8d23b41cd4a9a9",
+                                    "dashboard": "5c9481ffde5842978e0b7e64f83ebd20",
                                     "slice_dimensions": {},
                                     "text_type": "8",
                                     "fact_text": "In <span class='fact-year'> 2018</span>, <span class='fact-value'> 1.04</span>  <span class='fact-unit'>% </span> of the marine environment under national jurisdiction (up to 200 nautical miles from shore) was under protection.",
@@ -2427,8 +2340,8 @@
                                 {
                                     "seriesCode": "AG_LND_FRST",
                                     "seriesTitle": "Forest area as a proportion of total land area (percent)",
-                                    "hub": "f0f58708445a4694b741d71798dc12c2",
-                                    "dashboard": "80866e37499c454788cf48d66c434762",
+                                    "hub": "2f7acf84fdad47d183f7e2041b474e02",
+                                    "dashboard": "2793cd777b704144bb04ef96648f0a1c",
                                     "slice_dimensions": {},
                                     "text_type": "1",
                                     "fact_text": "Land area covered by forest increased from <span class='fact-value'>5.39</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>6.7%</span> in <span class='fact-year'>2015</span>.",
@@ -2478,8 +2391,8 @@
                                 {
                                     "seriesCode": "ER_PTD_FRWRT",
                                     "seriesTitle": "Average proportion of freshwater key biodiversity areas (KBAs) covered by protected areas (percent)",
-                                    "hub": "ca72cb9dfd784898baa44fa497cfac02",
-                                    "dashboard": "d5ec9d25eaf644488785982eeced61eb",
+                                    "hub": "9fcf31b0eb6b40ddb8a4c963bf78d761",
+                                    "dashboard": "5aad70b7e1e64882ae932ef180bde9ea",
                                     "slice_dimensions": {
                                         "boundsCode": "_T"
                                     },
@@ -2583,8 +2496,8 @@
                                 {
                                     "seriesCode": "ER_PTD_TERRS",
                                     "seriesTitle": "Average proportion of terrestrial key biodiversity areas (KBAs) covered by protected areas (percent)",
-                                    "hub": "4c1bbb2c82954356b4045c028158da8b",
-                                    "dashboard": "c42704c17fc64fcfbccafecfa2c70b44",
+                                    "hub": "50b0017bc20a400e8bfb92da7591a28b",
+                                    "dashboard": "6c72e28c8daf4aebb97a6e937623a14e",
                                     "slice_dimensions": {
                                         "boundsCode": "_T"
                                     },
@@ -2703,35 +2616,31 @@
                                 {
                                     "seriesCode": "VC_IHR_PSRC",
                                     "seriesTitle": "Number of victims of intentional homicide per 100,000 population",
-                                    "hub": "c4089c337b374a428e787480b8c55ffb",
-                                    "dashboard": "e2ae2e8b01024f78a91190a023f672ac",
+                                    "hub": "f0b52ccea69a48b09df3f5fd58e58e84",
+                                    "dashboard": "11445197f42a45ba8c836639c3e4aa71",
                                     "slice_dimensions": {},
                                     "text_type": "11",
-                                    "fact_text": "In <span class='fact-year'> 2012</span>, the intentional homicide rate was <span class='fact-value'> 3.05</span>  <span class='fact-unit'> per 100,000 population</span>. ",
+                                    "fact_text": "In <span class='fact-year'> 2010</span>, the intentional homicide rate was <span class='fact-value'> 2.69</span>  <span class='fact-unit'> per 100,000 population</span>. ",
                                     "fact_values": [
-                                        "3.05"
+                                        "2.69"
                                     ],
                                     "fact_units": [
                                         " per 100,000 population"
                                     ],
                                     "fact_years": [
-                                        "2012"
+                                        "2010"
                                     ],
                                     "data_years": [
-                                        2010,
-                                        2012
+                                        2010
                                     ],
                                     "data_values": [
-                                        "2.69",
-                                        "3.05"
+                                        "2.68799"
                                     ],
                                     "data_is_censored": [
-                                        false,
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        2.69,
-                                        3.05
+                                        2.69
                                     ],
                                     "preferred_visualization": "singleton"
                                 }
@@ -2748,8 +2657,8 @@
                                 {
                                     "seriesCode": "SG_REG_BRTH",
                                     "seriesTitle": "Proportion of children under 5 years of age whose births have been registered with a civil authority (percent)",
-                                    "hub": "c74ed5febec9410aaf2fb91326b69ea5",
-                                    "dashboard": "5bca94c1a4e24241ae5702506be6f297",
+                                    "hub": "359a92a4ce7545a7a6614a31440f9f5a",
+                                    "dashboard": "dc2049c4bc08455db07cd2be9e242c5b",
                                     "slice_dimensions": {
                                         "ageCode": "Y0T4"
                                     },
@@ -2796,19 +2705,22 @@
                                 {
                                     "seriesCode": "BX_TRF_PWKR",
                                     "seriesTitle": "Volume of remittances as a proportion of total GCP (percent)",
-                                    "hub": "57b9fa3dcfc24840b698c7f6eb4d42a1",
-                                    "dashboard": "6785de3b7b8844b6b7597695101803f1",
+                                    "hub": "00e65cf61d8042f591c27ddb56d10063",
+                                    "dashboard": "5e34da4282df4c179ef13366a8e29f23",
                                     "slice_dimensions": {},
                                     "text_type": "9",
-                                    "fact_text": "In <span class='fact-year'> 2016</span>, the inflow of personal remittances was <span class='fact-value'> 4.33</span>  <span class='fact-unit'>% of GDP</span>.",
+                                    "fact_text": "In <span class='fact-year'> 2017</span>, the inflow of personal remittances was <span class='fact-value'> 4.73</span>  <span class='fact-unit'>% of GDP</span>, up from <span class='fact-value'> 4.48</span> <span class='fact-unit'>%</span> in <span class='fact-year'> 1990</span> ",
                                     "fact_values": [
-                                        "4.33"
+                                        "4.48",
+                                        "4.73"
                                     ],
                                     "fact_units": [
+                                        "% of GDP",
                                         "% of GDP"
                                     ],
                                     "fact_years": [
-                                        "2016"
+                                        "1990",
+                                        "2017"
                                     ],
                                     "data_years": [
                                         1990,
@@ -2837,38 +2749,41 @@
                                         2013,
                                         2014,
                                         2015,
-                                        2016
+                                        2016,
+                                        2017
                                     ],
                                     "data_values": [
-                                        "4.48",
-                                        "4.01",
-                                        "3.43",
-                                        "3.06",
-                                        "4.02",
-                                        "3.77",
-                                        "3.76",
-                                        "3.30",
-                                        "3.29",
-                                        "3.32",
-                                        "3.71",
-                                        "4.20",
-                                        "4.62",
-                                        "4.55",
-                                        "4.59",
-                                        "4.32",
-                                        "4.39",
-                                        "4.41",
-                                        "4.41",
-                                        "4.52",
-                                        "4.68",
-                                        "4.38",
-                                        "5.03",
-                                        "4.95",
-                                        "4.93",
-                                        "4.57",
-                                        "4.33"
+                                        "4.48347",
+                                        "4.01184",
+                                        "3.42908",
+                                        "3.05518",
+                                        "4.02199",
+                                        "3.77066",
+                                        "3.75528",
+                                        "3.2994",
+                                        "3.29466",
+                                        "3.31786",
+                                        "3.70673",
+                                        "4.20169",
+                                        "4.62492",
+                                        "4.55415",
+                                        "4.59014",
+                                        "4.31529",
+                                        "4.3924",
+                                        "4.40977",
+                                        "4.4073",
+                                        "4.52075",
+                                        "4.68388",
+                                        "4.37562",
+                                        "5.02999",
+                                        "4.95235",
+                                        "4.92653",
+                                        "4.56839",
+                                        "4.35618",
+                                        "4.73148"
                                     ],
                                     "data_is_censored": [
+                                        false,
                                         false,
                                         false,
                                         false,
@@ -2924,7 +2839,8 @@
                                         4.95,
                                         4.93,
                                         4.57,
-                                        4.33
+                                        4.36,
+                                        4.73
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
@@ -2941,14 +2857,14 @@
                                 {
                                     "seriesCode": "DT_TDS_DECT",
                                     "seriesTitle": "Debt service as a proportion of exports of goods and services (percent)",
-                                    "hub": "ebfc4bd6fed94a7da997050dbf4b7d11",
-                                    "dashboard": "1f03ee89a69147ebab82ae5e5a839977",
+                                    "hub": "e061fd67f9f84933addcd27ca6154354",
+                                    "dashboard": "2e8a46f45b764dfcb4f5c2162351f846",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "Debt service as a proportion of exports of goods and services declined from <span class='fact-value'>25.56</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>1990</span> to <span class='fact-value'>9.19%</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "Debt service as a proportion of exports of goods and services declined from <span class='fact-value'>25.56</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>1990</span> to <span class='fact-value'>14.3%</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
                                         "25.56",
-                                        "9.19"
+                                        "14.3"
                                     ],
                                     "fact_units": [
                                         "%",
@@ -2956,7 +2872,7 @@
                                     ],
                                     "fact_years": [
                                         "1990",
-                                        "2016"
+                                        "2017"
                                     ],
                                     "data_years": [
                                         1990,
@@ -2985,38 +2901,41 @@
                                         2013,
                                         2014,
                                         2015,
-                                        2016
+                                        2016,
+                                        2017
                                     ],
                                     "data_values": [
-                                        "25.56",
-                                        "24.86",
-                                        "20.64",
-                                        "21.22",
-                                        "19.52",
-                                        "17.27",
-                                        "16.84",
-                                        "15.99",
-                                        "15.63",
-                                        "16.16",
-                                        "20.67",
-                                        "13.21",
-                                        "14.23",
-                                        "13.56",
-                                        "13.82",
-                                        "11.51",
-                                        "13.40",
-                                        "10.30",
-                                        "6.59",
-                                        "9.10",
-                                        "8.62",
-                                        "10.11",
-                                        "9.33",
-                                        "8.28",
-                                        "7.48",
-                                        "8.92",
-                                        "9.19"
+                                        "25.55907",
+                                        "24.85903",
+                                        "20.64007",
+                                        "21.21861",
+                                        "19.51961",
+                                        "17.27476",
+                                        "16.83975",
+                                        "15.99447",
+                                        "15.62908",
+                                        "16.15963",
+                                        "20.66844",
+                                        "13.21188",
+                                        "14.2301",
+                                        "13.56392",
+                                        "13.82218",
+                                        "11.51442",
+                                        "13.39657",
+                                        "10.29864",
+                                        "6.59145",
+                                        "9.09938",
+                                        "8.62071",
+                                        "10.10514",
+                                        "9.33485",
+                                        "8.27966",
+                                        "7.57993",
+                                        "8.93245",
+                                        "9.86101",
+                                        "14.29682"
                                     ],
                                     "data_is_censored": [
+                                        false,
                                         false,
                                         false,
                                         false,
@@ -3070,9 +2989,10 @@
                                         10.11,
                                         9.33,
                                         8.28,
-                                        7.48,
-                                        8.92,
-                                        9.19
+                                        7.58,
+                                        8.93,
+                                        9.86,
+                                        14.3
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
@@ -3089,8 +3009,8 @@
                                 {
                                     "seriesCode": "IT_NET_BBP",
                                     "seriesTitle": "Fixed internet broadband subscriptions per 100 inhabitants",
-                                    "hub": "2e8bee2bc3214317ab8ebd39ffb10c62",
-                                    "dashboard": "3aa03b2fb75a42bb8f58fc431b016b08",
+                                    "hub": "9e7ac88c99e1423abcac29a5f5a3ab28",
+                                    "dashboard": "560237e356b948fc8d053adfe2c67f84",
                                     "slice_dimensions": {
                                         "typeOfSpeedCode": "ANYS"
                                     },
@@ -3195,8 +3115,8 @@
                                 {
                                     "seriesCode": "SG_STT_NSDSFND",
                                     "seriesTitle": "Existence of national statistical plans that are fully funded",
-                                    "hub": "e07839ac90844ba8a5cfb29613cef376",
-                                    "dashboard": "a915273eb1954cf0ae7ac21aa63bb02d",
+                                    "hub": "f503b6296a1b48439c57788ac9a10619",
+                                    "dashboard": "749161428fde40e59de8540a532b6335",
                                     "slice_dimensions": {},
                                     "text_type": "12",
                                     "fact_text": "As of <span class='fact-year'> 2018</span>, Tunisia has developed national statistical plans that are fully funded.",
