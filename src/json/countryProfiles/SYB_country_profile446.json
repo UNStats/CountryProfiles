@@ -5,205 +5,28 @@
     "CountryProfile": "1",
     "themes": [
         {
-            "themeTitle": "Environment",
-            "themeFacts": [
-                {
-                    "seriesCode": "SYB045",
-                    "seriesTitle": "Arable land as percent of total land area",
-                    "units": "Percent",
-                    "hub": "ddf9aaf75c8049688634c59e4a47a53a",
-                    "years": [],
-                    "values": []
-                },
-                {
-                    "seriesCode": "SYB047",
-                    "seriesTitle": "Forest cover as percent of total land area",
-                    "units": "Percent",
-                    "hub": "686bb7cb792748a29b203842f553f249",
-                    "years": [],
-                    "values": []
-                },
-                {
-                    "seriesCode": "SYB050",
-                    "seriesTitle": "Land area",
-                    "units": "Hectares",
-                    "hub": "be9f976cde964d02b38168123b478d66",
-                    "years": [
-                        2005,
-                        2010,
-                        2015,
-                        2016
-                    ],
-                    "values": [
-                        2.8,
-                        2.97,
-                        3.04,
-                        3.04
-                    ]
-                },
-                {
-                    "seriesCode": "SYB051",
-                    "seriesTitle": "Permanent crops as percent of total land area",
-                    "units": "Percent",
-                    "hub": "b6e78096d8024588a0cce59d729bc154",
-                    "years": [],
-                    "values": []
-                },
-                {
-                    "seriesCode": "SYB091",
-                    "seriesTitle": "Surface area",
-                    "units": "km2",
-                    "hub": "875ce0c9115b46e6a9fe2471e312ea03",
-                    "years": [
-                        2013,
-                        2014,
-                        2015
-                    ],
-                    "values": [
-                        0.03,
-                        0.03,
-                        0.03
-                    ]
-                }
-            ]
-        },
-        {
             "themeTitle": "Population and migration",
             "themeFacts": [
-                {
-                    "seriesCode": "SYB073",
-                    "seriesTitle": "International migrant stock as percent of total population",
-                    "units": "Percent",
-                    "hub": "d7f798f2a6cd46e2b6d9c09065f03de4",
-                    "years": [
-                        2000,
-                        2005,
-                        2010,
-                        2015,
-                        2017
-                    ],
-                    "values": [
-                        56.26,
-                        57.88,
-                        59.32,
-                        57.03,
-                        56.81
-                    ]
-                },
-                {
-                    "seriesCode": "SYB012",
-                    "seriesTitle": "Life expectancy at birth",
-                    "units": "Years",
-                    "hub": "3aa919d7703a4ecfa9d55bac8694343f",
-                    "years": [
-                        2000,
-                        2005,
-                        2010,
-                        2015,
-                        2020
-                    ],
-                    "values": [
-                        79.75,
-                        80.97,
-                        82.07,
-                        83.28,
-                        84.04
-                    ]
-                },
-                {
-                    "seriesCode": "SYB072",
-                    "seriesTitle": "Number of asylum seekers, including pending cases",
-                    "units": "",
-                    "hub": "a1bc495b927c4873b6d314a0ce3b7bd1",
-                    "years": [
-                        2010,
-                        2015,
-                        2016,
-                        2017
-                    ],
-                    "values": [
-                        9.0,
-                        6.0,
-                        6.0,
-                        5.0
-                    ]
-                },
-                {
-                    "seriesCode": "SYB077",
-                    "seriesTitle": "Number of refugees and people in refugee-like situations",
-                    "units": "",
-                    "hub": "592ed636d538491593ed9de1e2c3f47b",
-                    "years": [],
-                    "values": []
-                },
                 {
                     "seriesCode": "SYB089",
                     "seriesTitle": "Population (mid-year estimates)",
                     "units": "Millions",
                     "hub": "7e77f35a3ebb49c29d9fc8c10f825f33",
                     "years": [
-                        2000,
-                        2001,
-                        2002,
-                        2003,
-                        2004,
                         2005,
-                        2006,
-                        2007,
-                        2008,
-                        2009,
                         2010,
-                        2011,
-                        2012,
-                        2013,
-                        2014,
                         2015,
-                        2016,
                         2017,
                         2018,
-                        2020
+                        2019
                     ],
                     "values": [
-                        0.43,
-                        0.44,
-                        0.45,
-                        0.46,
-                        0.47,
                         0.48,
-                        0.49,
-                        0.5,
-                        0.51,
-                        0.53,
                         0.54,
-                        0.55,
-                        0.56,
-                        0.58,
-                        0.59,
                         0.6,
-                        0.61,
                         0.62,
                         0.63,
-                        0.65
-                    ]
-                },
-                {
-                    "seriesCode": "SYB014",
-                    "seriesTitle": "Population growth",
-                    "units": "Percent",
-                    "hub": "f6f16a88b56840249b4439bbea05dba4",
-                    "years": [
-                        2000,
-                        2005,
-                        2010,
-                        2015,
-                        2020
-                    ],
-                    "values": [
-                        2.08,
-                        2.4,
-                        2.14,
-                        2.25,
-                        1.63
+                        0.64
                     ]
                 },
                 {
@@ -212,22 +35,20 @@
                     "units": "Percent",
                     "hub": "493ee3f35221493fa582b807034fe488",
                     "years": [
-                        2000,
                         2005,
                         2010,
                         2015,
                         2017,
                         2018,
-                        2020
+                        2019
                     ],
                     "values": [
-                        9.66,
                         9.63,
-                        10.96,
-                        14.45,
+                        10.93,
+                        14.42,
                         16.12,
-                        16.98,
-                        18.8
+                        17.0,
+                        17.92
                     ]
                 },
                 {
@@ -236,22 +57,20 @@
                     "units": "Percent",
                     "hub": "493ee3f35221493fa582b807034fe488",
                     "years": [
-                        2000,
                         2005,
                         2010,
                         2015,
                         2017,
                         2018,
-                        2020
+                        2019
                     ],
                     "values": [
-                        22.86,
-                        16.94,
-                        12.73,
-                        12.42,
-                        13.26,
-                        13.77,
-                        14.73
+                        17.02,
+                        12.97,
+                        12.62,
+                        13.28,
+                        13.65,
+                        14.02
                     ]
                 },
                 {
@@ -275,23 +94,99 @@
                     ]
                 },
                 {
+                    "seriesCode": "SYB012",
+                    "seriesTitle": "Life expectancy at birth",
+                    "units": "Years",
+                    "hub": "3aa919d7703a4ecfa9d55bac8694343f",
+                    "years": [
+                        2005,
+                        2010,
+                        2015
+                    ],
+                    "values": [
+                        80.97,
+                        82.07,
+                        83.28
+                    ]
+                },
+                {
+                    "seriesCode": "SYB014",
+                    "seriesTitle": "Population growth",
+                    "units": "Percent",
+                    "hub": "f6f16a88b56840249b4439bbea05dba4",
+                    "years": [
+                        2005,
+                        2010,
+                        2015
+                    ],
+                    "values": [
+                        2.42,
+                        2.17,
+                        2.24
+                    ]
+                },
+                {
                     "seriesCode": "SYB015",
                     "seriesTitle": "Total fertility rate",
                     "units": "Children per woman",
                     "hub": "bbb7dbea77a9464c883e3605eca93d51",
                     "years": [
+                        2005,
+                        2010,
+                        2015
+                    ],
+                    "values": [
+                        0.85,
+                        0.98,
+                        1.19
+                    ]
+                },
+                {
+                    "seriesCode": "SYB073",
+                    "seriesTitle": "International migrant stock as percent of total population",
+                    "units": "Percent",
+                    "hub": "d7f798f2a6cd46e2b6d9c09065f03de4",
+                    "years": [
                         2000,
                         2005,
                         2010,
                         2015,
-                        2020
+                        2017
                     ],
                     "values": [
-                        1.12,
-                        0.83,
-                        0.94,
-                        1.19,
-                        1.35
+                        56.26,
+                        57.88,
+                        59.32,
+                        57.03,
+                        56.81
+                    ]
+                },
+                {
+                    "seriesCode": "SYB077",
+                    "seriesTitle": "Number of refugees and people in refugee-like situations",
+                    "units": "",
+                    "hub": "592ed636d538491593ed9de1e2c3f47b",
+                    "years": [],
+                    "values": []
+                },
+                {
+                    "seriesCode": "SYB072",
+                    "seriesTitle": "Number of asylum seekers, including pending cases",
+                    "units": "",
+                    "hub": "a1bc495b927c4873b6d314a0ce3b7bd1",
+                    "years": [
+                        2010,
+                        2015,
+                        2016,
+                        2017,
+                        2018
+                    ],
+                    "values": [
+                        9.0,
+                        6.0,
+                        6.0,
+                        5.0,
+                        2.0
                     ]
                 }
             ]
@@ -372,42 +267,6 @@
                     ]
                 },
                 {
-                    "seriesCode": "SYB026",
-                    "seriesTitle": "GDP real growth rate",
-                    "units": "Percent",
-                    "hub": "18378adffb914440b6f6ae8579b9706d",
-                    "years": [
-                        2005,
-                        2006,
-                        2007,
-                        2008,
-                        2009,
-                        2010,
-                        2011,
-                        2012,
-                        2013,
-                        2014,
-                        2015,
-                        2016,
-                        2017
-                    ],
-                    "values": [
-                        8.06,
-                        13.31,
-                        14.45,
-                        3.39,
-                        1.32,
-                        25.26,
-                        21.67,
-                        9.24,
-                        11.2,
-                        -1.2,
-                        -21.59,
-                        -0.86,
-                        9.1
-                    ]
-                },
-                {
                     "seriesCode": "SYB092",
                     "seriesTitle": "Labour force participation rate",
                     "units": "Percent",
@@ -432,8 +291,7 @@
                         2016,
                         2017,
                         2018,
-                        2019,
-                        2020
+                        2019
                     ],
                     "values": [
                         65.3,
@@ -455,8 +313,7 @@
                         70.8,
                         70.9,
                         70.7,
-                        70.5,
-                        70.2
+                        70.5
                     ]
                 },
                 {
@@ -654,6 +511,42 @@
                         1.94,
                         1.99
                     ]
+                },
+                {
+                    "seriesCode": "SYB026",
+                    "seriesTitle": "GDP real growth rate",
+                    "units": "Percent",
+                    "hub": "18378adffb914440b6f6ae8579b9706d",
+                    "years": [
+                        2005,
+                        2006,
+                        2007,
+                        2008,
+                        2009,
+                        2010,
+                        2011,
+                        2012,
+                        2013,
+                        2014,
+                        2015,
+                        2016,
+                        2017
+                    ],
+                    "values": [
+                        8.06,
+                        13.31,
+                        14.45,
+                        3.39,
+                        1.32,
+                        25.26,
+                        21.67,
+                        9.24,
+                        11.2,
+                        -1.2,
+                        -21.59,
+                        -0.86,
+                        9.1
+                    ]
                 }
             ]
         },
@@ -666,16 +559,40 @@
                     "units": "Millions of US dollars",
                     "hub": "a201ac34ff6a47a6a978ca2b3b7f0dfd",
                     "years": [
+                        2002,
+                        2003,
+                        2004,
                         2005,
+                        2006,
+                        2007,
+                        2008,
+                        2009,
                         2010,
+                        2011,
+                        2012,
+                        2013,
+                        2014,
                         2015,
-                        2016
+                        2016,
+                        2017
                     ],
                     "values": [
+                        138.77,
+                        88.04,
+                        273.95,
                         514.54,
+                        438.46,
+                        318.61,
+                        393.47,
+                        604.22,
                         19.6,
-                        -2.91,
-                        -2.36
+                        1328.83,
+                        -0.28,
+                        -0.64,
+                        -1.86,
+                        -7.56,
+                        -68.27,
+                        -44.8
                     ]
                 },
                 {
@@ -684,16 +601,40 @@
                     "units": "Millions of US dollars",
                     "hub": "12fb78721cdc4d678a74e58006b131cf",
                     "years": [
+                        2002,
+                        2003,
+                        2004,
                         2005,
+                        2006,
+                        2007,
+                        2008,
+                        2009,
                         2010,
+                        2011,
+                        2012,
+                        2013,
+                        2014,
                         2015,
-                        2016
+                        2016,
+                        2017
                     ],
                     "values": [
+                        2352.39,
+                        2550.73,
+                        3521.22,
                         2901.55,
+                        2180.3,
+                        3968.05,
+                        3353.79,
+                        6048.7,
                         11089.14,
-                        11458.36,
-                        12215.25
+                        14999.11,
+                        16892.57,
+                        20741.66,
+                        18912.13,
+                        11484.2,
+                        12341.47,
+                        16661.73
                     ]
                 },
                 {
@@ -702,16 +643,40 @@
                     "units": "Millions of US dollars",
                     "hub": "fab67e6783d14d1988ff7ed19bea77ef",
                     "years": [
+                        2002,
+                        2003,
+                        2004,
                         2005,
+                        2006,
+                        2007,
+                        2008,
+                        2009,
                         2010,
+                        2011,
+                        2012,
+                        2013,
+                        2014,
                         2015,
-                        2016
+                        2016,
+                        2017
                     ],
                     "values": [
+                        1553.22,
+                        2437.83,
+                        2913.19,
                         1445.74,
-                        6787.09,
-                        5117.18,
-                        12882.53
+                        3355.16,
+                        -2783.26,
+                        -1135.33,
+                        5395.18,
+                        6808.94,
+                        12531.72,
+                        18730.53,
+                        17711.53,
+                        12724.06,
+                        5142.23,
+                        12672.83,
+                        16700.72
                     ]
                 },
                 {
@@ -725,7 +690,8 @@
                         2014,
                         2015,
                         2016,
-                        2017
+                        2017,
+                        2018
                     ],
                     "values": [
                         -2039.78,
@@ -733,29 +699,56 @@
                         -10155.91,
                         -9263.57,
                         -7667.86,
-                        -8042.7
+                        -8042.7,
+                        -10139.45
                     ]
                 },
                 {
                     "seriesCode": "SYB068",
                     "seriesTitle": "Exchange rate (end of period)",
-                    "units": "National currency per US dollar",
+                    "units": "per US dollar",
                     "hub": "9b697a11f8084ac682dea3f55b2b088f",
                     "years": [
+                        2000,
+                        2001,
+                        2002,
+                        2003,
+                        2004,
                         2005,
+                        2006,
+                        2007,
+                        2008,
+                        2009,
                         2010,
+                        2011,
+                        2012,
+                        2013,
                         2014,
                         2015,
                         2016,
-                        2017
+                        2017,
+                        2018
                     ],
                     "values": [
+                        8.03,
+                        8.03,
+                        8.03,
+                        8.0,
+                        8.01,
+                        7.99,
+                        8.01,
+                        8.03,
+                        7.98,
                         7.99,
                         8.02,
+                        8.0,
+                        7.98,
+                        7.99,
                         7.99,
                         7.98,
                         7.99,
-                        8.05
+                        8.05,
+                        8.07
                     ]
                 },
                 {
@@ -769,7 +762,8 @@
                         2014,
                         2015,
                         2016,
-                        2017
+                        2017,
+                        2018
                     ],
                     "values": [
                         2474.5,
@@ -777,7 +771,8 @@
                         1240.03,
                         1339.01,
                         1256.6,
-                        1405.83
+                        1405.83,
+                        1254.88
                     ]
                 },
                 {
@@ -791,7 +786,8 @@
                         2014,
                         2015,
                         2016,
-                        2017
+                        2017,
+                        2018
                     ],
                     "values": [
                         4514.27,
@@ -799,7 +795,8 @@
                         11395.93,
                         10602.58,
                         8924.46,
-                        9448.52
+                        9448.52,
+                        11394.33
                     ]
                 },
                 {
@@ -854,7 +851,7 @@
                     "years": [
                         2005,
                         2010,
-                        2017
+                        2018
                     ],
                     "values": [
                         4.07,
@@ -870,13 +867,78 @@
                     "years": [
                         2005,
                         2010,
-                        2017
+                        2018
                     ],
                     "values": [
                         37.37,
                         29.1,
                         31.42
                     ]
+                }
+            ]
+        },
+        {
+            "themeTitle": "Environment",
+            "themeFacts": [
+                {
+                    "seriesCode": "SYB091",
+                    "seriesTitle": "Surface area",
+                    "units": "km2",
+                    "hub": "875ce0c9115b46e6a9fe2471e312ea03",
+                    "years": [
+                        2013,
+                        2014,
+                        2015,
+                        2017
+                    ],
+                    "values": [
+                        0.03,
+                        0.03,
+                        0.03,
+                        0.03
+                    ]
+                },
+                {
+                    "seriesCode": "SYB050",
+                    "seriesTitle": "Land area",
+                    "units": "Hectares",
+                    "hub": "be9f976cde964d02b38168123b478d66",
+                    "years": [
+                        2005,
+                        2010,
+                        2015,
+                        2016
+                    ],
+                    "values": [
+                        2.8,
+                        2.97,
+                        3.04,
+                        3.04
+                    ]
+                },
+                {
+                    "seriesCode": "SYB045",
+                    "seriesTitle": "Arable land as percent of total land area",
+                    "units": "Percent",
+                    "hub": "ddf9aaf75c8049688634c59e4a47a53a",
+                    "years": [],
+                    "values": []
+                },
+                {
+                    "seriesCode": "SYB051",
+                    "seriesTitle": "Permanent crops as percent of total land area",
+                    "units": "Percent",
+                    "hub": "b6e78096d8024588a0cce59d729bc154",
+                    "years": [],
+                    "values": []
+                },
+                {
+                    "seriesCode": "SYB047",
+                    "seriesTitle": "Forest cover as percent of total land area",
+                    "units": "Percent",
+                    "hub": "686bb7cb792748a29b203842f553f249",
+                    "years": [],
+                    "values": []
                 }
             ]
         }
