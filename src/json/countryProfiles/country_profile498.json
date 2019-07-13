@@ -2734,7 +2734,9 @@
                                     "seriesTitle": "Number of victims of intentional homicide per 100,000 population",
                                     "hub": "f0b52ccea69a48b09df3f5fd58e58e84",
                                     "dashboard": "11445197f42a45ba8c836639c3e4aa71",
-                                    "slice_dimensions": {},
+                                    "slice_dimensions": {
+                                        "sexCode": "_T"
+                                    },
                                     "text_type": "11",
                                     "fact_text": "In <span class='fact-year'> 2014</span>, the intentional homicide rate was <span class='fact-value'> 3.19</span>  <span class='fact-unit'> per 100,000 population</span>. ",
                                     "fact_values": [
@@ -2748,49 +2750,19 @@
                                     ],
                                     "data_years": [
                                         2010,
-                                        2010,
-                                        2010,
-                                        2011,
-                                        2011,
                                         2011,
                                         2012,
-                                        2012,
-                                        2012,
                                         2013,
-                                        2013,
-                                        2013,
-                                        2014,
-                                        2014,
                                         2014
                                     ],
                                     "data_values": [
-                                        "10.8467",
-                                        "2.54626",
                                         "6.53694",
-                                        "12.64747",
                                         "7.45579",
-                                        "2.64588",
-                                        "2.97935",
                                         "5.62142",
-                                        "8.47304",
-                                        "2.64896",
                                         "4.15033",
-                                        "5.77142",
-                                        "3.19415",
-                                        "2.2709",
-                                        "4.19173"
+                                        "3.19415"
                                     ],
                                     "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
                                         false,
                                         false,
                                         false,
@@ -2798,21 +2770,11 @@
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        10.85,
-                                        2.55,
                                         6.54,
-                                        12.65,
                                         7.46,
-                                        2.65,
-                                        2.98,
                                         5.62,
-                                        8.47,
-                                        2.65,
                                         4.15,
-                                        5.77,
-                                        3.19,
-                                        2.27,
-                                        4.19
+                                        3.19
                                     ],
                                     "preferred_visualization": "time_series"
                                 }

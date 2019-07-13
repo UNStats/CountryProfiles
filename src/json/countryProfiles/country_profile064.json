@@ -1997,7 +1997,9 @@
                                     "seriesTitle": "Number of victims of intentional homicide per 100,000 population",
                                     "hub": "f0b52ccea69a48b09df3f5fd58e58e84",
                                     "dashboard": "11445197f42a45ba8c836639c3e4aa71",
-                                    "slice_dimensions": {},
+                                    "slice_dimensions": {
+                                        "sexCode": "_T"
+                                    },
                                     "text_type": "11",
                                     "fact_text": "In <span class='fact-year'> 2017</span>, the intentional homicide rate was <span class='fact-value'> 1.61</span>  <span class='fact-unit'> per 100,000 population</span>. ",
                                     "fact_values": [
@@ -2015,13 +2017,7 @@
                                         2012,
                                         2013,
                                         2015,
-                                        2015,
-                                        2015,
                                         2016,
-                                        2016,
-                                        2016,
-                                        2017,
-                                        2017,
                                         2017
                                     ],
                                     "data_values": [
@@ -2030,22 +2026,10 @@
                                         "4.38266",
                                         "3.13741",
                                         "1.52403",
-                                        "2.38981",
-                                        "0.54209",
-                                        "1.18055",
-                                        "1.07115",
                                         "1.12929",
-                                        "1.60891",
-                                        "2.0979",
-                                        "1.05541"
+                                        "1.60891"
                                     ],
                                     "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
                                         false,
                                         false,
                                         false,
@@ -2060,14 +2044,8 @@
                                         4.38,
                                         3.14,
                                         1.52,
-                                        2.39,
-                                        0.54,
-                                        1.18,
-                                        1.07,
                                         1.13,
-                                        1.61,
-                                        2.1,
-                                        1.06
+                                        1.61
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
