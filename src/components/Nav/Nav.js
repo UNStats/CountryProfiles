@@ -41,7 +41,11 @@ const Nav = ({ goals, goalInfos, isMobile }) => {
 
   return (
     <StyledNavContainer isMobile={isMobile}>
-      <Scrollspy items={getGoalSections()} currentClassName="active">
+      <Scrollspy
+        items={getGoalSections()}
+        currentClassName="active"
+        offset={-50}
+      >
         {getGoalLinks()}
       </Scrollspy>
       <ScrollToTop />
