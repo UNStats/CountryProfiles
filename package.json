@@ -1,8 +1,20 @@
 {
-  "name": "un-country-profile",
-  "version": "0.1.0",
-  "homepage": ".",
   "private": true,
+  "name": "country-profiles",
+  "version": "0.1.0",
+  "homepage": "https://country-profiles.unstatshub.org/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "now-build": "npm run build && npm run build-storybook",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public -o build/docs",
+    "format": "eslint --fix src && prettier --write '**/*(*.json|*.css|*.md)'",
+    "clean": "rm -rf ./node_modules && rm -rf ./build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "serve": "serve build"
+  },
   "dependencies": {
     "calcite-react": "^0.37.0",
     "calcite-ui-icons-react": "^0.5.0",
@@ -15,32 +27,6 @@
     "react-vis": "^1.11.7",
     "react-window": "^1.8.1",
     "styled-components": "^4.1.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "now-build": "npm run build && npm run build-storybook",
-    "clean": "rm -rf ./node_modules && rm -rf ./build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public -o build/docs",
-    "format": "eslint --fix src && prettier --write '**/*(*.json|*.css|*.md)'"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
@@ -57,9 +43,22 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.13.0",
     "now": "^15.6.2",
-    "prettier": "^1.17.0"
+    "prettier": "^1.17.0",
+    "serve": "^11.3.0"
   },
-  "engines": {
-    "node": "^10"
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
