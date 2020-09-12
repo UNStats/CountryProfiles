@@ -53,7 +53,7 @@ const Nav = ({
               showCountrySelector();
             }}
           >
-            Select a Country
+            Select a country
           </Button>
         </SideNavLink>
       );

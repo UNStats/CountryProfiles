@@ -41,7 +41,7 @@ const AppHeader = ({
         iconPosition="before"
         onClick={showCountrySelector}
       >
-        Select a Country
+        Select a country
       </Button>
     );
   };

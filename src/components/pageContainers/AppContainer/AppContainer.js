@@ -138,7 +138,7 @@ class AppContainer extends Component {
             open={true}
           >
             <StyledModalHeader>
-              <CalciteH3>Select a Country</CalciteH3>
+              <CalciteH3>Select a country or area</CalciteH3>
             </StyledModalHeader>
             <CountrySelector
               countryList={this.props.countryList}
@@ -203,7 +203,7 @@ class AppContainer extends Component {
           open={this.state.showCountrySelector}
         >
           <StyledModalHeader>
-            <CalciteH3>Select a Country</CalciteH3>
+            <CalciteH3>Select a country or area</CalciteH3>
             <Button
               iconButton
               icon={<XIcon />}

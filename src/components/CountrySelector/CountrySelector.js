@@ -79,7 +79,7 @@ class CountrySelector extends Component {
             minimal
             fullWidth
             inputRef={this.setSearchInput}
-            placeholder="Search Countries..."
+            placeholder="Search country or area..."
             inputValue={this.state.inputValue}
             onUserAction={this.onUserAction}
             onRequestClear={this.clearSearch}
