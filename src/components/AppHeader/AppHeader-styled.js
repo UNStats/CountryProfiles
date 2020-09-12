@@ -23,11 +23,11 @@ const TopNavSubTitle = styled(TopNavTitle)`
     ${props => props.theme.baseline};
   align-self: center;
   border-left: 1px solid ${props => props.theme.palette.gray};
-  color: ${props => props.theme.palette.blue};
+  color: #009edb;
 
   &:hover {
     cursor: auto;
-    color: ${props => props.theme.palette.blue};
+    color: #009edb;
   }
 `;
 

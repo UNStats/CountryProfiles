@@ -68,7 +68,7 @@ const StyledGoalTitle = styled.span`
 
   .active &,
   .active &:hover {
-    color: ${props => props.theme.palette.blue};
+    color: #009edb;
     font-weight: 600;
   }
 `;

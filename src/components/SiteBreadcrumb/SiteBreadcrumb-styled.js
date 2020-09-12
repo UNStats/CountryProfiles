@@ -6,7 +6,8 @@ const StyledBreadcrumbsWrapper = styled.div`
   box-sizing: border-box;
   padding: ${props => unitCalc(props.theme.baseline, 3, '/')}
     ${props => props.theme.baseline};
-  background: ${props => props.theme.palette.offWhite};
+  background: #fff;
+  border-bottom: 5px solid #009edb;
 `;
 
 const StyledBreadcrumbs = styled(Breadcrumbs)`
