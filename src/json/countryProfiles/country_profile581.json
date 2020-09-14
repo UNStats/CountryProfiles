@@ -1,5 +1,5 @@
 {
-    "release": "2019.Q2.G.01",
+    "release": "2020.Q2.G.03",
     "country_code": "581",
     "country_name": "United States Minor Outlying Islands",
     "X": "-162.4343752",
@@ -8,6 +8,116 @@
     "UNMember": "0",
     "CountryProfile": "1",
     "goals": [
+        {
+            "goalCode": "9",
+            "targets": [
+                {
+                    "targetCode": "9.1",
+                    "indicators": [
+                        {
+                            "indicatorCode": "9.1.2",
+                            "facts": [
+                                {
+                                    "seriesCode": "IS_RDP_FRGVOL",
+                                    "seriesTitle": "Freight volume by road transport (tonne kilometres)",
+                                    "hub": "4a5d7189e27148c48f045729ef9e40c8",
+                                    "dashboard": "",
+                                    "slice_dimensions": {
+                                        "modeOfTransportation_code": "MOT_ROA"
+                                    },
+                                    "text_type": "1",
+                                    "fact_text": "Freight volume by road transport was  <span class='fact-value'>0.0</span> <span class='fact-unit'> tonne kilometres</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_values": [
+                                        "0.0"
+                                    ],
+                                    "fact_units": [
+                                        " tonne kilometres"
+                                    ],
+                                    "fact_years": [
+                                        "2018"
+                                    ],
+                                    "data_years": [
+                                        2018
+                                    ],
+                                    "data_values": [
+                                        "0.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        0.0
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "goalCode": "10",
+            "targets": [
+                {
+                    "targetCode": "10.a",
+                    "indicators": [
+                        {
+                            "indicatorCode": "10.a.1",
+                            "facts": [
+                                {
+                                    "seriesCode": "TM_TRF_ZERO",
+                                    "seriesTitle": "Proportion of tariff lines applied to imports with zero-tariff (percent)",
+                                    "hub": "60d8d0090395422a9fe62177fe8e7cd7",
+                                    "dashboard": "",
+                                    "slice_dimensions": {
+                                        "typeOfProduct_code": "_T"
+                                    },
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2005,
+                                        2010,
+                                        2015,
+                                        2016,
+                                        2017,
+                                        2018
+                                    ],
+                                    "data_values": [
+                                        "26.5652",
+                                        "29.59854",
+                                        "25.0",
+                                        "22.87736",
+                                        "24.56897",
+                                        "25.7741"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        26.57,
+                                        29.6,
+                                        25.0,
+                                        22.88,
+                                        24.57,
+                                        25.77
+                                    ],
+                                    "preferred_visualization": "time_series"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "goalCode": "14",
             "targets": [
@@ -18,15 +128,40 @@
                             "indicatorCode": "14.5.1",
                             "facts": [
                                 {
+                                    "seriesCode": "ER_MRN_MARINT",
+                                    "seriesTitle": "Protected marine area (Exclusive Economic Zones) (square kilometres)",
+                                    "hub": "be1eb5aebdf24e43a91a769e3d6fbd2b",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2018
+                                    ],
+                                    "data_values": [
+                                        "1266860.04591"
+                                    ],
+                                    "data_is_censored": [
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        1266860.05
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                },
+                                {
                                     "seriesCode": "ER_MRN_MARIN",
                                     "seriesTitle": "Coverage of protected areas in relation to marine areas (Exclusive Economic Zones) (percent)",
-                                    "hub": "f205b31db8bf44ea9f8d23b41cd4a9a9",
-                                    "dashboard": "5c9481ffde5842978e0b7e64f83ebd20",
+                                    "hub": "1a4acac4d7284c75a48b7c5d07dfdc36",
+                                    "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "8",
-                                    "fact_text": "In <span class='fact-year'> 2018</span>, <span class='fact-value'> 64.93</span>  <span class='fact-unit'>% </span> of the marine environment under national jurisdiction (up to 200 nautical miles from shore) was under protection.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, <span class='fact-value'> 64.49</span>  <span class='fact-unit'>% </span> of the marine environment under national jurisdiction (up to 200 nautical miles from shore) was under protection.",
                                     "fact_values": [
-                                        "64.93"
+                                        "64.49"
                                     ],
                                     "fact_units": [
                                         "% "
@@ -38,13 +173,13 @@
                                         2018
                                     ],
                                     "data_values": [
-                                        "64.92687"
+                                        "64.49145"
                                     ],
                                     "data_is_censored": [
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        64.93
+                                        64.49
                                     ],
                                     "preferred_visualization": "singleton"
                                 }
@@ -61,81 +196,75 @@
                     "targetCode": "15.1",
                     "indicators": [
                         {
-                            "indicatorCode": "15.1.2",
+                            "indicatorCode": "15.1.1",
                             "facts": [
                                 {
-                                    "seriesCode": "ER_PTD_TERRS",
-                                    "seriesTitle": "Average proportion of terrestrial key biodiversity areas (KBAs) covered by protected areas (percent)",
-                                    "hub": "50b0017bc20a400e8bfb92da7591a28b",
-                                    "dashboard": "6c72e28c8daf4aebb97a6e937623a14e",
-                                    "slice_dimensions": {
-                                        "boundsCode": "_T"
-                                    },
-                                    "text_type": "7",
-                                    "fact_text": "The average proportion of terrestrial key biodiversity areas (KBAs) covered by protected areas was <span class='fact-value'> 100</span> <span class='fact-unit'>%</span>  in <span class='fact-year'> 2018</span> .",
-                                    "fact_values": [
-                                        "100"
+                                    "seriesCode": "AG_LND_TOTL",
+                                    "seriesTitle": "Land area (thousands of hectares)",
+                                    "hub": "9a4a60e678a94e3e8f44655e7e4bd4f6",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2015
                                     ],
-                                    "fact_units": [
-                                        "%"
+                                    "data_values": [
+                                        "3.42"
                                     ],
-                                    "fact_years": [
-                                        "2018"
+                                    "data_is_censored": [
+                                        false
                                     ],
+                                    "data_numeric_part": [
+                                        3.42
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "targetCode": "15.2",
+                    "indicators": [
+                        {
+                            "indicatorCode": "15.2.1",
+                            "facts": [
+                                {
+                                    "seriesCode": "AG_LND_FRSTCERT",
+                                    "seriesTitle": "Forest area under an independently verified forest management certification scheme (thousands of hectares)",
+                                    "hub": "13a621d222c243dc906d7ee53d13eff3",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
                                     "data_years": [
                                         2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
                                         2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
                                         2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
                                         2015,
                                         2016,
                                         2017,
-                                        2018
+                                        2018,
+                                        2019
                                     ],
                                     "data_values": [
-                                        "60",
-                                        "80",
-                                        "80",
-                                        "80",
-                                        "80",
-                                        "80",
-                                        "80",
-                                        "80",
-                                        "80",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100"
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0"
                                     ],
                                     "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
                                         false,
                                         false,
                                         false,
@@ -146,27 +275,169 @@
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        60,
-                                        80,
-                                        80,
-                                        80,
-                                        80,
-                                        80,
-                                        80,
-                                        80,
-                                        80,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
                                     ],
-                                    "preferred_visualization": "time_series"
+                                    "preferred_visualization": "singleton"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "targetCode": "15.6",
+                    "indicators": [
+                        {
+                            "indicatorCode": "15.6.1",
+                            "facts": [
+                                {
+                                    "seriesCode": "ER_CBD_SMTA",
+                                    "seriesTitle": "Total reported number of Standard Material Transfer Agreements (SMTAs) transferring plant genetic resources for food and agriculture to the country (agreements)",
+                                    "hub": "0765d85f3d504a03ad69a5a773b62e3d",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2012,
+                                        2013,
+                                        2014,
+                                        2015,
+                                        2016,
+                                        2017,
+                                        2018,
+                                        2019
+                                    ],
+                                    "data_values": [
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                },
+                                {
+                                    "seriesCode": "ER_CBD_ORSPGRFA",
+                                    "seriesTitle": "Existence of legislative, administrative and policy framework or measures reported through the Online Reporting System on Compliance  of the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO) (yes/no)",
+                                    "hub": "06e4982ff3ea4b7aa8af6b2ec2a86951",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2016,
+                                        2017,
+                                        2018,
+                                        2019
+                                    ],
+                                    "data_values": [
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                },
+                                {
+                                    "seriesCode": "ER_CBD_PTYPGRFA",
+                                    "seriesTitle": "Country is contracting Party to the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO) (yes/no)",
+                                    "hub": "d77c1391000b4750adb975bf39970133",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2012,
+                                        2013,
+                                        2014,
+                                        2015,
+                                        2016,
+                                        2017,
+                                        2018,
+                                        2019
+                                    ],
+                                    "data_values": [
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "preferred_visualization": "singleton"
                                 }
                             ]
                         }

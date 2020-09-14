@@ -1,5 +1,5 @@
 {
-    "release": "2019.Q2.G.01",
+    "release": "2020.Q2.G.03",
     "country_code": "833",
     "country_name": "Isle of Man",
     "X": "-4.538190305",
@@ -8,6 +8,153 @@
     "UNMember": "0",
     "CountryProfile": "1",
     "goals": [
+        {
+            "goalCode": "1",
+            "targets": [
+                {
+                    "targetCode": "1.3",
+                    "indicators": [
+                        {
+                            "indicatorCode": "1.3.1",
+                            "facts": [
+                                {
+                                    "seriesCode": "SI_COV_UEMP",
+                                    "seriesTitle": "Proportion of unemployed persons receiving unemployment cash benefit (percent)",
+                                    "hub": "234966221a744545865cdddae58d46de",
+                                    "dashboard": "",
+                                    "slice_dimensions": {
+                                        "sex_code": "_T"
+                                    },
+                                    "text_type": "2",
+                                    "fact_text": "In <span class='fact-year'>2015</span>, <span class='fact-value'>80.0</span> <span class='fact-unit'>% </span> of the country's unemployed persons were receiving unemployment cash benefit",
+                                    "fact_values": [
+                                        "80.0"
+                                    ],
+                                    "fact_units": [
+                                        "% "
+                                    ],
+                                    "fact_years": [
+                                        "2015"
+                                    ],
+                                    "data_years": [
+                                        2001,
+                                        2006,
+                                        2007,
+                                        2009,
+                                        2010,
+                                        2011,
+                                        2015
+                                    ],
+                                    "data_values": [
+                                        "33.2",
+                                        "60.3",
+                                        "42.3",
+                                        "62.4",
+                                        "56.4",
+                                        "56.6",
+                                        "80.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        33.2,
+                                        60.3,
+                                        42.3,
+                                        62.4,
+                                        56.4,
+                                        56.6,
+                                        80.0
+                                    ],
+                                    "preferred_visualization": "time_series"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "targetCode": "1.4",
+                    "indicators": [
+                        {
+                            "indicatorCode": "1.4.1",
+                            "facts": [
+                                {
+                                    "seriesCode": "SP_ACS_BSRVH2O",
+                                    "seriesTitle": "Proportion of population using basic drinking water services (percent)",
+                                    "hub": "da7d9e13a45b4734b5eef4b8355cdb6c",
+                                    "dashboard": "",
+                                    "slice_dimensions": {
+                                        "location_code": "_T"
+                                    },
+                                    "text_type": "1",
+                                    "fact_text": "The proportion of population using basic drinking water services was <span class='fact-value'>99.08</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2017</span>.",
+                                    "fact_values": [
+                                        "99.08"
+                                    ],
+                                    "fact_units": [
+                                        "%"
+                                    ],
+                                    "fact_years": [
+                                        "2017"
+                                    ],
+                                    "data_years": [
+                                        2009,
+                                        2010,
+                                        2011,
+                                        2012,
+                                        2013,
+                                        2014,
+                                        2015,
+                                        2016,
+                                        2017
+                                    ],
+                                    "data_values": [
+                                        "99.075",
+                                        "99.075",
+                                        "99.075",
+                                        "99.075",
+                                        "99.075",
+                                        "99.075",
+                                        "99.075",
+                                        "99.075",
+                                        "99.075"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        99.08,
+                                        99.08,
+                                        99.08,
+                                        99.08,
+                                        99.08,
+                                        99.08,
+                                        99.08,
+                                        99.08,
+                                        99.08
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "goalCode": "6",
             "targets": [
@@ -20,13 +167,13 @@
                                 {
                                     "seriesCode": "SH_H2O_SAFE",
                                     "seriesTitle": "Proportion of population using safely managed drinking water services (percent)",
-                                    "hub": "db95089773654b6898ef4af01c440140",
-                                    "dashboard": "c7ff144a74dd46f48dab758279feb066",
+                                    "hub": "4b35638694f44c7e9add3f7d7e551b45",
+                                    "dashboard": "",
                                     "slice_dimensions": {
-                                        "locationCode": "_T"
+                                        "location_code": "_T"
                                     },
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>97.21</span> <span class='fact-unit'>% </span> of the population used a \"safely managed\" drinking water service\u2014an improved source located on premises, available when needed and free from contamination",
+                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>97.21</span> <span class='fact-unit'>% </span> of the population used a safely managed drinking water service--an improved source located on premises, available when needed and free from contamination",
                                     "fact_values": [
                                         "97.21"
                                     ],
@@ -85,6 +232,99 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "targetCode": "6.6",
+                    "indicators": [
+                        {
+                            "indicatorCode": "6.6.1",
+                            "facts": [
+                                {
+                                    "seriesCode": "EN_WBE_PMPR",
+                                    "seriesTitle": "Permanent water body extent as a proportion of total land area (percent)",
+                                    "hub": "0ed77995dddc4205b9b149105241b954",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "7",
+                                    "fact_text": "The permanent water body exent sood at <span class='fact-value'> 0.16</span> <span class='fact-unit'>% of total land area</span>  in  <span class='fact-year'> 2018</span> .",
+                                    "fact_values": [
+                                        "0.16"
+                                    ],
+                                    "fact_units": [
+                                        "% of total land area"
+                                    ],
+                                    "fact_years": [
+                                        "2018"
+                                    ],
+                                    "data_years": [
+                                        2005,
+                                        2006,
+                                        2007,
+                                        2008,
+                                        2009,
+                                        2010,
+                                        2011,
+                                        2012,
+                                        2013,
+                                        2014,
+                                        2015,
+                                        2016,
+                                        2017,
+                                        2018
+                                    ],
+                                    "data_values": [
+                                        "0.141212105263157",
+                                        "0.130212105263157",
+                                        "0.127900526315789",
+                                        "0.11465245614035",
+                                        "0.110609298245614",
+                                        "0.116811228070175",
+                                        "0.131655087719298",
+                                        "0.13889",
+                                        "0.152951228070175",
+                                        "0.157474736842105",
+                                        "0.155877894736842",
+                                        "0.155659649122807",
+                                        "0.152330350877193",
+                                        "0.156597017543859"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        0.14,
+                                        0.13,
+                                        0.13,
+                                        0.11,
+                                        0.11,
+                                        0.12,
+                                        0.13,
+                                        0.14,
+                                        0.15,
+                                        0.16,
+                                        0.16,
+                                        0.16,
+                                        0.15,
+                                        0.16
+                                    ],
+                                    "preferred_visualization": "time_series"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -100,15 +340,15 @@
                                 {
                                     "seriesCode": "EG_ELC_ACCS",
                                     "seriesTitle": "Proportion of population with access to electricity (percent)",
-                                    "hub": "efe5c0628d4749b38b4be596740e2956",
-                                    "dashboard": "b918be47f3084b87a717e5d28df28f07",
+                                    "hub": "e6c832737537456484b99ee6683b84de",
+                                    "dashboard": "",
                                     "slice_dimensions": {
-                                        "locationCode": "_T"
+                                        "location_code": "_T"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The proportion of the population with access to electricity was <span class='fact-value'>100</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2017</span>.",
+                                    "fact_text": "The proportion of the population with access to electricity was  <span class='fact-value'>100.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
-                                        "100"
+                                        "100.0"
                                     ],
                                     "fact_units": [
                                         "%"
@@ -147,34 +387,34 @@
                                         2017
                                     ],
                                     "data_values": [
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100",
-                                        "100"
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0"
                                     ],
                                     "data_is_censored": [
                                         false,
@@ -207,34 +447,194 @@
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100,
-                                        100
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "targetCode": "7.2",
+                    "indicators": [
+                        {
+                            "indicatorCode": "7.2.1",
+                            "facts": [
+                                {
+                                    "seriesCode": "EG_FEC_RNEW",
+                                    "seriesTitle": "Renewable energy share in the total final energy consumption (percent)",
+                                    "hub": "3cece1f2bb4e49efa22d45bc34076805",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "1",
+                                    "fact_text": "The share of renewable energy in the total final energy consumption <span class='fact-value'>0.0</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>1.88%</span> in <span class='fact-year'>2017</span>.",
+                                    "fact_values": [
+                                        "0.0",
+                                        "1.88"
+                                    ],
+                                    "fact_units": [
+                                        "%",
+                                        "%"
+                                    ],
+                                    "fact_years": [
+                                        "2000",
+                                        "2017"
+                                    ],
+                                    "data_years": [
+                                        2000,
+                                        2001,
+                                        2002,
+                                        2003,
+                                        2004,
+                                        2005,
+                                        2006,
+                                        2007,
+                                        2008,
+                                        2009,
+                                        2010,
+                                        2011,
+                                        2012,
+                                        2013,
+                                        2014,
+                                        2015,
+                                        2016,
+                                        2017
+                                    ],
+                                    "data_values": [
+                                        "0.0",
+                                        "0.0",
+                                        "1.48",
+                                        "1.12",
+                                        "6.28",
+                                        "2.68",
+                                        "3.27",
+                                        "1.94",
+                                        "1.31",
+                                        "1.87",
+                                        "1.93",
+                                        "2.85",
+                                        "3.5",
+                                        "2.06",
+                                        "1.85",
+                                        "2.17",
+                                        "2.09",
+                                        "1.88"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        0.0,
+                                        0.0,
+                                        1.48,
+                                        1.12,
+                                        6.28,
+                                        2.68,
+                                        3.27,
+                                        1.94,
+                                        1.31,
+                                        1.87,
+                                        1.93,
+                                        2.85,
+                                        3.5,
+                                        2.06,
+                                        1.85,
+                                        2.17,
+                                        2.09,
+                                        1.88
+                                    ],
+                                    "preferred_visualization": "time_series"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "goalCode": "9",
+            "targets": [
+                {
+                    "targetCode": "9.1",
+                    "indicators": [
+                        {
+                            "indicatorCode": "9.1.2",
+                            "facts": [
+                                {
+                                    "seriesCode": "IS_RDP_FRGVOL",
+                                    "seriesTitle": "Freight volume by road transport (tonne kilometres)",
+                                    "hub": "4a5d7189e27148c48f045729ef9e40c8",
+                                    "dashboard": "",
+                                    "slice_dimensions": {
+                                        "modeOfTransportation_code": "MOT_ROA"
+                                    },
+                                    "text_type": "1",
+                                    "fact_text": "Freight volume by road transport was  <span class='fact-value'>0.0</span> <span class='fact-unit'> tonne kilometres</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_values": [
+                                        "0.0"
+                                    ],
+                                    "fact_units": [
+                                        " tonne kilometres"
+                                    ],
+                                    "fact_years": [
+                                        "2018"
+                                    ],
+                                    "data_years": [
+                                        2018
+                                    ],
+                                    "data_values": [
+                                        "0.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        0.0
                                     ],
                                     "preferred_visualization": "singleton"
                                 }
@@ -245,52 +645,38 @@
             ]
         },
         {
-            "goalCode": "10",
+            "goalCode": "14",
             "targets": [
                 {
-                    "targetCode": "10.4",
+                    "targetCode": "14.5",
                     "indicators": [
                         {
-                            "indicatorCode": "10.4.1",
+                            "indicatorCode": "14.5.1",
                             "facts": [
                                 {
-                                    "seriesCode": "SL_EMP_GTOTL",
-                                    "seriesTitle": "Labour share of GDP, comprising wages and social protection transfers (percent)",
-                                    "hub": "54681bb23185478eb1e01e147bf32f5d",
-                                    "dashboard": "a15fc62898bc4d8cab99b6b1e79df735",
+                                    "seriesCode": "ER_MRN_MARINT",
+                                    "seriesTitle": "Protected marine area (Exclusive Economic Zones) (square kilometres)",
+                                    "hub": "be1eb5aebdf24e43a91a769e3d6fbd2b",
+                                    "dashboard": "",
                                     "slice_dimensions": {},
-                                    "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2016</span>, <span class='fact-value'>13.6</span> <span class='fact-unit'>% </span> of GDP was from labour, comprising wages and social protection transfers",
-                                    "fact_values": [
-                                        "13.6"
-                                    ],
-                                    "fact_units": [
-                                        "% "
-                                    ],
-                                    "fact_years": [
-                                        "2016"
-                                    ],
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
                                     "data_years": [
-                                        2013,
-                                        2014,
-                                        2016
+                                        2018
                                     ],
                                     "data_values": [
-                                        "33.0",
-                                        "31.0",
-                                        "13.6"
+                                        "0.0"
                                     ],
                                     "data_is_censored": [
-                                        false,
-                                        false,
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        33.0,
-                                        31.0,
-                                        13.6
+                                        0.0
                                     ],
-                                    "preferred_visualization": "time_series"
+                                    "preferred_visualization": "singleton"
                                 }
                             ]
                         }
@@ -308,13 +694,91 @@
                             "indicatorCode": "15.1.1",
                             "facts": [
                                 {
+                                    "seriesCode": "AG_LND_TOTL",
+                                    "seriesTitle": "Land area (thousands of hectares)",
+                                    "hub": "9a4a60e678a94e3e8f44655e7e4bd4f6",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2015
+                                    ],
+                                    "data_values": [
+                                        "57.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        57.0
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                },
+                                {
+                                    "seriesCode": "AG_LND_FRSTN",
+                                    "seriesTitle": "Forest area (thousands of hectares)",
+                                    "hub": "09f04174488d4f8fabceddb8e2920dae",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2000,
+                                        2010,
+                                        2015,
+                                        2016,
+                                        2017,
+                                        2018,
+                                        2019,
+                                        2020
+                                    ],
+                                    "data_values": [
+                                        "3.46",
+                                        "3.46",
+                                        "3.46",
+                                        "3.46",
+                                        "3.46",
+                                        "3.46",
+                                        "3.46",
+                                        "3.46"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        3.46,
+                                        3.46,
+                                        3.46,
+                                        3.46,
+                                        3.46,
+                                        3.46,
+                                        3.46,
+                                        3.46
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                },
+                                {
                                     "seriesCode": "AG_LND_FRST",
                                     "seriesTitle": "Forest area as a proportion of total land area (percent)",
-                                    "hub": "2f7acf84fdad47d183f7e2041b474e02",
-                                    "dashboard": "2793cd777b704144bb04ef96648f0a1c",
+                                    "hub": "4787e933dac34421b4b11427a0b78fbe",
+                                    "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The proportion of land area covered by forest was approximately <span class='fact-value'>6.07</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2015</span>.",
+                                    "fact_text": "The proportion of land area covered by forest was   <span class='fact-value'>6.07</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2020</span>.",
                                     "fact_values": [
                                         "6.07"
                                     ],
@@ -322,21 +786,33 @@
                                         "%"
                                     ],
                                     "fact_years": [
-                                        "2015"
+                                        "2020"
                                     ],
                                     "data_years": [
                                         2000,
-                                        2005,
                                         2010,
-                                        2015
+                                        2015,
+                                        2016,
+                                        2017,
+                                        2018,
+                                        2019,
+                                        2020
                                     ],
                                     "data_values": [
-                                        "6.07018",
-                                        "6.07018",
-                                        "6.07018",
-                                        "6.07018"
+                                        "6.07017543859649",
+                                        "6.07017543859649",
+                                        "6.07017543859649",
+                                        "6.07017543859649",
+                                        "6.07017543859649",
+                                        "6.07017543859649",
+                                        "6.07017543859649",
+                                        "6.07017543859649"
                                     ],
                                     "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
                                         false,
                                         false,
                                         false,
@@ -346,7 +822,309 @@
                                         6.07,
                                         6.07,
                                         6.07,
+                                        6.07,
+                                        6.07,
+                                        6.07,
+                                        6.07,
                                         6.07
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "targetCode": "15.2",
+                    "indicators": [
+                        {
+                            "indicatorCode": "15.2.1",
+                            "facts": [
+                                {
+                                    "seriesCode": "AG_LND_FRSTCERT",
+                                    "seriesTitle": "Forest area under an independently verified forest management certification scheme (thousands of hectares)",
+                                    "hub": "13a621d222c243dc906d7ee53d13eff3",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2000,
+                                        2005,
+                                        2010,
+                                        2015,
+                                        2016,
+                                        2017,
+                                        2018,
+                                        2019
+                                    ],
+                                    "data_values": [
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                },
+                                {
+                                    "seriesCode": "AG_LND_FRSTCHG",
+                                    "seriesTitle": "Forest area annual net change rate (percent)",
+                                    "hub": "494e02b3371a4a48acc40fbefc23e7ae",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2010,
+                                        2015,
+                                        2020
+                                    ],
+                                    "data_values": [
+                                        "0.0",
+                                        "0.0",
+                                        "0.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                },
+                                {
+                                    "seriesCode": "AG_LND_FRSTMGT",
+                                    "seriesTitle": "Proportion of forest area under a long-term management plan (percent)",
+                                    "hub": "97a2c09197db49979c54a5a64910891b",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2010,
+                                        2015,
+                                        2016,
+                                        2017,
+                                        2018,
+                                        2019,
+                                        2020
+                                    ],
+                                    "data_values": [
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0",
+                                        "100.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0,
+                                        100.0
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "targetCode": "15.6",
+                    "indicators": [
+                        {
+                            "indicatorCode": "15.6.1",
+                            "facts": [
+                                {
+                                    "seriesCode": "ER_CBD_SMTA",
+                                    "seriesTitle": "Total reported number of Standard Material Transfer Agreements (SMTAs) transferring plant genetic resources for food and agriculture to the country (agreements)",
+                                    "hub": "0765d85f3d504a03ad69a5a773b62e3d",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2012,
+                                        2013,
+                                        2014,
+                                        2015,
+                                        2016,
+                                        2017,
+                                        2018,
+                                        2019
+                                    ],
+                                    "data_values": [
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                },
+                                {
+                                    "seriesCode": "ER_CBD_ORSPGRFA",
+                                    "seriesTitle": "Existence of legislative, administrative and policy framework or measures reported through the Online Reporting System on Compliance  of the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO) (yes/no)",
+                                    "hub": "06e4982ff3ea4b7aa8af6b2ec2a86951",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2016,
+                                        2017,
+                                        2018,
+                                        2019
+                                    ],
+                                    "data_values": [
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                },
+                                {
+                                    "seriesCode": "ER_CBD_PTYPGRFA",
+                                    "seriesTitle": "Country is contracting Party to the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO) (yes/no)",
+                                    "hub": "d77c1391000b4750adb975bf39970133",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2012,
+                                        2013,
+                                        2014,
+                                        2015,
+                                        2016,
+                                        2017,
+                                        2018,
+                                        2019
+                                    ],
+                                    "data_values": [
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0",
+                                        "0.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
                                     ],
                                     "preferred_visualization": "singleton"
                                 }
@@ -360,63 +1138,157 @@
             "goalCode": "16",
             "targets": [
                 {
-                    "targetCode": "16.1",
+                    "targetCode": "16.3",
                     "indicators": [
                         {
-                            "indicatorCode": "16.1.1",
+                            "indicatorCode": "16.3.2",
                             "facts": [
                                 {
-                                    "seriesCode": "VC_IHR_PSRC",
-                                    "seriesTitle": "Number of victims of intentional homicide per 100,000 population",
-                                    "hub": "f0b52ccea69a48b09df3f5fd58e58e84",
-                                    "dashboard": "11445197f42a45ba8c836639c3e4aa71",
-                                    "slice_dimensions": {
-                                        "sexCode": "_T"
-                                    },
-                                    "text_type": "11",
-                                    "fact_text": "In <span class='fact-year'> 2016</span>, the intentional homicide rate was <span class='fact-value'> 0</span>  <span class='fact-unit'> per 100,000 population</span>. ",
-                                    "fact_values": [
-                                        "0"
-                                    ],
-                                    "fact_units": [
-                                        " per 100,000 population"
-                                    ],
-                                    "fact_years": [
-                                        "2016"
-                                    ],
+                                    "seriesCode": "VC_PRS_UNSEC",
+                                    "seriesTitle": "Unsentenced detainees as a proportion of overall prison population (percent)",
+                                    "hub": "54ea233d154243a3a4ba1bfcc3c126cb",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
                                     "data_years": [
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
+                                        2005,
                                         2015,
-                                        2016
+                                        2018
                                     ],
                                     "data_values": [
-                                        "1.23825",
-                                        "2.45682",
-                                        "2.43864",
-                                        "3.6324",
-                                        "1.2024",
-                                        "0"
+                                        "31.4",
+                                        "15.4",
+                                        "10.4"
                                     ],
                                     "data_is_censored": [
                                         false,
                                         false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        31.4,
+                                        15.4,
+                                        10.4
+                                    ],
+                                    "preferred_visualization": "time_series"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "goalCode": "17",
+            "targets": [
+                {
+                    "targetCode": "17.19",
+                    "indicators": [
+                        {
+                            "indicatorCode": "17.19.2",
+                            "facts": [
+                                {
+                                    "seriesCode": "SG_REG_CENSUSN",
+                                    "seriesTitle": "Country has conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO) (yes/no)",
+                                    "hub": "5f0fd8d4c1de4b4dbca087786bfc083b",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2016
+                                    ],
+                                    "data_values": [
+                                        "1.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        1.0
+                                    ],
+                                    "preferred_visualization": "singleton"
+                                },
+                                {
+                                    "seriesCode": "SG_REG_BRTH90N",
+                                    "seriesTitle": "Existence of birth registration data that are at least 90 percent complete (1 = YES; 0 = NO) (yes/no)",
+                                    "hub": "19f62e67961a4feb8ffed63e64bb6595",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2015,
+                                        2016,
+                                        2017,
+                                        2018
+                                    ],
+                                    "data_values": [
+                                        "1.0",
+                                        "1.0",
+                                        "1.0",
+                                        "1.0"
+                                    ],
+                                    "data_is_censored": [
                                         false,
                                         false,
                                         false,
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        1.24,
-                                        2.46,
-                                        2.44,
-                                        3.63,
-                                        1.2,
-                                        0
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
                                     ],
-                                    "preferred_visualization": "time_series"
+                                    "preferred_visualization": "singleton"
+                                },
+                                {
+                                    "seriesCode": "SG_REG_DETH75N",
+                                    "seriesTitle": "Existence of death registration data that are at least 75 percent complete (1 = YES; 0 = NO) (yes/no)",
+                                    "hub": "86146f7055a048fc9b506a491229192c",
+                                    "dashboard": "",
+                                    "slice_dimensions": {},
+                                    "text_type": "0",
+                                    "fact_text": "",
+                                    "fact_values": [],
+                                    "fact_units": [],
+                                    "fact_years": [],
+                                    "data_years": [
+                                        2015,
+                                        2016,
+                                        2017,
+                                        2018
+                                    ],
+                                    "data_values": [
+                                        "1.0",
+                                        "1.0",
+                                        "1.0",
+                                        "1.0"
+                                    ],
+                                    "data_is_censored": [
+                                        false,
+                                        false,
+                                        false,
+                                        false
+                                    ],
+                                    "data_numeric_part": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "preferred_visualization": "singleton"
                                 }
                             ]
                         }
