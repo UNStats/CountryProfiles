@@ -10,7 +10,8 @@ import {
   StyledCrosshairTooltip,
   StyledCrosshairLabel,
   StyledCrosshairValue,
-  StyledChartHeader
+  StyledChartHeader,
+  StyledTimeSeriesContainer
 } from './TimeSeriesChart-styled';
 
 import SeriesLinks from '../../SeriesLinks';
@@ -136,50 +137,52 @@ class TimeSeriesChart extends Component {
 
   getTimeSeriesChart = ({ series, goalInfo }) => {
     return (
-      <AutoSizer>
-        {({ width }) => (
-          <XYPlot
-            animation={{ duration: 5000 }}
-            xType="time"
-            yDomain={this.getYDomain(
-              this.state.dataIsUniform,
-              this.state.sortedData
-            )}
-            width={width - 10}
-            height={200}
-            yPadding={30}
-            xPadding={20}
-            onMouseLeave={() => this._onNearestX(null)}
-          >
-            {this.getZeroLine(this.state.dataRange)}
-            <LineMarkSeries
-              data={this.state.sortedData}
-              curve={'curveMonotoneX'}
-              color={goalInfo.colorInfo.hex}
-              markStyle={{ fill: 'white', strokeWidth: 2 }}
-              onNearestX={datapoint => this._onNearestX(datapoint)}
-            />
-            <XAxis tickTotal={this.getXTickTotal(this.state.sortedData)} />
-            <YAxis />
-            {this.state.crossHairValue ? (
-              <Crosshair values={[this.state.crossHairValue]}>
-                <StyledCrosshairTooltip>
-                  <StyledCrosshairLabel>
-                    {this.state.crossHairValue.x.toLocaleString('en-us', {
-                      year: 'numeric'
-                    })}
-                    :
-                  </StyledCrosshairLabel>
-                  <StyledCrosshairValue>
-                    {this.state.crossHairValue.t}
-                    {series.fact_units[0]}
-                  </StyledCrosshairValue>
-                </StyledCrosshairTooltip>
-              </Crosshair>
-            ) : null}
-          </XYPlot>
-        )}
-      </AutoSizer>
+      <StyledTimeSeriesContainer>
+        <AutoSizer>
+          {({ width, height }) => (
+            <XYPlot
+              animation={{ duration: 5000 }}
+              xType="time"
+              yDomain={this.getYDomain(
+                this.state.dataIsUniform,
+                this.state.sortedData
+              )}
+              width={width - 10}
+              height={height}
+              yPadding={30}
+              xPadding={20}
+              onMouseLeave={() => this._onNearestX(null)}
+            >
+              {this.getZeroLine(this.state.dataRange)}
+              <LineMarkSeries
+                data={this.state.sortedData}
+                curve={'curveMonotoneX'}
+                color={goalInfo.colorInfo.hex}
+                markStyle={{ fill: 'white', strokeWidth: 2 }}
+                onNearestX={datapoint => this._onNearestX(datapoint)}
+              />
+              <XAxis tickTotal={this.getXTickTotal(this.state.sortedData)} />
+              <YAxis />
+              {this.state.crossHairValue ? (
+                <Crosshair values={[this.state.crossHairValue]}>
+                  <StyledCrosshairTooltip>
+                    <StyledCrosshairLabel>
+                      {this.state.crossHairValue.x.toLocaleString('en-us', {
+                        year: 'numeric'
+                      })}
+                      :
+                    </StyledCrosshairLabel>
+                    <StyledCrosshairValue>
+                      {this.state.crossHairValue.t}
+                      {series.fact_units[0]}
+                    </StyledCrosshairValue>
+                  </StyledCrosshairTooltip>
+                </Crosshair>
+              ) : null}
+            </XYPlot>
+          )}
+        </AutoSizer>
+      </StyledTimeSeriesContainer>
     );
   };
 
