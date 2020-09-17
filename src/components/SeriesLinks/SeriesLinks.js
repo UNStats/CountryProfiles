@@ -15,14 +15,14 @@ const SeriesLinks = ({ hub, dashboard, isMobile }) => {
 
   return (
     <StyledLinksContainer>
-      <Tooltip placement="left" title="View Dashboard">
+      {/* <Tooltip placement="left" title="View Dashboard">
         <StyledLinkButton
           iconButton
           icon={<DashboardIcon />}
           href={`http://undesa.maps.arcgis.com/apps/opsdashboard/index.html#/${dashboard}`}
           target="_blank"
         />
-      </Tooltip>
+      </Tooltip> */}
       <Tooltip placement="left" title="Download Dataset as CSV">
         <StyledLinkButton
           iconButton
