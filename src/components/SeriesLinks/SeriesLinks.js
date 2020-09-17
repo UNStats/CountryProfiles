@@ -27,7 +27,7 @@ const SeriesLinks = ({ hub, dashboard, isMobile }) => {
         <StyledLinkButton
           iconButton
           icon={<DownloadIcon />}
-          href={`http://www.sdg.org/datasets/${hub}_0.csv`}
+          href={`https://unstats-undesa.opendata.arcgis.com/datasets/${hub}_0.csv`}
           target="_blank"
         />
       </Tooltip>
@@ -35,7 +35,7 @@ const SeriesLinks = ({ hub, dashboard, isMobile }) => {
         <StyledLinkButton
           iconButton
           icon={<WebIcon />}
-          href={`http://www.sdg.org/datasets/${hub}`}
+          href={`https://unstats-undesa.opendata.arcgis.com/datasets/${hub}`}
           target="_blank"
         />
       </Tooltip>
@@ -45,7 +45,7 @@ const SeriesLinks = ({ hub, dashboard, isMobile }) => {
 
 SeriesLinks.propTypes = {
   hub: PropTypes.string.isRequired,
-  dashboard: PropTypes.string.isRequired
+  dashboard: PropTypes.string.isRequired,
 };
 
 export default SeriesLinks;
