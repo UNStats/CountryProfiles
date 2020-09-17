@@ -19,8 +19,16 @@ import { unTheme } from './unTheme';
 
 import * as serviceWorker from './serviceWorker';
 
+// Figure out basename for BrowserRouter.
+const url = new URL(homepage);
+// `basename` in BrowserRouter should have leading slash, but no trailing slash, see (https://reactrouter.com/web/api/BrowserRouter).
+// Remove trailing /.
+const pathname = url.pathname.replace(/\/$/, '');
+
 let basename;
-process.env.NODE_ENV !== 'production' ? (basename = '') : (basename = homepage);
+// create-react-app sets NODE_ENV to 'production' in build.
+// Local dev is always served from /.
+process.env.NODE_ENV !== 'production' ? (basename = '') : (basename = pathname);
 
 ReactDOM.render(
   <CalciteThemeProvider theme={unTheme}>
