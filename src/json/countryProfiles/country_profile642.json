@@ -24,7 +24,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The proportion of the population living below the extreme poverty line increased from  <span class='fact-value'>1.0</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>1992</span> to <span class='fact-value'>4.0%</span> in <span class='fact-year'>2017</span>.",
+                                    "fact_text": "The proportion of the population living below the extreme poverty line  increased from  <span class='fact-value'>1.0</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>1992</span> to <span class='fact-value'>4.0%</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
                                         "1.0",
                                         "4.0"
@@ -130,7 +130,7 @@
                                         "location_code": "_T"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The proportion of population living below the national poverty line was <span class='fact-value'>23.6</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "The proportion of population living below the national poverty line was  <span class='fact-value'>23.6</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
                                         "23.6"
                                     ],
@@ -195,78 +195,6 @@
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        },
-                        {
-                            "indicatorCode": "1.2.2",
-                            "facts": [
-                                {
-                                    "seriesCode": "SD_MDP_MUHC",
-                                    "seriesTitle": "Proportion of population living in poverty (according to the multidimensional poverty index) (percent)",
-                                    "hub": "7e572c4fcab94354b816432828db7e52",
-                                    "dashboard": "",
-                                    "slice_dimensions": {
-                                        "sex_code": "_T",
-                                        "age_code": "_T",
-                                        "location_code": "_T"
-                                    },
-                                    "text_type": "1",
-                                    "fact_text": "The proportion of the population living in multidimensional poverty was <span class='fact-value'>32.5</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2018</span>.",
-                                    "fact_values": [
-                                        "32.5"
-                                    ],
-                                    "fact_units": [
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2018"
-                                    ],
-                                    "data_years": [
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017,
-                                        2018
-                                    ],
-                                    "data_values": [
-                                        "41.5",
-                                        "40.9",
-                                        "43.2",
-                                        "41.9",
-                                        "40.3",
-                                        "37.4",
-                                        "38.8",
-                                        "35.7",
-                                        "32.5"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        41.5,
-                                        40.9,
-                                        43.2,
-                                        41.9,
-                                        40.3,
-                                        37.4,
-                                        38.8,
-                                        35.7,
-                                        32.5
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
                         }
                     ]
                 },
@@ -318,7 +246,7 @@
                                         "sex_code": "_T"
                                     },
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2016</span>, <span class='fact-value'>100.0</span> <span class='fact-unit'>% </span> of the country's poor population were receiving social assistance cash benefit",
+                                    "fact_text": "In <span class='fact-year'>2016</span>, <span class='fact-value'>100.0</span> <span class='fact-unit'>% </span> of the country's poor population were receiving social assistance cash benefit ",
                                     "fact_values": [
                                         "100.0"
                                     ],
@@ -341,91 +269,6 @@
                                         100.0
                                     ],
                                     "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SI_COV_SOCAST",
-                                    "seriesTitle": "Proportion of population covered by social assistance programs (percent)",
-                                    "hub": "99678c0897504db4b748eec9354fc9c4",
-                                    "dashboard": "",
-                                    "slice_dimensions": {
-                                        "quantile_code": "_T"
-                                    },
-                                    "text_type": "1",
-                                    "fact_text": "The proportion of population covered by social assistance programs increased from  <span class='fact-value'>55.4</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2008</span> to <span class='fact-value'>61.8%</span> in <span class='fact-year'>2012</span>.",
-                                    "fact_values": [
-                                        "55.4",
-                                        "61.8"
-                                    ],
-                                    "fact_units": [
-                                        "%",
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2008",
-                                        "2012"
-                                    ],
-                                    "data_years": [
-                                        2008,
-                                        2011,
-                                        2012
-                                    ],
-                                    "data_values": [
-                                        "55.41553",
-                                        "62.20367",
-                                        "61.83329"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        55.4,
-                                        62.2,
-                                        61.8
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                },
-                                {
-                                    "seriesCode": "SI_COV_SOCINS",
-                                    "seriesTitle": "Proportion of population covered by social insurance programs (percent)",
-                                    "hub": "bbdf50119aff422483316e7265358d30",
-                                    "dashboard": "",
-                                    "slice_dimensions": {
-                                        "quantile_code": "_T"
-                                    },
-                                    "text_type": "1",
-                                    "fact_text": "The proportion of population covered by social insurance programs was   <span class='fact-value'>46.9</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2012</span>.",
-                                    "fact_values": [
-                                        "46.9"
-                                    ],
-                                    "fact_units": [
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2012"
-                                    ],
-                                    "data_years": [
-                                        2008,
-                                        2011,
-                                        2012
-                                    ],
-                                    "data_values": [
-                                        "48.72031",
-                                        "47.22108",
-                                        "46.85993"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        48.7,
-                                        47.2,
-                                        46.9
-                                    ],
-                                    "preferred_visualization": "time_series"
                                 },
                                 {
                                     "seriesCode": "SI_COV_CHLD",
@@ -469,7 +312,7 @@
                                         "sex_code": "_T"
                                     },
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2019</span>, <span class='fact-value'>15.8</span> <span class='fact-unit'>% </span> of the country's unemployed persons were receiving unemployment cash benefit",
+                                    "fact_text": "In <span class='fact-year'>2019</span>, <span class='fact-value'>15.8</span> <span class='fact-unit'>% </span> of the country's unemployed persons were receiving unemployment cash benefit ",
                                     "fact_values": [
                                         "15.8"
                                     ],
@@ -633,7 +476,7 @@
                                         "sex_code": "_T"
                                     },
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>100.0</span> <span class='fact-unit'>% </span> of the country's population with severe disabilities were receiving disability cash benefit",
+                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>100.0</span> <span class='fact-unit'>% </span> of the country's population with severe disabilities were receiving disability cash benefit ",
                                     "fact_values": [
                                         "100.0"
                                     ],
@@ -660,50 +503,6 @@
                                         100.0
                                     ],
                                     "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SI_COV_LMKT",
-                                    "seriesTitle": "Proportion of population covered by labour market programs (percent)",
-                                    "hub": "7cd5ef834d5048b2abf4b443d6b97c4c",
-                                    "dashboard": "",
-                                    "slice_dimensions": {
-                                        "quantile_code": "_T"
-                                    },
-                                    "text_type": "1",
-                                    "fact_text": "The proportion of population covered by labour market programs increased from  <span class='fact-value'>1.5</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2008</span> to <span class='fact-value'>2.3%</span> in <span class='fact-year'>2012</span>.",
-                                    "fact_values": [
-                                        "1.5",
-                                        "2.3"
-                                    ],
-                                    "fact_units": [
-                                        "%",
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2008",
-                                        "2012"
-                                    ],
-                                    "data_years": [
-                                        2008,
-                                        2011,
-                                        2012
-                                    ],
-                                    "data_values": [
-                                        "1.51533",
-                                        "2.99951",
-                                        "2.2849"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        1.5,
-                                        3.0,
-                                        2.3
-                                    ],
-                                    "preferred_visualization": "time_series"
                                 },
                                 {
                                     "seriesCode": "SI_COV_PENSN",
@@ -765,7 +564,7 @@
                                         "location_code": "_T"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The proportion of population using basic drinking water services was <span class='fact-value'>100.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2017</span>.",
+                                    "fact_text": "The proportion of population using basic drinking water services was  <span class='fact-value'>100.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
                                         "100.0"
                                     ],
@@ -866,7 +665,7 @@
                                         "location_code": "_T"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The proportion of population using basic sanitation services increased from  <span class='fact-value'>75.0</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2001</span> to <span class='fact-value'>84.3%</span> in <span class='fact-year'>2017</span>.",
+                                    "fact_text": "The proportion of population using basic sanitation services  increased from  <span class='fact-value'>75.0</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2001</span> to <span class='fact-value'>84.3%</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
                                         "75.0",
                                         "84.3"
@@ -1138,19 +937,19 @@
                                 },
                                 {
                                     "seriesCode": "VC_DSR_HOLN",
-                                    "seriesTitle": "Direct economic loss in the housing sector attributed to disasters (dollars)",
+                                    "seriesTitle": "Direct economic loss in the housing sector attributed to disasters (million dollars)",
                                     "hub": "9634481045a6472db316030879e32bda",
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The direct economic loss in the housing sector attributed to disasters declined from  <span class='fact-value'>61090462.0</span>  <span class='fact-unit'> dollars</span>  in  <span class='fact-year'>2005</span> to <span class='fact-value'>44271562.0 dollars</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The direct economic loss in the housing sector attributed to disasters  declined from  <span class='fact-value'>61.1</span>  <span class='fact-unit'>million dollars</span>  in  <span class='fact-year'>2005</span> to <span class='fact-value'>44.3million dollars</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
-                                        "61090462.0",
-                                        "44271562.0"
+                                        "61.1",
+                                        "44.3"
                                     ],
                                     "fact_units": [
-                                        " dollars",
-                                        " dollars"
+                                        "million dollars",
+                                        "million dollars"
                                     ],
                                     "fact_years": [
                                         "2005",
@@ -1173,20 +972,20 @@
                                         2018
                                     ],
                                     "data_values": [
-                                        "61090462.0",
-                                        "26498025.0",
-                                        "14193112.0",
-                                        "46512900.0",
-                                        "4019400.0",
-                                        "39519112.0",
-                                        "3692550.0",
-                                        "3296212.0",
-                                        "7367250.0",
-                                        "9107288.0",
-                                        "1944938.0",
-                                        "9209062.0",
-                                        "3993300.0",
-                                        "44271562.0"
+                                        "61.090462",
+                                        "26.498025",
+                                        "14.193112",
+                                        "46.5129",
+                                        "4.0194",
+                                        "39.519112",
+                                        "3.69255",
+                                        "3.296212",
+                                        "7.36725",
+                                        "9.107288",
+                                        "1.944938",
+                                        "9.209062",
+                                        "3.9933",
+                                        "44.271562"
                                     ],
                                     "data_is_censored": [
                                         false,
@@ -1205,74 +1004,22 @@
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        61090462.0,
-                                        26498025.0,
-                                        14193112.0,
-                                        46512900.0,
-                                        4019400.0,
-                                        39519112.0,
-                                        3692550.0,
-                                        3296212.0,
-                                        7367250.0,
-                                        9107288.0,
-                                        1944938.0,
-                                        9209062.0,
-                                        3993300.0,
-                                        44271562.0
+                                        61.1,
+                                        26.5,
+                                        14.2,
+                                        46.5,
+                                        4.0,
+                                        39.5,
+                                        3.7,
+                                        3.3,
+                                        7.4,
+                                        9.1,
+                                        1.9,
+                                        9.2,
+                                        4.0,
+                                        44.3
                                     ],
                                     "preferred_visualization": "time_series"
-                                }
-                            ]
-                        },
-                        {
-                            "indicatorCode": "1.5.4",
-                            "facts": [
-                                {
-                                    "seriesCode": "SG_DSR_SILS",
-                                    "seriesTitle": "Proportion of local governments that adopt and implement local disaster risk reduction (DRR) strategies in line with national strategies (percent)",
-                                    "hub": "75b891eaa8944c64a1348db2b2ddc2de",
-                                    "dashboard": "",
-                                    "slice_dimensions": {},
-                                    "text_type": "1",
-                                    "fact_text": "The proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies was  <span class='fact-value'>0.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2019</span>.",
-                                    "fact_values": [
-                                        "0.0"
-                                    ],
-                                    "fact_units": [
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2019"
-                                    ],
-                                    "data_years": [
-                                        2015,
-                                        2016,
-                                        2017,
-                                        2018,
-                                        2019
-                                    ],
-                                    "data_values": [
-                                        "0.0",
-                                        "0.0",
-                                        "0.0",
-                                        "0.0",
-                                        "0.0"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.0,
-                                        0.0,
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "preferred_visualization": "singleton"
                                 }
                             ]
                         }
@@ -1291,7 +1038,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The proportion of total government spending on essential education services increased from <span class='fact-value'>8.2</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>9.5%</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "The proportion of total government spending on essential education services  increased from <span class='fact-value'>8.2</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>9.5%</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
                                         "8.2",
                                         "9.5"
@@ -1700,7 +1447,7 @@
                                         "age_code": "Y0T4"
                                     },
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2002</span>, <span class='fact-value'>12.8</span> <span class='fact-unit'>% </span> of children under 5 years of age had stunted growth",
+                                    "fact_text": "In <span class='fact-year'>2002</span>, <span class='fact-value'>12.8</span> <span class='fact-unit'>% </span> of children under 5 years of age had stunted growth ",
                                     "fact_values": [
                                         "12.8"
                                     ],
@@ -1787,7 +1534,7 @@
                                         "age_code": "Y0T4"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The proportion of children under 5 years of age who where moderately or severely wasted decreased from  <span class='fact-value'>4.3</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>3.5%</span> in <span class='fact-year'>2002</span>.",
+                                    "fact_text": "The proportion of children under 5 years of age who where moderately or severely wasted  decreased from  <span class='fact-value'>4.3</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>3.5%</span> in <span class='fact-year'>2002</span>.",
                                     "fact_values": [
                                         "4.3",
                                         "3.5"
@@ -1872,7 +1619,7 @@
                                         "age_code": "Y0T4"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The proportion of overweight children under 5 years of age decreased from  <span class='fact-value'>8.9</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>8.3%</span> in <span class='fact-year'>2002</span>.",
+                                    "fact_text": "The proportion of overweight children under 5 years of age  decreased from  <span class='fact-value'>8.9</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>8.3%</span> in <span class='fact-year'>2002</span>.",
                                     "fact_values": [
                                         "8.9",
                                         "8.3"
@@ -1965,7 +1712,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "13",
-                                    "fact_text": "In  <span class='fact-year'> 2019</span>, there were <span class='fact-value'> 0.0</span>  <span class='fact-unit'> local breeds</span>   with sufficient genetic resources stored for reconstitution.",
+                                    "fact_text": "In  <span class='fact-year'> 2019</span>, there were  <span class='fact-value'> 0.0</span>  <span class='fact-unit'> local breeds</span>   with sufficient genetic resources stored for reconstitution.",
                                     "fact_values": [
                                         "0.0"
                                     ],
@@ -2032,7 +1779,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "13",
-                                    "fact_text": "In  <span class='fact-year'> 2019</span>, there were <span class='fact-value'> 40016.0</span>  <span class='fact-unit'> plant breeds</span>   with sufficient genetic resources stored.",
+                                    "fact_text": "In  <span class='fact-year'> 2019</span>, there were  <span class='fact-value'> 40016.0</span>  <span class='fact-unit'> plant breeds</span>   with sufficient genetic resources stored.",
                                     "fact_values": [
                                         "40016.0"
                                     ],
@@ -2276,91 +2023,6 @@
                     ]
                 },
                 {
-                    "targetCode": "2.b",
-                    "indicators": [
-                        {
-                            "indicatorCode": "2.b.1",
-                            "facts": [
-                                {
-                                    "seriesCode": "AG_PRD_XSUBDY",
-                                    "seriesTitle": "Agricultural export subsidies (millions of dollars)",
-                                    "hub": "cc3b9b1f98754c4d83a2d7d0e7f99273",
-                                    "dashboard": "",
-                                    "slice_dimensions": {},
-                                    "text_type": "1",
-                                    "fact_text": "Agricultural export subsidies were  <span class='fact-value'>0.1</span> <span class='fact-unit'> million dollars</span> in <span class='fact-year'>2006</span>.",
-                                    "fact_values": [
-                                        "0.1"
-                                    ],
-                                    "fact_units": [
-                                        " million dollars"
-                                    ],
-                                    "fact_years": [
-                                        "2006"
-                                    ],
-                                    "data_years": [
-                                        1995,
-                                        1996,
-                                        1997,
-                                        1998,
-                                        1999,
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006
-                                    ],
-                                    "data_values": [
-                                        "0.0",
-                                        "0.0",
-                                        "0.0",
-                                        "2.52378",
-                                        "7.06329",
-                                        "4.56374",
-                                        "0.0",
-                                        "0.0",
-                                        "0.0",
-                                        "0.01838",
-                                        "0.02059",
-                                        "0.0534"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.0,
-                                        0.0,
-                                        0.0,
-                                        2.5,
-                                        7.1,
-                                        4.6,
-                                        0.0,
-                                        0.0,
-                                        0.0,
-                                        0.0,
-                                        0.0,
-                                        0.1
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
                     "targetCode": "2.c",
                     "indicators": [
                         {
@@ -2423,7 +2085,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "14",
-                                    "fact_text": "The maternal mortality ratio decreased from  <span class='fact-value'>54.0</span> <span class='fact-unit'> per 100,000 live births</span> in <span class='fact-year'> 2000</span> to <span class='fact-value'> 19.0</span> <span class='fact-unit'> per 100,000 live births</span> in <span class='fact-year'> 2017</span>.",
+                                    "fact_text": "The maternal mortality ratio  decreased from  <span class='fact-value'>54.0</span> <span class='fact-unit'> per 100,000 live births</span> in <span class='fact-year'> 2000</span> to <span class='fact-value'> 19.0</span> <span class='fact-unit'> per 100,000 live births</span> in <span class='fact-year'> 2017</span>.",
                                     "fact_values": [
                                         "54.0",
                                         "19.0"
@@ -2519,154 +2181,6 @@
                                     "preferred_visualization": "time_series"
                                 }
                             ]
-                        },
-                        {
-                            "indicatorCode": "3.1.2",
-                            "facts": [
-                                {
-                                    "seriesCode": "SH_STA_BRTC",
-                                    "seriesTitle": "Proportion of births attended by skilled health personnel (percent)",
-                                    "hub": "e25ad059dcc44372a68c3431b0f8c8a2",
-                                    "dashboard": "",
-                                    "slice_dimensions": {},
-                                    "text_type": "1",
-                                    "fact_text": "The proportion of births attended by skilled health personnel was  <span class='fact-value'>97.1</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2018</span>.",
-                                    "fact_values": [
-                                        "97.1"
-                                    ],
-                                    "fact_units": [
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2018"
-                                    ],
-                                    "data_years": [
-                                        1990,
-                                        1991,
-                                        1992,
-                                        1993,
-                                        1994,
-                                        1995,
-                                        1996,
-                                        1997,
-                                        1998,
-                                        1999,
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017,
-                                        2018
-                                    ],
-                                    "data_values": [
-                                        "99.8",
-                                        "99.9",
-                                        "99.7",
-                                        "98.9",
-                                        "99.0",
-                                        "99.1",
-                                        "99.0",
-                                        "98.3",
-                                        "99.0",
-                                        "98.0",
-                                        "99.0",
-                                        "99.0",
-                                        "99.1",
-                                        "99.2",
-                                        "98.9",
-                                        "98.1",
-                                        "98.2",
-                                        "98.8",
-                                        "99.4",
-                                        "99.5",
-                                        "99.5",
-                                        "99.4",
-                                        "99.5",
-                                        "98.5",
-                                        "98.5",
-                                        "94.6",
-                                        "95.3",
-                                        "95.6",
-                                        "97.1"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        99.8,
-                                        99.9,
-                                        99.7,
-                                        98.9,
-                                        99.0,
-                                        99.1,
-                                        99.0,
-                                        98.3,
-                                        99.0,
-                                        98.0,
-                                        99.0,
-                                        99.0,
-                                        99.1,
-                                        99.2,
-                                        98.9,
-                                        98.1,
-                                        98.2,
-                                        98.8,
-                                        99.4,
-                                        99.5,
-                                        99.5,
-                                        99.4,
-                                        99.5,
-                                        98.5,
-                                        98.5,
-                                        94.6,
-                                        95.3,
-                                        95.6,
-                                        97.1
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
                         }
                     ]
                 },
@@ -2686,7 +2200,7 @@
                                         "age_code": "Y0"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The number of infant deaths fell from  <span class='fact-value'>3982.0</span>  <span class='fact-unit'></span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>1165.0</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The number of infant deaths  fell from  <span class='fact-value'>3982.0</span>  <span class='fact-unit'></span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>1165.0</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "3982.0",
                                         "1165.0"
@@ -2795,7 +2309,7 @@
                                         "age_code": "Y0T4"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The mortality rate of children under 5 years of age fell from  <span class='fact-value'>21.9</span>  <span class='fact-unit'> deaths per 1,000 live births</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>7.3 deaths per 1,000 live births</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The mortality rate of children under 5 years of age  fell from  <span class='fact-value'>21.9</span>  <span class='fact-unit'> deaths per 1,000 live births</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>7.3 deaths per 1,000 live births</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "21.9",
                                         "7.3"
@@ -2904,7 +2418,7 @@
                                         "age_code": "Y0"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The infant mortality rate fell from  <span class='fact-value'>18.3</span>  <span class='fact-unit'> deaths per 1,000 live births</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>6.1 deaths per 1,000 live births</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The infant mortality rate  fell from  <span class='fact-value'>18.3</span>  <span class='fact-unit'> deaths per 1,000 live births</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>6.1 deaths per 1,000 live births</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "18.3",
                                         "6.1"
@@ -3013,7 +2527,7 @@
                                         "age_code": "Y0T4"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The number of under-five deaths fell from  <span class='fact-value'>4792.0</span>  <span class='fact-unit'></span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>1390.0</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The number of under-five deaths  fell from  <span class='fact-value'>4792.0</span>  <span class='fact-unit'></span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>1390.0</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "4792.0",
                                         "1390.0"
@@ -3127,7 +2641,7 @@
                                         "age_code": "M0"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The number of neonatal deaths fell from  <span class='fact-value'>2272.0</span>  <span class='fact-unit'></span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>644.0</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The number of neonatal deaths  fell from  <span class='fact-value'>2272.0</span>  <span class='fact-unit'></span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>644.0</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "2272.0",
                                         "644.0"
@@ -3236,7 +2750,7 @@
                                         "age_code": "M0"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The neonatal mortality rate fell from  <span class='fact-value'>10.5</span>  <span class='fact-unit'> deaths per 1,000 live births</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>3.4 deaths per 1,000 live births</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The neonatal mortality rate  fell from  <span class='fact-value'>10.5</span>  <span class='fact-unit'> deaths per 1,000 live births</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>3.4 deaths per 1,000 live births</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "10.5",
                                         "3.4"
@@ -3463,7 +2977,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "11",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, the incidence of tuberculosis was <span class='fact-value'> 68.0</span>  <span class='fact-unit'> per 100,000 population</span>. ",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, the incidence of tuberculosis was  <span class='fact-value'> 68.0</span>  <span class='fact-unit'> per 100,000 population</span>. ",
                                     "fact_values": [
                                         "68.0"
                                     ],
@@ -3685,14 +3199,14 @@
                                         "age_code": "Y30T70"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The risk of dying between the ages of 30 and 70 from one of four main non-communicable diseases (cardiovascular disease, cancer, diabetes or chronic respiratory disease) declined from  <span class='fact-value'>26.4</span>  <span class='fact-unit'></span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>21.4</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "The risk of dying between the ages of 30 and 70 from one of four main non-communicable diseases (cardiovascular disease, cancer, diabetes or chronic respiratory disease) declined from  <span class='fact-value'>26.4</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>21.4%</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
                                         "26.4",
                                         "21.4"
                                     ],
                                     "fact_units": [
-                                        "",
-                                        ""
+                                        "%",
+                                        "%"
                                     ],
                                     "fact_years": [
                                         "2000",
@@ -3738,7 +3252,7 @@
                                         "nameOfNonCommunicableDisease_code": "NCD_CARDIO"
                                     },
                                     "text_type": "11",
-                                    "fact_text": "In  <span class='fact-year'> 2016</span>, the number of deaths attributed to cardiovascular disease was <span class='fact-value'> 145284.0</span>  <span class='fact-unit'></span>. ",
+                                    "fact_text": "In  <span class='fact-year'> 2016</span>, the number of deaths attributed to cardiovascular disease was  <span class='fact-value'> 145284.0</span>  <span class='fact-unit'></span>. ",
                                     "fact_values": [
                                         "145284.0"
                                     ],
@@ -3792,7 +3306,7 @@
                                         "sex_code": "_T"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The mortality rate of children under 5 years of age fell from  <span class='fact-value'>13.2</span>  <span class='fact-unit'> deaths per 1,000 population</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>10.4 deaths per 1,000 population</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "The suicide mortality rate  fell from  <span class='fact-value'>13.2</span>  <span class='fact-unit'> deaths per 1,000 population</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>10.4 deaths per 1,000 population</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
                                         "13.2",
                                         "10.4"
@@ -3844,7 +3358,7 @@
                                         "sex_code": "_T"
                                     },
                                     "text_type": "11",
-                                    "fact_text": "In  <span class='fact-year'> 2016</span>, the number of deaths attributed to suicide was <span class='fact-value'> 2059.0</span>  <span class='fact-unit'></span>. ",
+                                    "fact_text": "In  <span class='fact-year'> 2016</span>, the number of deaths attributed to suicide was  <span class='fact-value'> 2059.0</span>  <span class='fact-unit'></span>. ",
                                     "fact_values": [
                                         "2059.0"
                                     ],
@@ -3943,7 +3457,7 @@
                                         "age_code": "Y_GE15"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "Alcohol consumption per captita among population aged 15 years and older fell from  <span class='fact-value'>17.4</span>  <span class='fact-unit'> litres of pure alcohol</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>11.7 litres of pure alcohol</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "Alcohol consumption per captita among population aged 15 years and older  fell from  <span class='fact-value'>17.4</span>  <span class='fact-unit'> litres of pure alcohol</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>11.7 litres of pure alcohol</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "17.4",
                                         "11.7"
@@ -4003,7 +3517,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The death rate due to road traffic injuries fell from  <span class='fact-value'>12.4</span>  <span class='fact-unit'> deaths per 100,000 population</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>10.3 deaths per 100,000 population</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "The death rate due to road traffic injuries  fell from  <span class='fact-value'>12.4</span>  <span class='fact-unit'> deaths per 100,000 population</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>10.3 deaths per 100,000 population</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
                                         "12.4",
                                         "10.3"
@@ -4214,7 +3728,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "14",
-                                    "fact_text": "The universal health coverage (UHC) service coverage index increased from  <span class='fact-value'>61.0</span> <span class='fact-unit'></span> in <span class='fact-year'> 2000</span> to <span class='fact-value'> 74.0</span> <span class='fact-unit'></span> in <span class='fact-year'> 2017</span>.",
+                                    "fact_text": "The universal health coverage (UHC) service coverage index  increased from  <span class='fact-value'>61.0</span> <span class='fact-unit'></span> in <span class='fact-year'> 2000</span> to <span class='fact-value'> 74.0</span> <span class='fact-unit'></span> in <span class='fact-year'> 2017</span>.",
                                     "fact_values": [
                                         "61.0",
                                         "74.0"
@@ -4484,106 +3998,13 @@
                                     "preferred_visualization": "singleton"
                                 },
                                 {
-                                    "seriesCode": "SH_STA_AIRP",
-                                    "seriesTitle": "Crude death rate attributed to household and ambient air pollution (deaths per 100,000 population)",
-                                    "hub": "6ff409193661484696600255227888f4",
-                                    "dashboard": "",
-                                    "slice_dimensions": {},
-                                    "text_type": "14",
-                                    "fact_text": "The crude death rate attributed to household and ambient air pollution was  <span class='fact-value'> 123.0</span> <span class='fact-unit'>deaths per 100,000 population</span> in <span class='fact-year'> 2016</span>.",
-                                    "fact_values": [
-                                        "123.0deaths"
-                                    ],
-                                    "fact_units": [
-                                        " per 100,000 population"
-                                    ],
-                                    "fact_years": [
-                                        "2016"
-                                    ],
-                                    "data_years": [
-                                        2016
-                                    ],
-                                    "data_values": [
-                                        "123.0"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        123.0
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SH_STA_ASAIRP",
-                                    "seriesTitle": "Age-standardized mortality rate attributed to household and ambient air pollution (deaths per 100,000 population)",
-                                    "hub": "c38c683ad4704a2996eb557215532029",
-                                    "dashboard": "",
-                                    "slice_dimensions": {},
-                                    "text_type": "1",
-                                    "fact_text": "The age-standardized mortality rate attributed to household and ambient air pollution was <span class='fact-value'>59.0</span> <span class='fact-unit'> deaths per 1,000 population</span> in <span class='fact-year'>2016</span>.",
-                                    "fact_values": [
-                                        "59.0"
-                                    ],
-                                    "fact_units": [
-                                        " deaths per 1,000 population"
-                                    ],
-                                    "fact_years": [
-                                        "2016"
-                                    ],
-                                    "data_years": [
-                                        2016
-                                    ],
-                                    "data_values": [
-                                        "59.0"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        59.0
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SH_AAP_MORT",
-                                    "seriesTitle": "Crude death rate attributed to ambient air pollution (deaths per 100,000 population)",
-                                    "hub": "3da0b72a3240451f94f4c434da8fec4f",
-                                    "dashboard": "",
-                                    "slice_dimensions": {},
-                                    "text_type": "14",
-                                    "fact_text": "The crude death rate attributed to ambient air pollution was  <span class='fact-value'> 84.0</span> <span class='fact-unit'>deaths per 100,000 population</span> in <span class='fact-year'> 2016</span>.",
-                                    "fact_values": [
-                                        "84.0deaths"
-                                    ],
-                                    "fact_units": [
-                                        " per 100,000 population"
-                                    ],
-                                    "fact_years": [
-                                        "2016"
-                                    ],
-                                    "data_years": [
-                                        2016
-                                    ],
-                                    "data_values": [
-                                        "84.0"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        84.0
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
                                     "seriesCode": "SH_AAP_ASMORT",
                                     "seriesTitle": "Age-standardized mortality rate attributed to ambient air pollution (deaths per 100,000 population)",
                                     "hub": "e4bdf511d53a46d7915241d1150b0825",
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The age-standardized mortality rate attributed to ambient air pollution was <span class='fact-value'>40.0</span> <span class='fact-unit'> deaths per 1,000 population</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "The age-standardized mortality rate attributed to ambient air pollution was  <span class='fact-value'>40.0</span> <span class='fact-unit'> deaths per 1,000 population</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
                                         "40.0"
                                     ],
@@ -4606,37 +4027,6 @@
                                         40.0
                                     ],
                                     "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SH_HAP_MORT",
-                                    "seriesTitle": "Crude death rate attributed to household air pollution (deaths per 100,000 population)",
-                                    "hub": "2c24d737ba0c461b9d15bbf74ec2e6d2",
-                                    "dashboard": "",
-                                    "slice_dimensions": {},
-                                    "text_type": "14",
-                                    "fact_text": "The crude death rate attributed to household air pollution was  <span class='fact-value'> 44.0</span> <span class='fact-unit'>deaths per 100,000 population</span> in <span class='fact-year'> 2016</span>.",
-                                    "fact_values": [
-                                        "44.0deaths"
-                                    ],
-                                    "fact_units": [
-                                        " per 100,000 population"
-                                    ],
-                                    "fact_years": [
-                                        "2016"
-                                    ],
-                                    "data_years": [
-                                        2016
-                                    ],
-                                    "data_values": [
-                                        "44.0"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        44.0
-                                    ],
-                                    "preferred_visualization": "singleton"
                                 }
                             ]
                         },
@@ -4650,7 +4040,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene was <span class='fact-value'>0.4</span> <span class='fact-unit'> deaths per 1,000 population</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "The mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene was  <span class='fact-value'>0.4</span> <span class='fact-unit'> deaths per 1,000 population</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
                                         "0.4"
                                     ],
@@ -4688,7 +4078,7 @@
                                         "sex_code": "_T"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The mortality rate attributed to  unintentional poisonings fell from  <span class='fact-value'>1.0</span>  <span class='fact-unit'> deaths per 1,000 population</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>0.4 deaths per 1,000 population</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "The mortality rate attributed to  unintentional poisonings  fell from  <span class='fact-value'>1.0</span>  <span class='fact-unit'> deaths per 1,000 population</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>0.4 deaths per 1,000 population</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
                                         "1.0",
                                         "0.4"
@@ -4751,7 +4141,7 @@
                                         "age_code": "Y_GE15"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older fell from  <span class='fact-value'>42.0</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>25.5%</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older  fell from  <span class='fact-value'>42.0</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>25.5%</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "42.0",
                                         "25.5"
@@ -5147,7 +4537,7 @@
                                         "sex_code": "_T"
                                     },
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>78.3</span> <span class='fact-unit'>% </span> of children participated in pre-primary or primary education in the year prior to the official entrance age for primary school",
+                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>78.3</span> <span class='fact-unit'>% </span> of children participated in pre-primary or primary education in the year prior to the official entrance age for primary school ",
                                     "fact_values": [
                                         "78.3"
                                     ],
@@ -5250,7 +4640,7 @@
                                         "sex_code": "_T"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The participation rate in formal and non-formal education and training declined from  <span class='fact-value'>7.4</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2007</span> to <span class='fact-value'>7.0%</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "The participation rate in formal and non-formal education and training  declined from  <span class='fact-value'>7.4</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2007</span> to <span class='fact-value'>7.0%</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
                                         "7.4",
                                         "7.0"
@@ -5305,7 +4695,7 @@
                                         "typeOfSkill_code": "SKILL_ICTPRGM"
                                     },
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>1.3</span> <span class='fact-unit'>% </span> of youth and adults were able to write a computer program using a specialized programming language",
+                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>1.3</span> <span class='fact-unit'>% </span> of youth and adults were able to write a computer program using a specialized programming language ",
                                     "fact_values": [
                                         "1.3"
                                     ],
@@ -5490,7 +4880,7 @@
                                         "typeOfSkill_code": "SKILL_ICTPRGM"
                                     },
                                     "text_type": "4",
-                                    "fact_text": "The gender parity index for youth/adults whe were able to write a computer program using a specialized programming language was  <span class='fact-value'>0.6</span> in <span class='fact-year'> 2016</span> , meaning 60.0female per 100 male youth/adults had this type of skill.",
+                                    "fact_text": "The gender parity index for youth/adults whe were able to write a computer program using a specialized programming language was  <span class='fact-value'>0.6</span> in <span class='fact-year'> 2016</span> , meaning 60.0 female per 100 male youth/adults had this type of skill.",
                                     "fact_values": [
                                         "0.6"
                                     ],
@@ -5538,7 +4928,7 @@
                                         "sex_code": "F"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The proportion of seats held by women in single or lower houses of parliament increased from  <span class='fact-value'>7.3</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>21.9%</span> in <span class='fact-year'>2020</span>.",
+                                    "fact_text": "The proportion of seats held by women in single or lower houses of parliament  increased from  <span class='fact-value'>7.3</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>21.9%</span> in <span class='fact-year'>2020</span>.",
                                     "fact_values": [
                                         "7.3",
                                         "21.9"
@@ -5692,7 +5082,7 @@
                                         "sex_code": "F"
                                     },
                                     "text_type": "8",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, <span class='fact-value'> 31.6</span>  <span class='fact-unit'>% </span> of managerial positions were held by women.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, <span class='fact-value'> 31.6</span>  <span class='fact-unit'>% </span> of managerial positions were held by women .",
                                     "fact_values": [
                                         "31.6"
                                     ],
@@ -5797,7 +5187,7 @@
                                         "sex_code": "F"
                                     },
                                     "text_type": "8",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, <span class='fact-value'> 30.1</span>  <span class='fact-unit'>% </span> of senior and middle managerial positions were held by women.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, <span class='fact-value'> 30.1</span>  <span class='fact-unit'>% </span> of senior and middle managerial positions were held by women .",
                                     "fact_values": [
                                         "30.1"
                                     ],
@@ -5884,75 +5274,13 @@
                             "indicatorCode": "5.6.2",
                             "facts": [
                                 {
-                                    "seriesCode": "SH_LGR_ACSRHEC8",
-                                    "seriesTitle": "Extent to which country laws and regulations guarantee full and equal access to secuality education curriculum laws to women and men aged 15 years and older (percent)",
-                                    "hub": "8702a599081c4b349e881d4f58454e4e",
-                                    "dashboard": "",
-                                    "slice_dimensions": {},
-                                    "text_type": "7",
-                                    "fact_text": "The extent to which country laws and regulations guarantee full and equal access to secuality education curriculum laws to women and men aged 15 years and older stood at <span class='fact-value'> 0.0</span> <span class='fact-unit'>%</span>  in  <span class='fact-year'> 2019</span> .",
-                                    "fact_values": [
-                                        "0.0"
-                                    ],
-                                    "fact_units": [
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2019"
-                                    ],
-                                    "data_years": [
-                                        2019
-                                    ],
-                                    "data_values": [
-                                        "0.0"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.0
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
-                                    "seriesCode": "SH_LGR_ACSRHEC9",
-                                    "seriesTitle": "Extent to which country laws and regulations guarantee full and equal access to secuality education curriculum topics to women and men aged 15 years and older (percent)",
-                                    "hub": "96af955416964be29a2f2078c2f2b8cb",
-                                    "dashboard": "",
-                                    "slice_dimensions": {},
-                                    "text_type": "7",
-                                    "fact_text": "The extent to which country laws and regulations guarantee full and equal access to secuality education curriculum topics to women and men aged 15 years and older stood at <span class='fact-value'> 0.0</span> <span class='fact-unit'>%</span>  in  <span class='fact-year'> 2019</span> .",
-                                    "fact_values": [
-                                        "0.0"
-                                    ],
-                                    "fact_units": [
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2019"
-                                    ],
-                                    "data_years": [
-                                        2019
-                                    ],
-                                    "data_values": [
-                                        "0.0"
-                                    ],
-                                    "data_is_censored": [
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.0
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                },
-                                {
                                     "seriesCode": "SH_LGR_ACSRHES3",
                                     "seriesTitle": "Extent to which country laws and regulations guarantee full and equal access to sexuality education to women and men aged 15 years and older (percent)",
                                     "hub": "a74dd157c55248908c27fd195204edf2",
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "7",
-                                    "fact_text": "The extent to which country laws and regulations guarantee full and equal access to sexuality education to women and men aged 15 years and older stood at <span class='fact-value'> 0.0</span> <span class='fact-unit'>%</span>  in  <span class='fact-year'> 2019</span> .",
+                                    "fact_text": "The extent to which country laws and regulations guarantee full and equal access to sexuality education to women and men aged 15 years and older stood at  <span class='fact-value'> 0.0</span> <span class='fact-unit'>%</span>  in  <span class='fact-year'> 2019</span> .",
                                     "fact_values": [
                                         "0.0"
                                     ],
@@ -6000,7 +5328,7 @@
                                         "location_code": "_T"
                                     },
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>81.9</span> <span class='fact-unit'>% </span> of the population used a safely managed drinking water service--an improved source located on premises, available when needed and free from contamination",
+                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>81.9</span> <span class='fact-unit'>% </span> of the population used a safely managed drinking water service--an improved source located on premises, available when needed and free from contamination ",
                                     "fact_values": [
                                         "81.9"
                                     ],
@@ -6111,7 +5439,7 @@
                                         "location_code": "_T"
                                     },
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>76.5</span> <span class='fact-unit'>% </span> of the population used a \"safely managed\" sanitation service--a basic facility that safely disposes of human waste",
+                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>76.5</span> <span class='fact-unit'>% </span> of the population used a \"safely managed\" sanitation service--a basic facility that safely disposes of human waste ",
                                     "fact_values": [
                                         "76.5"
                                     ],
@@ -6208,7 +5536,7 @@
                                         "location_code": "_T"
                                     },
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>0.0</span> <span class='fact-unit'>% </span> of the population practiced open defecation",
+                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>0.0</span> <span class='fact-unit'>% </span> of the population practiced open defecation ",
                                     "fact_values": [
                                         "0.0"
                                     ],
@@ -6313,7 +5641,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The proportion of safely treated domestic wastewater flows was <span class='fact-value'>56.7</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The proportion of safely treated domestic wastewater flows was  <span class='fact-value'>56.7</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "56.7"
                                     ],
@@ -6349,7 +5677,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The proportion of open water bodies with good ambient water quality was <span class='fact-value'>62.6</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2017</span>.",
+                                    "fact_text": "The proportion of open water bodies with good ambient water quality was  <span class='fact-value'>62.6</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
                                         "62.6"
                                     ],
@@ -6380,7 +5708,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The proportion of river water bodies with good ambient water quality was <span class='fact-value'>57.4</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2017</span>.",
+                                    "fact_text": "The proportion of river water bodies with good ambient water quality was  <span class='fact-value'>57.4</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
                                         "57.4"
                                     ],
@@ -6442,7 +5770,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The proportion of bodies of water with good ambient water quality was <span class='fact-value'>61.4</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2017</span>.",
+                                    "fact_text": "The proportion of bodies of water with good ambient water quality was  <span class='fact-value'>61.4</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
                                         "61.4"
                                     ],
@@ -6483,7 +5811,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "7",
-                                    "fact_text": "Water Use Efficiency stood at <span class='fact-value'> 23.4</span> <span class='fact-unit'> US dollars per cubic meter</span>  in  <span class='fact-year'> 2017</span> .",
+                                    "fact_text": "Water Use Efficiency stood at  <span class='fact-value'> 23.4</span> <span class='fact-unit'> US dollars per cubic meter</span>  in  <span class='fact-year'> 2017</span> .",
                                     "fact_values": [
                                         "23.4"
                                     ],
@@ -6814,7 +6142,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "7",
-                                    "fact_text": "The permanent water body exent sood at <span class='fact-value'> 1.1</span> <span class='fact-unit'>% of total land area</span>  in  <span class='fact-year'> 2018</span> .",
+                                    "fact_text": "The permanent water body exent sood at  <span class='fact-value'> 1.1</span> <span class='fact-unit'>% of total land area</span>  in  <span class='fact-year'> 2018</span> .",
                                     "fact_values": [
                                         "1.1"
                                     ],
@@ -7182,7 +6510,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "8",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, <span class='fact-value'> 75.0</span>  <span class='fact-unit'>% </span> of the population relied primarily on clean fuels and technology.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, <span class='fact-value'> 75.0</span>  <span class='fact-unit'>% </span> of the population relied primarily on clean fuels and technology .",
                                     "fact_values": [
                                         "75.0"
                                     ],
@@ -7295,7 +6623,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The share of renewable energy in the total final energy consumption increased from  <span class='fact-value'>16.4</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>23.4%</span> in <span class='fact-year'>2017</span>.",
+                                    "fact_text": "The share of renewable energy in the total final energy consumption  increased from  <span class='fact-value'>16.4</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>23.4%</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
                                         "16.4",
                                         "23.4"
@@ -7524,7 +6852,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The annual growth rate of real gross domestic product (GDP) per capita increased from  <span class='fact-value'>3.2</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>4.7%</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The annual growth rate of real gross domestic product (GDP) per capita  increased from  <span class='fact-value'>3.2</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>4.7%</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "3.2",
                                         "4.7"
@@ -7748,221 +7076,6 @@
                     ]
                 },
                 {
-                    "targetCode": "8.4",
-                    "indicators": [
-                        {
-                            "indicatorCode": "8.4.2",
-                            "facts": [
-                                {
-                                    "seriesCode": "EN_MAT_DOMCMPG",
-                                    "seriesTitle": "Domestic material consumption per unit of GDP (kilograms per constant 2010 dollars)",
-                                    "hub": "501b85d77b6246c6af84243c6cad3c3b",
-                                    "dashboard": "",
-                                    "slice_dimensions": {
-                                        "typeOfProduct_code": "_T"
-                                    },
-                                    "text_type": "7",
-                                    "fact_text": "The material footprint (amount of primary materials used) stood at <span class='fact-value'> 1.1</span> <span class='fact-unit'> kg per unit of GDP</span>  in  <span class='fact-year'> 2017</span> .",
-                                    "fact_values": [
-                                        "1.1"
-                                    ],
-                                    "fact_units": [
-                                        " kg per unit of GDP"
-                                    ],
-                                    "fact_years": [
-                                        "2017"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017
-                                    ],
-                                    "data_values": [
-                                        "1.46864",
-                                        "1.56412",
-                                        "1.40279",
-                                        "1.45129",
-                                        "1.55475",
-                                        "1.37716",
-                                        "1.37262",
-                                        "1.29891",
-                                        "1.37889",
-                                        "1.1874",
-                                        "1.23961",
-                                        "1.28138",
-                                        "1.15992",
-                                        "1.17718",
-                                        "1.18584",
-                                        "1.17159",
-                                        "1.13237",
-                                        "1.07378"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        1.5,
-                                        1.6,
-                                        1.4,
-                                        1.5,
-                                        1.6,
-                                        1.4,
-                                        1.4,
-                                        1.3,
-                                        1.4,
-                                        1.2,
-                                        1.2,
-                                        1.3,
-                                        1.2,
-                                        1.2,
-                                        1.2,
-                                        1.2,
-                                        1.1,
-                                        1.1
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                },
-                                {
-                                    "seriesCode": "EN_MAT_DOMCMPC",
-                                    "seriesTitle": "Domestic material consumption per capita (tonnes)",
-                                    "hub": "32b75df99b13437c84defa95a87d5ba0",
-                                    "dashboard": "",
-                                    "slice_dimensions": {
-                                        "typeOfProduct_code": "_T"
-                                    },
-                                    "text_type": "1",
-                                    "fact_text": "Domestic material consumption increased from  <span class='fact-value'>7.3</span>  <span class='fact-unit'> metric tons per capita</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>11.7 metric tons per capita</span> in <span class='fact-year'>2017</span>.",
-                                    "fact_values": [
-                                        "7.3",
-                                        "11.7"
-                                    ],
-                                    "fact_units": [
-                                        " metric tons per capita",
-                                        " metric tons per capita"
-                                    ],
-                                    "fact_years": [
-                                        "2000",
-                                        "2017"
-                                    ],
-                                    "data_years": [
-                                        2000,
-                                        2001,
-                                        2002,
-                                        2003,
-                                        2004,
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017
-                                    ],
-                                    "data_values": [
-                                        "7.31388",
-                                        "8.27883",
-                                        "7.85613",
-                                        "8.62636",
-                                        "10.07768",
-                                        "9.36847",
-                                        "10.17862",
-                                        "10.39481",
-                                        "12.06975",
-                                        "9.87564",
-                                        "10.10702",
-                                        "10.73712",
-                                        "9.89905",
-                                        "10.45458",
-                                        "10.90735",
-                                        "11.25869",
-                                        "11.46315",
-                                        "11.68359"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        7.3,
-                                        8.3,
-                                        7.9,
-                                        8.6,
-                                        10.1,
-                                        9.4,
-                                        10.2,
-                                        10.4,
-                                        12.1,
-                                        9.9,
-                                        10.1,
-                                        10.7,
-                                        9.9,
-                                        10.5,
-                                        10.9,
-                                        11.3,
-                                        11.5,
-                                        11.7
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
                     "targetCode": "8.5",
                     "indicators": [
                         {
@@ -7978,7 +7091,7 @@
                                         "typeOfOccupation_code": "_T"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The average hourly earnings of employees reached <span class='fact-value'>25.9</span> <span class='fact-unit'> in local currency</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The average hourly earnings of employees reached  <span class='fact-value'>25.9</span> <span class='fact-unit'> in local currency</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "25.9"
                                     ],
@@ -8021,7 +7134,7 @@
                                         "age_code": "Y_GE15"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The total unemployment rate declined from  <span class='fact-value'>7.0</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>4.2%</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The total unemployment rate  declined from  <span class='fact-value'>7.0</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>4.2%</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "7.0",
                                         "4.2"
@@ -8281,7 +7394,7 @@
                                         "migratoryStatus_code": "_T"
                                     },
                                     "text_type": "11",
-                                    "fact_text": "In  <span class='fact-year'> 2016</span>, there numbr of fatal occupational injuries among employees  <span class='fact-value'> 3.8</span>  <span class='fact-unit'> per 100,000 employees</span>. ",
+                                    "fact_text": "In  <span class='fact-year'> 2016</span>, the number of fatal occupational injuries among employees  <span class='fact-value'> 3.8</span>  <span class='fact-unit'> per 100,000 employees</span>. ",
                                     "fact_values": [
                                         "3.8"
                                     ],
@@ -8482,7 +7595,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "9",
-                                    "fact_text": "In  <span class='fact-year'> 2017</span>, The level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation stood at <span class='fact-value'> 2.3</span>  <span class='fact-unit'></span>.",
+                                    "fact_text": "In  <span class='fact-year'> 2017</span>, the level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation stood at  <span class='fact-value'> 2.3</span>  <span class='fact-unit'></span>.",
                                     "fact_values": [
                                         "2.3"
                                     ],
@@ -8531,7 +7644,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The direct contribution of tourism to total GDP was <span class='fact-value'>2.8</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2017</span>.",
+                                    "fact_text": "The direct contribution of tourism to total GDP was  <span class='fact-value'>2.8</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
                                         "2.8"
                                     ],
@@ -8598,7 +7711,7 @@
                                         "age_code": "Y_GE15"
                                     },
                                     "text_type": "11",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were <span class='fact-value'> 64.7</span>  <span class='fact-unit'>ATMs per 100,000 adults</span>. ",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were  <span class='fact-value'> 64.7</span>  <span class='fact-unit'>ATMs per 100,000 adults</span>. ",
                                     "fact_values": [
                                         "64.7"
                                     ],
@@ -8687,7 +7800,7 @@
                                         "age_code": "Y_GE15"
                                     },
                                     "text_type": "11",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were <span class='fact-value'> 25.6</span>  <span class='fact-unit'>commercial bank branches per 100,000 adults</span>. ",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were  <span class='fact-value'> 25.6</span>  <span class='fact-unit'>commercial bank branches per 100,000 adults</span>. ",
                                     "fact_values": [
                                         "25.6"
                                     ],
@@ -8766,7 +7879,7 @@
                                         "age_code": "Y_GE15"
                                     },
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>57.8</span> <span class='fact-unit'>% </span> of adults had an account at a financial institution or mobile-money-service provider",
+                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>57.8</span> <span class='fact-unit'>% </span> of adults had an account at a financial institution or mobile-money-service provider ",
                                     "fact_values": [
                                         "57.8"
                                     ],
@@ -8815,19 +7928,19 @@
                             "facts": [
                                 {
                                     "seriesCode": "IS_RDP_FRGVOL",
-                                    "seriesTitle": "Freight volume by road transport (tonne kilometres)",
+                                    "seriesTitle": "Freight volume by road transport (billion tonne kilometres)",
                                     "hub": "4a5d7189e27148c48f045729ef9e40c8",
                                     "dashboard": "",
                                     "slice_dimensions": {
                                         "modeOfTransportation_code": "MOT_ROA"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "Freight volume by road transport was  <span class='fact-value'>58761000000.0</span> <span class='fact-unit'> tonne kilometres</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "Freight volume by road transport was  <span class='fact-value'>58.8</span> <span class='fact-unit'>billion tonne kilometres</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
-                                        "58761000000.0"
+                                        "58.8"
                                     ],
                                     "fact_units": [
-                                        " tonne kilometres"
+                                        "billion tonne kilometres"
                                     ],
                                     "fact_years": [
                                         "2018"
@@ -8836,31 +7949,31 @@
                                         2018
                                     ],
                                     "data_values": [
-                                        "58761000000.0"
+                                        "58.761"
                                     ],
                                     "data_is_censored": [
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        58761000000.0
+                                        58.8
                                     ],
                                     "preferred_visualization": "singleton"
                                 },
                                 {
                                     "seriesCode": "IS_RDP_PFVOL",
-                                    "seriesTitle": "Passenger volume by air transport (passenger kilometres)",
+                                    "seriesTitle": "Passenger volume by air transport (billion passenger kilometres)",
                                     "hub": "3ed49ad9c9c14694a4b294d01f34d786",
                                     "dashboard": "",
                                     "slice_dimensions": {
                                         "modeOfTransportation_code": "MOT_AIR"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "Passenger volume by air transport was  <span class='fact-value'>6337992270.0</span> <span class='fact-unit'> passenger kilometres</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "Passenger volume by air transport was  <span class='fact-value'>6.3</span> <span class='fact-unit'>billion passenger kilometres</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
-                                        "6337992270.0"
+                                        "6.3"
                                     ],
                                     "fact_units": [
-                                        " passenger kilometres"
+                                        "billion passenger kilometres"
                                     ],
                                     "fact_years": [
                                         "2018"
@@ -8870,34 +7983,34 @@
                                         2018
                                     ],
                                     "data_values": [
-                                        "5775399380.0",
-                                        "6337992270.0"
+                                        "5.77539938",
+                                        "6.33799227"
                                     ],
                                     "data_is_censored": [
                                         false,
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        5775399380.0,
-                                        6337992270.0
+                                        5.8,
+                                        6.3
                                     ],
                                     "preferred_visualization": "singleton"
                                 },
                                 {
                                     "seriesCode": "IS_RDP_PORFVOL",
-                                    "seriesTitle": "Container port traffic, maritime transport (twenty-foot equivalent units)",
+                                    "seriesTitle": "Container port traffic, maritime transport (million TEUs (twenty-foot equivalent units))",
                                     "hub": "af9d35b95a464a67bf78d28b314c18cf",
                                     "dashboard": "",
                                     "slice_dimensions": {
                                         "modeOfTransportation_code": "MOT_SEA"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "Container port traffic (maritime transport) reached <span class='fact-value'>678000.0</span> <span class='fact-unit'> twenty-foot equivalent units</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "Container port traffic (maritime transport) reached  <span class='fact-value'>0.7</span> <span class='fact-unit'>million TEUs (twenty-foot equivalent units)</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
-                                        "678000.0"
+                                        "0.7"
                                     ],
                                     "fact_units": [
-                                        " twenty-foot equivalent units"
+                                        "million TEUs (twenty-foot equivalent units)"
                                     ],
                                     "fact_years": [
                                         "2018"
@@ -8914,15 +8027,15 @@
                                         2018
                                     ],
                                     "data_values": [
-                                        "567000.0",
-                                        "673000.0",
-                                        "694000.0",
-                                        "671000.0",
-                                        "678000.0",
-                                        "699000.0",
-                                        "721339.0",
-                                        "706400.0",
-                                        "678000.0"
+                                        "0.567",
+                                        "0.673",
+                                        "0.694",
+                                        "0.671",
+                                        "0.678",
+                                        "0.699",
+                                        "0.721339",
+                                        "0.7064",
+                                        "0.678"
                                     ],
                                     "data_is_censored": [
                                         false,
@@ -8936,15 +8049,15 @@
                                         false
                                     ],
                                     "data_numeric_part": [
-                                        567000.0,
-                                        673000.0,
-                                        694000.0,
-                                        671000.0,
-                                        678000.0,
-                                        699000.0,
-                                        721339.0,
-                                        706400.0,
-                                        678000.0
+                                        0.6,
+                                        0.7,
+                                        0.7,
+                                        0.7,
+                                        0.7,
+                                        0.7,
+                                        0.7,
+                                        0.7,
+                                        0.7
                                     ],
                                     "preferred_visualization": "time_series"
                                 }
@@ -8965,7 +8078,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "Manufacturing value added per capita at constant 2015 prices was increased from  <span class='fact-value'>850.9</span>  <span class='fact-unit'> dollars</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>2268.8 dollars</span> in <span class='fact-year'>2019</span>.",
+                                    "fact_text": "Manufacturing value added per capita at constant 2015 prices was  increased from  <span class='fact-value'>850.9</span>  <span class='fact-unit'> dollars</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>2268.8 dollars</span> in <span class='fact-year'>2019</span>.",
                                     "fact_values": [
                                         "850.9",
                                         "2268.8"
@@ -9190,7 +8303,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "Manufacturing employment as a proportion of total employment was <span class='fact-value'>19.3</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "Manufacturing employment as a proportion of total employment was  <span class='fact-value'>19.3</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "19.3"
                                     ],
@@ -9458,7 +8571,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "Carbon dioxide emissions from fuel combustion decreased from  <span class='fact-value'>86.2</span>  <span class='fact-unit'> million tonnes</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>70.8 million tonnes</span> in <span class='fact-year'>2017</span>.",
+                                    "fact_text": "Carbon dioxide emissions from fuel combustion  decreased from  <span class='fact-value'>86.2</span>  <span class='fact-unit'> million tonnes</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>70.8 million tonnes</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
                                         "86.2",
                                         "70.8"
@@ -9990,7 +9103,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The share of medium and high-tech industry  in total value added increased from  <span class='fact-value'>23.3</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>44.4%</span> in <span class='fact-year'>2017</span>.",
+                                    "fact_text": "The share of medium and high-tech industry  in total value added  increased from  <span class='fact-value'>23.3</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>44.4%</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
                                         "23.3",
                                         "44.4"
@@ -10102,7 +9215,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2018</span>, <span class='fact-value'>100.0</span> <span class='fact-unit'>% </span> of the population were covered by at least a 2G mobile network",
+                                    "fact_text": "In <span class='fact-year'>2018</span>, <span class='fact-value'>100.0</span> <span class='fact-unit'>% </span> of the population were covered by at least a 2G mobile network ",
                                     "fact_values": [
                                         "100.0"
                                     ],
@@ -10197,7 +9310,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2018</span>, <span class='fact-value'>100.0</span> <span class='fact-unit'>% </span> of the population were covered by at least a 3G mobile network",
+                                    "fact_text": "In <span class='fact-year'>2018</span>, <span class='fact-value'>100.0</span> <span class='fact-unit'>% </span> of the population were covered by at least a 3G mobile network ",
                                     "fact_values": [
                                         "100.0"
                                     ],
@@ -10272,7 +9385,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2018</span>, <span class='fact-value'>92.6</span> <span class='fact-unit'>% </span> of the population were covered by at least a 4G mobile network",
+                                    "fact_text": "In <span class='fact-year'>2018</span>, <span class='fact-value'>92.6</span> <span class='fact-unit'>% </span> of the population were covered by at least a 4G mobile network ",
                                     "fact_values": [
                                         "92.6"
                                     ],
@@ -10387,7 +9500,7 @@
                                         "quantile_code": "B50"
                                     },
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>19.0</span> <span class='fact-unit'>% </span> of the population were living below half of the median income",
+                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>19.0</span> <span class='fact-unit'>% </span> of the population were living below half of the median income ",
                                     "fact_values": [
                                         "19.0"
                                     ],
@@ -10524,7 +9637,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "2",
-                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>44.9</span> <span class='fact-unit'>% </span> of GDP was from labour, comprising wages and social protection transfers",
+                                    "fact_text": "In <span class='fact-year'>2017</span>, <span class='fact-value'>44.9</span> <span class='fact-unit'>% </span> of GDP was from labour, comprising wages and social protection transfers ",
                                     "fact_values": [
                                         "44.9"
                                     ],
@@ -10773,7 +9886,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The ratio of regulatory capital to assets declined from  <span class='fact-value'>10.7</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2007</span> to <span class='fact-value'>9.3%</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The ratio of regulatory capital to assets  declined from  <span class='fact-value'>10.7</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2007</span> to <span class='fact-value'>9.3%</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "10.7",
                                         "9.3"
@@ -10851,7 +9964,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The ratio of non-perfoming loans (net of provisions) to capital increased from  <span class='fact-value'>5.3</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2007</span> to <span class='fact-value'>12.3%</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The ratio of non-perfoming loans (net of provisions) to capital  increased from  <span class='fact-value'>5.3</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2007</span> to <span class='fact-value'>12.3%</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "5.3",
                                         "12.3"
@@ -10929,7 +10042,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The ratio of liquid assets to short-term liabilities was <span class='fact-value'>170.6</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The ratio of liquid assets to short-term liabilities was  <span class='fact-value'>170.6</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "170.6"
                                     ],
@@ -11016,7 +10129,7 @@
                                         "typeOfProduct_code": "_T"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "The proportion of tariff lines applied to imports with zero-tariff increased from  <span class='fact-value'>50.5</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2005</span> to <span class='fact-value'>63.2%</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The proportion of tariff lines applied to imports with zero-tariff  increased from  <span class='fact-value'>50.5</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2005</span> to <span class='fact-value'>63.2%</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "50.5",
                                         "63.2"
@@ -11076,7 +10189,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "Total assistance granted for development increased from  <span class='fact-value'>26.7</span>  <span class='fact-unit'> million dollars</span>  in  <span class='fact-year'>2008</span> to <span class='fact-value'>59.2 million dollars</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "Total assistance granted for development  increased from  <span class='fact-value'>26.7</span>  <span class='fact-unit'> million dollars</span>  in  <span class='fact-year'>2008</span> to <span class='fact-value'>59.2 million dollars</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "26.7",
                                         "59.2"
@@ -11160,7 +10273,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "Remittance costs were <span class='fact-value'>4.8</span> <span class='fact-unit'>% of the ammount remmitted</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "Remittance costs were  <span class='fact-value'>4.8</span> <span class='fact-unit'>% of the ammount remmitted</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "4.8"
                                     ],
@@ -11251,270 +10364,6 @@
                     ]
                 },
                 {
-                    "targetCode": "11.5",
-                    "indicators": [
-                        {
-                            "indicatorCode": "11.5.2",
-                            "facts": [
-                                {
-                                    "seriesCode": "VC_DSR_CILN",
-                                    "seriesTitle": "Direct economic loss resulting from damaged or destroyed critical infrastructure attributed to disasters (dollars)",
-                                    "hub": "5321c7c1fab54448a2dc31db46f247b6",
-                                    "dashboard": "",
-                                    "slice_dimensions": {},
-                                    "text_type": "1",
-                                    "fact_text": "The direct economic loss resulting from damaged or destroyed critical infrastructure due to disasters declined from  <span class='fact-value'>115404211.0</span>  <span class='fact-unit'>dollars</span>  in  <span class='fact-year'>2005</span> to <span class='fact-value'>3831524.0dollars</span> in <span class='fact-year'>2018</span>.",
-                                    "fact_values": [
-                                        "115404211.0",
-                                        "3831524.0"
-                                    ],
-                                    "fact_units": [
-                                        "dollars",
-                                        "dollars"
-                                    ],
-                                    "fact_years": [
-                                        "2005",
-                                        "2018"
-                                    ],
-                                    "data_years": [
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017,
-                                        2018
-                                    ],
-                                    "data_values": [
-                                        "115404211.0",
-                                        "548026.0",
-                                        "169599.0",
-                                        "592207.0",
-                                        "276792.0",
-                                        "2065223.0",
-                                        "2263241.0",
-                                        "2143994.0",
-                                        "11488920.0",
-                                        "439756.0",
-                                        "24598.0",
-                                        "33571.0",
-                                        "283900.0",
-                                        "3831524.0"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        115404211.0,
-                                        548026.0,
-                                        169599.0,
-                                        592207.0,
-                                        276792.0,
-                                        2065223.0,
-                                        2263241.0,
-                                        2143994.0,
-                                        11488920.0,
-                                        439756.0,
-                                        24598.0,
-                                        33571.0,
-                                        283900.0,
-                                        3831524.0
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                },
-                                {
-                                    "seriesCode": "VC_DSR_CHLN",
-                                    "seriesTitle": "Direct economic loss to cultural heritage damaged or destroyed attributed to disasters (millions of dollars)",
-                                    "hub": "68870268f6e34a1e97cd8b512a969328",
-                                    "dashboard": "",
-                                    "slice_dimensions": {},
-                                    "text_type": "1",
-                                    "fact_text": "The direct economic loss to cultural heritage attributed to disasters increased from  <span class='fact-value'>72.0</span>  <span class='fact-unit'>millions of dollars</span>  in  <span class='fact-year'>2005</span> to <span class='fact-value'>4592.0millions of dollars</span> in <span class='fact-year'>2017</span>.",
-                                    "fact_values": [
-                                        "72.0",
-                                        "4592.0"
-                                    ],
-                                    "fact_units": [
-                                        "millions of dollars",
-                                        "millions of dollars"
-                                    ],
-                                    "fact_years": [
-                                        "2005",
-                                        "2017"
-                                    ],
-                                    "data_years": [
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017
-                                    ],
-                                    "data_values": [
-                                        "72.0",
-                                        "5349390.0",
-                                        "6.0",
-                                        "4711.0",
-                                        "207.0",
-                                        "570.0",
-                                        "66.0",
-                                        "75.0",
-                                        "15.0",
-                                        "89604.0",
-                                        "14.0",
-                                        "10.0",
-                                        "4592.0"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        72.0,
-                                        5349390.0,
-                                        6.0,
-                                        4711.0,
-                                        207.0,
-                                        570.0,
-                                        66.0,
-                                        75.0,
-                                        15.0,
-                                        89604.0,
-                                        14.0,
-                                        10.0,
-                                        4592.0
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                },
-                                {
-                                    "seriesCode": "VC_DSR_DDPA",
-                                    "seriesTitle": "Direct economic loss to other damaged or destroyed productive assets attributed to disasters (dollars)",
-                                    "hub": "d5ca5bb36c644ea6a544d0c850dcee2b",
-                                    "dashboard": "",
-                                    "slice_dimensions": {},
-                                    "text_type": "1",
-                                    "fact_text": "The direct economic loss to other damaged or destroyed productive assets due to disasters  increased from  <span class='fact-value'>178722.0</span>  <span class='fact-unit'>dollars</span>  in  <span class='fact-year'>2005</span> to <span class='fact-value'>201669926.0dollars</span> in <span class='fact-year'>2018</span>.",
-                                    "fact_values": [
-                                        "178722.0",
-                                        "201669926.0"
-                                    ],
-                                    "fact_units": [
-                                        "dollars",
-                                        "dollars"
-                                    ],
-                                    "fact_years": [
-                                        "2005",
-                                        "2018"
-                                    ],
-                                    "data_years": [
-                                        2005,
-                                        2006,
-                                        2007,
-                                        2008,
-                                        2009,
-                                        2010,
-                                        2011,
-                                        2012,
-                                        2013,
-                                        2014,
-                                        2015,
-                                        2016,
-                                        2017,
-                                        2018
-                                    ],
-                                    "data_values": [
-                                        "178722.0",
-                                        "175416.0",
-                                        "270002.0",
-                                        "1314411.0",
-                                        "686196.0",
-                                        "94552.0",
-                                        "4901698.0",
-                                        "687204.0",
-                                        "1899737.0",
-                                        "399239.0",
-                                        "538629.0",
-                                        "29723.0",
-                                        "1138549.0",
-                                        "201669926.0"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        178722.0,
-                                        175416.0,
-                                        270002.0,
-                                        1314411.0,
-                                        686196.0,
-                                        94552.0,
-                                        4901698.0,
-                                        687204.0,
-                                        1899737.0,
-                                        399239.0,
-                                        538629.0,
-                                        29723.0,
-                                        1138549.0,
-                                        201669926.0
-                                    ],
-                                    "preferred_visualization": "time_series"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
                     "targetCode": "11.6",
                     "indicators": [
                         {
@@ -11558,63 +10407,6 @@
                             ]
                         }
                     ]
-                },
-                {
-                    "targetCode": "11.b",
-                    "indicators": [
-                        {
-                            "indicatorCode": "11.b.2",
-                            "facts": [
-                                {
-                                    "seriesCode": "SG_DSR_SILS",
-                                    "seriesTitle": "Proportion of local governments DRR strategies in line with national DRR strategies (percent)",
-                                    "hub": "40f778802a1244c895c44aa76f602f06",
-                                    "dashboard": "",
-                                    "slice_dimensions": {},
-                                    "text_type": "1",
-                                    "fact_text": "The proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies was <span class='fact-value'>0.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2019</span>.",
-                                    "fact_values": [
-                                        "0.0"
-                                    ],
-                                    "fact_units": [
-                                        "%"
-                                    ],
-                                    "fact_years": [
-                                        "2019"
-                                    ],
-                                    "data_years": [
-                                        2015,
-                                        2016,
-                                        2017,
-                                        2018,
-                                        2019
-                                    ],
-                                    "data_values": [
-                                        "0.0",
-                                        "0.0",
-                                        "0.0",
-                                        "0.0",
-                                        "0.0"
-                                    ],
-                                    "data_is_censored": [
-                                        false,
-                                        false,
-                                        false,
-                                        false,
-                                        false
-                                    ],
-                                    "data_numeric_part": [
-                                        0.0,
-                                        0.0,
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "preferred_visualization": "singleton"
-                                }
-                            ]
-                        }
-                    ]
                 }
             ]
         },
@@ -11636,7 +10428,7 @@
                                         "typeOfProduct_code": "_T"
                                     },
                                     "text_type": "7",
-                                    "fact_text": "The material footprint (amount of primary materials used) stood at <span class='fact-value'> 1.1</span> <span class='fact-unit'> kg per unit of GDP</span>  in  <span class='fact-year'> 2017</span> .",
+                                    "fact_text": "The material footprint (amount of primary materials used) stood at  <span class='fact-value'> 1.1</span> <span class='fact-unit'> kg per unit of GDP</span>  in  <span class='fact-year'> 2017</span> .",
                                     "fact_values": [
                                         "1.1"
                                     ],
@@ -11737,7 +10529,7 @@
                                         "typeOfProduct_code": "_T"
                                     },
                                     "text_type": "1",
-                                    "fact_text": "Domestic material consumption increased from  <span class='fact-value'>7.3</span>  <span class='fact-unit'> metric tons per capita</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>11.7 metric tons per capita</span> in <span class='fact-year'>2017</span>.",
+                                    "fact_text": "Domestic material consumption  increased from  <span class='fact-value'>7.3</span>  <span class='fact-unit'> metric tons per capita</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>11.7 metric tons per capita</span> in <span class='fact-year'>2017</span>.",
                                     "fact_values": [
                                         "7.3",
                                         "11.7"
@@ -11849,7 +10641,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "Electronic waste generated per capita increased from  <span class='fact-value'>3.8</span>  <span class='fact-unit'> kg</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>11.4 kg</span> in <span class='fact-year'>2019</span>.",
+                                    "fact_text": "Electronic waste generated per capita  increased from  <span class='fact-value'>3.8</span>  <span class='fact-unit'> kg</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>11.4 kg</span> in <span class='fact-year'>2019</span>.",
                                     "fact_values": [
                                         "3.8",
                                         "11.4"
@@ -11959,7 +10751,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The rate of electronic waste recycling was <span class='fact-value'>23.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "The rate of electronic waste recycling was  <span class='fact-value'>23.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
                                         "23.0"
                                     ],
@@ -11990,7 +10782,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "15",
-                                    "fact_text": "In  <span class='fact-year'> 2019</span> ,  electronic waste recycling per capita reached <span class='fact-value'> 2.7</span> <span class='fact-unit'>%</span>.",
+                                    "fact_text": "In  <span class='fact-year'> 2019</span> ,  electronic waste recycling per capita reached  <span class='fact-value'> 2.7</span> <span class='fact-unit'>%</span>.",
                                     "fact_values": [
                                         "2.7"
                                     ],
@@ -12057,7 +10849,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The quantity of hazardous waste generated per capita decreased from  <span class='fact-value'>106.2</span>  <span class='fact-unit'> kg</span>  in  <span class='fact-year'>2004</span> to <span class='fact-value'>31.6 kg</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "The quantity of hazardous waste generated per capita  decreased from  <span class='fact-value'>106.2</span>  <span class='fact-unit'> kg</span>  in  <span class='fact-year'>2004</span> to <span class='fact-value'>31.6 kg</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
                                         "106.2",
                                         "31.6"
@@ -12170,7 +10962,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "15",
-                                    "fact_text": "In  <span class='fact-year'> 2016</span> ,  the rate of hazardous waste treated or disposed reached <span class='fact-value'> 55.7</span> <span class='fact-unit'>%</span>, down from 74.0% in <span class='fact-year'> 2004</span>.",
+                                    "fact_text": "In  <span class='fact-year'> 2016</span> ,  the rate of hazardous waste treated or disposed reached  <span class='fact-value'> 55.7</span> <span class='fact-unit'>%</span>, down from 74.0% in <span class='fact-year'> 2004</span>.",
                                     "fact_values": [
                                         "74.0",
                                         "55.7"
@@ -12238,7 +11030,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The rate of electronic waste recycling was <span class='fact-value'>23.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "The rate of electronic waste recycling was  <span class='fact-value'>23.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
                                         "23.0"
                                     ],
@@ -12269,7 +11061,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "15",
-                                    "fact_text": "In  <span class='fact-year'> 2019</span> ,  electronic waste recycling per capita reached <span class='fact-value'> 2.7</span> <span class='fact-unit'>%</span>.",
+                                    "fact_text": "In  <span class='fact-year'> 2019</span> ,  electronic waste recycling per capita reached  <span class='fact-value'> 2.7</span> <span class='fact-unit'>%</span>.",
                                     "fact_values": [
                                         "2.7"
                                     ],
@@ -12351,7 +11143,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "13",
-                                    "fact_text": "In  <span class='fact-year'> 2016</span>, there were <span class='fact-value'> 1.0</span>  <span class='fact-unit'>people</span>  missing due to disasters.",
+                                    "fact_text": "In  <span class='fact-year'> 2016</span>, there were  <span class='fact-value'> 1.0</span>  <span class='fact-unit'>people</span>  missing due to disasters.",
                                     "fact_values": [
                                         "1.0"
                                     ],
@@ -12390,7 +11182,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "13",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were <span class='fact-value'> 137461.0</span>  <span class='fact-unit'>people</span>  affected by disasters.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were  <span class='fact-value'> 137461.0</span>  <span class='fact-unit'>people</span>  affected by disasters.",
                                     "fact_values": [
                                         "137461.0"
                                     ],
@@ -12473,7 +11265,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "13",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were <span class='fact-value'> 1239.0</span>  <span class='fact-unit'>deaths</span>  due to disasters.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were  <span class='fact-value'> 1239.0</span>  <span class='fact-unit'>deaths</span>  due to disasters.",
                                     "fact_values": [
                                         "1239.0"
                                     ],
@@ -12552,7 +11344,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "13",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were <span class='fact-value'> 6.3</span>  <span class='fact-unit'>deaths and missing persons</span>  attributed to disasters per 100,000 pupulation.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were  <span class='fact-value'> 6.3</span>  <span class='fact-unit'>deaths and missing persons</span>  attributed to disasters per 100,000 pupulation.",
                                     "fact_values": [
                                         "6.3"
                                     ],
@@ -12631,7 +11423,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "13",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were a total of <span class='fact-value'> 1239.0</span>  <span class='fact-unit'>deaths and missing persons</span>  attributed to disasters.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were a total of  <span class='fact-value'> 1239.0</span>  <span class='fact-unit'>deaths and missing persons</span>  attributed to disasters.",
                                     "fact_values": [
                                         "1239.0"
                                     ],
@@ -12710,7 +11502,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "13",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were <span class='fact-value'> 703.8</span>  <span class='fact-unit'>people</span>  affected by disasters per 100,000 pupulation.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were  <span class='fact-value'> 703.8</span>  <span class='fact-unit'>people</span>  affected by disasters per 100,000 pupulation.",
                                     "fact_values": [
                                         "703.8"
                                     ],
@@ -12793,7 +11585,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "13",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were <span class='fact-value'> 2458.0</span>  <span class='fact-unit'>people</span>  injured or ill due to disasters.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were  <span class='fact-value'> 2458.0</span>  <span class='fact-unit'>people</span>  injured or ill due to disasters.",
                                     "fact_values": [
                                         "2458.0"
                                     ],
@@ -12876,7 +11668,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "13",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were <span class='fact-value'> 19027.0</span>  <span class='fact-unit'>people</span>  with damaged dwellings due to disasters.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were  <span class='fact-value'> 19027.0</span>  <span class='fact-unit'>people</span>  with damaged dwellings due to disasters.",
                                     "fact_values": [
                                         "19027.0"
                                     ],
@@ -12959,7 +11751,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "13",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were <span class='fact-value'> 908.0</span>  <span class='fact-unit'>people</span>  with destroyed dwellings due to disasters.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were  <span class='fact-value'> 908.0</span>  <span class='fact-unit'>people</span>  with destroyed dwellings due to disasters.",
                                     "fact_values": [
                                         "908.0"
                                     ],
@@ -13042,7 +11834,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "13",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were <span class='fact-value'> 115068.0</span>  <span class='fact-unit'>people</span>  with with disrupted or destroyed livelihoods due to disasters.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, there were  <span class='fact-value'> 115068.0</span>  <span class='fact-unit'>people</span>  with with disrupted or destroyed livelihoods due to disasters.",
                                     "fact_values": [
                                         "115068.0"
                                     ],
@@ -13130,7 +11922,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national DRR strategies was <span class='fact-value'>0.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2019</span>.",
+                                    "fact_text": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national DRR strategies was  <span class='fact-value'>0.0</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2019</span>.",
                                     "fact_values": [
                                         "0.0"
                                     ],
@@ -13192,7 +11984,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The extension of protected marine area was <span class='fact-value'>6815.7</span> <span class='fact-unit'>km2</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The extension of protected marine area was  <span class='fact-value'>6815.7</span> <span class='fact-unit'>km2</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "6815.7"
                                     ],
@@ -13223,7 +12015,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "8",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, <span class='fact-value'> 22.9</span>  <span class='fact-unit'>% </span> of the marine environment under national jurisdiction (up to 200 nautical miles from shore) was under protection.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, <span class='fact-value'> 22.9</span>  <span class='fact-unit'>% </span> of the marine environment under national jurisdiction (up to 200 nautical miles from shore) was under protection .",
                                     "fact_values": [
                                         "22.9"
                                     ],
@@ -13254,7 +12046,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The average proportion of Marine Key Biodiversity Areas (KBAs) covered by protected areas increased from  <span class='fact-value'>52.4</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>88.6%</span> in <span class='fact-year'>2019</span>.",
+                                    "fact_text": "The average proportion of Marine Key Biodiversity Areas (KBAs) covered by protected areas  increased from  <span class='fact-value'>52.4</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>88.6%</span> in <span class='fact-year'>2019</span>.",
                                     "fact_values": [
                                         "52.4",
                                         "88.6"
@@ -13732,14 +12524,14 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "Forest area under an independently verified forest management certification scheme <span class='fact-value'>0.0</span>  <span class='fact-unit'>thousands of hectares</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>2829.5thousands of hectares</span> in <span class='fact-year'>2019</span>.",
+                                    "fact_text": "Forest area under an independently verified forest management certification scheme  <span class='fact-value'>0.0</span>  <span class='fact-unit'> thousands of hectares</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>2829.5 thousands of hectares</span> in <span class='fact-year'>2019</span>.",
                                     "fact_values": [
                                         "0.0",
                                         "2829.5"
                                     ],
                                     "fact_units": [
-                                        "thousands of hectares",
-                                        "thousands of hectares"
+                                        " thousands of hectares",
+                                        " thousands of hectares"
                                     ],
                                     "fact_years": [
                                         "2000",
@@ -13794,7 +12586,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The annual net change rate of forest area reached <span class='fact-value'>0.1</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2020</span>.",
+                                    "fact_text": "The annual net change rate of forest area reached  <span class='fact-value'>0.1</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2020</span>.",
                                     "fact_values": [
                                         "0.1"
                                     ],
@@ -13833,7 +12625,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The proportion of forest area under a long-term management plandeclined from  <span class='fact-value'>86.7</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>81.0%</span> in <span class='fact-year'>2020</span>.",
+                                    "fact_text": "The proportion of forest area under a long-term management plan declined from  <span class='fact-value'>86.7</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>81.0%</span> in <span class='fact-year'>2020</span>.",
                                     "fact_values": [
                                         "86.7",
                                         "81.0"
@@ -13895,7 +12687,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The proportion of forest area within legally established protected areas increased from  <span class='fact-value'>2.2</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>37.8%</span> in <span class='fact-year'>2020</span>.",
+                                    "fact_text": "The proportion of forest area within legally established protected areas  increased from  <span class='fact-value'>2.2</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>37.8%</span> in <span class='fact-year'>2020</span>.",
                                     "fact_values": [
                                         "2.2",
                                         "37.8"
@@ -14387,7 +13179,7 @@
                                         "age_code": "_T"
                                     },
                                     "text_type": "8",
-                                    "fact_text": "In  <span class='fact-year'> 2017</span>, <span class='fact-value'> 334.0</span>  <span class='fact-unit'></span> people were detected victims of human trafficking.",
+                                    "fact_text": "In  <span class='fact-year'> 2017</span>, <span class='fact-value'> 334.0</span>  <span class='fact-unit'></span> people were detected victims of human trafficking .",
                                     "fact_values": [
                                         "334.0"
                                     ],
@@ -14468,7 +13260,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "8",
-                                    "fact_text": "In  <span class='fact-year'> 2018</span>, <span class='fact-value'> 6.0</span>  <span class='fact-unit'>%</span> of the overall prison population were unsentenced detainees.",
+                                    "fact_text": "In  <span class='fact-year'> 2018</span>, <span class='fact-value'> 6.0</span>  <span class='fact-unit'>%</span> of the overall prison population were unsentenced detainees .",
                                     "fact_values": [
                                         "6.0"
                                     ],
@@ -14565,7 +13357,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "Primary government expenditures as a proportion of original approved budget reached <span class='fact-value'>96.1</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2016</span>.",
+                                    "fact_text": "Primary government expenditures as a proportion of original approved budget reached  <span class='fact-value'>96.1</span> <span class='fact-unit'>%</span> in <span class='fact-year'>2016</span>.",
                                     "fact_values": [
                                         "96.1"
                                     ],
@@ -15154,7 +13946,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "Debt service as a proportion of exports of goods and services <span class='fact-value'>0.0</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>1990</span> to <span class='fact-value'>5.7%</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "Debt service as a proportion of exports of goods and services  <span class='fact-value'>0.0</span>  <span class='fact-unit'>%</span>  in  <span class='fact-year'>1990</span> to <span class='fact-value'>5.7%</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "0.0",
                                         "5.7"
@@ -15424,7 +14216,7 @@
                                     "dashboard": "",
                                     "slice_dimensions": {},
                                     "text_type": "1",
-                                    "fact_text": "The number of inernet users per 100 inhabitants  increased from  <span class='fact-value'>3.6</span>  <span class='fact-unit'></span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>70.7</span> in <span class='fact-year'>2018</span>.",
+                                    "fact_text": "The number of Internet users per 100 inhabitants  increased from  <span class='fact-value'>3.6</span>  <span class='fact-unit'></span>  in  <span class='fact-year'>2000</span> to <span class='fact-value'>70.7</span> in <span class='fact-year'>2018</span>.",
                                     "fact_values": [
                                         "3.6",
                                         "70.7"
